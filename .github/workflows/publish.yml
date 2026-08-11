@@ -3,7 +3,7 @@ on:
   repository_dispatch:
     types: [publish_post]
 concurrency:
-  group: publish
+  group: publish-${{ github.event.client_payload.brand || 'main' }}
   cancel-in-progress: false
 permissions:
   contents: write
@@ -12,14 +12,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      TG: ${{ secrets.TELEGRAM_BOT_TOKEN_PUBLISHER }}
-      META: ${{ secrets.META_ACCESS_TOKEN }}
-      IGU: ${{ secrets.IG_USER_ID }}
-      FBP: ${{ secrets.FB_PAGE_ID }}
+      BRAND: ${{ github.event.client_payload.brand || 'main' }}
+      TG: ${{ github.event.client_payload.brand == 'saudi' && secrets.TELEGRAM_BOT_TOKEN_PUBLISHER_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.TELEGRAM_BOT_TOKEN_PUBLISHER || '' }}
+      META: ${{ github.event.client_payload.brand == 'saudi' && secrets.META_ACCESS_TOKEN_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.META_ACCESS_TOKEN || '' }}
+      IGU: ${{ github.event.client_payload.brand == 'saudi' && secrets.IG_USER_ID_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.IG_USER_ID || '' }}
+      FBP: ${{ github.event.client_payload.brand == 'saudi' && secrets.FB_PAGE_ID_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.FB_PAGE_ID || '' }}
       CHAT: ${{ github.event.client_payload.chat_id }}
       QID: ${{ github.event.client_payload.qid }}
       GV: v23.0
     steps:
+      - name: Verify brand secrets
+        run: |
+          for v in TG META IGU FBP; do
+            if [ -z "${!v}" ]; then echo "::error::secret missing for brand $BRAND (env $v)"; exit 1; fi
+          done
       - uses: actions/checkout@v4
       - name: Save payload
         env:
