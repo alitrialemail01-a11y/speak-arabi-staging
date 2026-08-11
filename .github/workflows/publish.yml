@@ -1,0 +1,145 @@
+name: Publish to Instagram + Facebook
+on:
+  repository_dispatch:
+    types: [publish_post]
+concurrency:
+  group: publish
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TG: ${{ secrets.TELEGRAM_BOT_TOKEN_PUBLISHER }}
+      META: ${{ secrets.META_ACCESS_TOKEN }}
+      IGU: ${{ secrets.IG_USER_ID }}
+      FBP: ${{ secrets.FB_PAGE_ID }}
+      CHAT: ${{ github.event.client_payload.chat_id }}
+      QID: ${{ github.event.client_payload.qid }}
+      GV: v23.0
+    steps:
+      - uses: actions/checkout@v4
+      - name: Save payload
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: printf '%s' "$PAYLOAD" > payload.json
+      - name: Download media from Telegram
+        run: |
+          mkdir -p media
+          python3 - <<'PY'
+          import json, os, shutil, urllib.request
+          p = json.load(open('payload.json'))
+          tg = os.environ['TG']; qid = os.environ['QID']
+          files = []
+          for i, m in enumerate(p['media']):
+              with urllib.request.urlopen('https://api.telegram.org/bot%s/getFile?file_id=%s' % (tg, m['id']), timeout=60) as r:
+                  info = json.load(r)
+              if not info.get('ok'):
+                  raise SystemExit('getFile failed (file >20MB bot limit?): ' + json.dumps(info)[:300])
+              ext = '.mp4' if m['t'] == 'video' else '.jpg'
+              name = 'media/p%s_%d%s' % (qid, i, ext)
+              with urllib.request.urlopen('https://api.telegram.org/file/bot%s/%s' % (tg, info['result']['file_path']), timeout=300) as resp, open(name, 'wb') as f:
+                  shutil.copyfileobj(resp, f)
+              files.append(name)
+          json.dump(files, open('files.json', 'w'))
+          print('downloaded:', files)
+          PY
+      - name: Stage media
+        run: |
+          git config user.name "publisher"
+          git config user.email "publisher@users.noreply.github.com"
+          git add media
+          git commit -m "stage post $QID"
+          git push
+      - name: Publish to IG + FB
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.request, urllib.parse, urllib.error
+          p = json.load(open('payload.json'))
+          files = json.load(open('files.json'))
+          repo = os.environ['GITHUB_REPOSITORY']
+          raw = ['https://raw.githubusercontent.com/%s/main/%s' % (repo, f) for f in files]
+          meta = os.environ['META']; igu = os.environ['IGU']; fbp = os.environ['FBP']
+          G = 'https://graph.facebook.com/%s' % os.environ['GV']
+          cap = p.get('caption') or ''
+          typ = p.get('type') or 'reel'
+          def call(method, path, data):
+              data = dict(data); data['access_token'] = meta
+              if method == 'POST':
+                  req = urllib.request.Request(G + path, data=urllib.parse.urlencode(data).encode())
+              else:
+                  req = urllib.request.Request(G + path + '?' + urllib.parse.urlencode(data))
+              try:
+                  with urllib.request.urlopen(req, timeout=120) as r:
+                      return json.load(r)
+              except urllib.error.HTTPError as e:
+                  raise SystemExit('Graph API error %s on %s: %s' % (e.code, path, e.read().decode()[:400]))
+          for u in raw:
+              ok = False
+              for _ in range(24):
+                  try:
+                      with urllib.request.urlopen(urllib.request.Request(u, method='HEAD'), timeout=30) as r:
+                          if r.status == 200:
+                              ok = True; break
+                  except Exception:
+                      pass
+                  time.sleep(5)
+              if not ok:
+                  raise SystemExit('staged file never became reachable: ' + u)
+          def wait_ready(cid, tries=90):
+              for _ in range(tries):
+                  sc = call('GET', '/%s' % cid, {'fields': 'status_code'}).get('status_code')
+                  if sc == 'FINISHED':
+                      return
+                  if sc == 'ERROR':
+                      raise SystemExit('IG container ERROR for %s' % cid)
+                  time.sleep(10)
+              raise SystemExit('IG container processing timeout for %s' % cid)
+          if typ == 'reel':
+              c = call('POST', '/%s/media' % igu, {'media_type': 'REELS', 'video_url': raw[0], 'caption': cap, 'share_to_feed': 'true'})
+              wait_ready(c['id'])
+              pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
+          elif typ == 'image':
+              c = call('POST', '/%s/media' % igu, {'image_url': raw[0], 'caption': cap})
+              wait_ready(c['id'], 30)
+              pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
+          else:
+              kids = []
+              for u in raw[:10]:
+                  kids.append(call('POST', '/%s/media' % igu, {'image_url': u, 'is_carousel_item': 'true'})['id'])
+              for k in kids:
+                  wait_ready(k, 30)
+              c = call('POST', '/%s/media' % igu, {'media_type': 'CAROUSEL', 'children': ','.join(kids), 'caption': cap})
+              wait_ready(c['id'], 30)
+              pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
+          ig_link = call('GET', '/%s' % pub['id'], {'fields': 'permalink'}).get('permalink', pub['id'])
+          if typ == 'reel':
+              fb_note = 'video ' + call('POST', '/%s/videos' % fbp, {'file_url': raw[0], 'description': cap}).get('id', '?')
+          elif typ == 'image':
+              ph = call('POST', '/%s/photos' % fbp, {'url': raw[0], 'caption': cap})
+              fb_note = 'photo ' + str(ph.get('post_id') or ph.get('id', '?'))
+          else:
+              ids = [call('POST', '/%s/photos' % fbp, {'url': u, 'published': 'false'})['id'] for u in raw]
+              data = {'message': cap}
+              for ix, i in enumerate(ids):
+                  data['attached_media[%d]' % ix] = json.dumps({'media_fbid': i})
+              fb_note = 'post ' + call('POST', '/%s/feed' % fbp, data).get('id', '?')
+          open('notify.txt', 'w').write('✅ Post #%s published!\nInstagram: %s\nFacebook: %s' % (os.environ['QID'], ig_link, fb_note))
+          print('published')
+          PY
+      - name: Cleanup staged media
+        if: always()
+        run: |
+          git pull --rebase || true
+          git rm -f media/p${QID}_* 2>/dev/null || true
+          git commit -m "clean post $QID" 2>/dev/null && git push || true
+      - name: Notify success
+        run: |
+          MSG=$(cat notify.txt 2>/dev/null || echo "✅ Post #$QID published.")
+          curl -s -X POST "https://api.telegram.org/bot$TG/sendMessage" -d chat_id="$CHAT" --data-urlencode text="$MSG" >/dev/null
+      - name: Alert failure
+        if: failure() || cancelled()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot$TG/sendMessage" -d chat_id="$CHAT" --data-urlencode text="🚨 Publish #$QID FAILED. Check the Actions log in speak-arabi-staging. The post stays queued - after fixing, ask me to re-dispatch it." >/dev/null
