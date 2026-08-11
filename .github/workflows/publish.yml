@@ -25,7 +25,7 @@ jobs:
         env:
           PAYLOAD: ${{ toJson(github.event.client_payload) }}
         run: printf '%s' "$PAYLOAD" > payload.json
-      - name: Download media from Telegram
+      - name: Download media
         run: |
           mkdir -p media
           python3 - <<'PY'
@@ -33,15 +33,30 @@ jobs:
           p = json.load(open('payload.json'))
           tg = os.environ['TG']; qid = os.environ['QID']
           files = []
+          def check(name, cap_mb=95):
+              sz = os.path.getsize(name)
+              if sz > cap_mb * 1024 * 1024:
+                  raise SystemExit('file too big to stage (%d MB > %d MB) - compress or split it' % (sz // 1048576, cap_mb))
+              with open(name, 'rb') as f:
+                  head = f.read(200)
+              if head.lstrip()[:1] == b'<':
+                  raise SystemExit('Drive returned a web page instead of the file - set sharing to "Anyone with the link" and try again')
           for i, m in enumerate(p['media']):
-              with urllib.request.urlopen('https://api.telegram.org/bot%s/getFile?file_id=%s' % (tg, m['id']), timeout=60) as r:
-                  info = json.load(r)
-              if not info.get('ok'):
-                  raise SystemExit('getFile failed (file >20MB bot limit?): ' + json.dumps(info)[:300])
               ext = '.mp4' if m['t'] == 'video' else '.jpg'
               name = 'media/p%s_%d%s' % (qid, i, ext)
-              with urllib.request.urlopen('https://api.telegram.org/file/bot%s/%s' % (tg, info['result']['file_path']), timeout=300) as resp, open(name, 'wb') as f:
-                  shutil.copyfileobj(resp, f)
+              if m.get('src') == 'drive':
+                  url = 'https://drive.usercontent.google.com/download?id=%s&export=download&confirm=t' % m['gid']
+                  req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                  with urllib.request.urlopen(req, timeout=600) as resp, open(name, 'wb') as f:
+                      shutil.copyfileobj(resp, f)
+                  check(name)
+              else:
+                  with urllib.request.urlopen('https://api.telegram.org/bot%s/getFile?file_id=%s' % (tg, m['id']), timeout=60) as r:
+                      info = json.load(r)
+                  if not info.get('ok'):
+                      raise SystemExit('getFile failed (file >20MB bot limit? send a Google Drive link instead): ' + json.dumps(info)[:300])
+                  with urllib.request.urlopen('https://api.telegram.org/file/bot%s/%s' % (tg, info['result']['file_path']), timeout=300) as resp, open(name, 'wb') as f:
+                      shutil.copyfileobj(resp, f)
               files.append(name)
           json.dump(files, open('files.json', 'w'))
           print('downloaded:', files)
