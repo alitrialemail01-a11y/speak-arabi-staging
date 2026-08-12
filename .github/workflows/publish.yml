@@ -128,10 +128,14 @@ jobs:
               pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
           else:
               kids = []
-              for u in raw[:10]:
-                  kids.append(call('POST', '/%s/media' % igu, {'image_url': u, 'is_carousel_item': 'true'})['id'])
+              for i, u in enumerate(raw[:10]):
+                  if files[i].endswith('.mp4'):
+                      k = call('POST', '/%s/media' % igu, {'media_type': 'VIDEO', 'video_url': u, 'is_carousel_item': 'true'})
+                  else:
+                      k = call('POST', '/%s/media' % igu, {'image_url': u, 'is_carousel_item': 'true'})
+                  kids.append(k['id'])
               for k in kids:
-                  wait_ready(k, 30)
+                  wait_ready(k, 90)
               c = call('POST', '/%s/media' % igu, {'media_type': 'CAROUSEL', 'children': ','.join(kids), 'caption': cap})
               wait_ready(c['id'], 30)
               pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
@@ -142,11 +146,15 @@ jobs:
               ph = call('POST', '/%s/photos' % fbp, {'url': raw[0], 'caption': cap})
               fb_note = 'photo ' + str(ph.get('post_id') or ph.get('id', '?'))
           else:
-              ids = [call('POST', '/%s/photos' % fbp, {'url': u, 'published': 'false'})['id'] for u in raw]
-              data = {'message': cap}
-              for ix, i in enumerate(ids):
-                  data['attached_media[%d]' % ix] = json.dumps({'media_fbid': i})
-              fb_note = 'post ' + call('POST', '/%s/feed' % fbp, data).get('id', '?')
+              vids = [u for i, u in enumerate(raw) if files[i].endswith('.mp4')]
+              if vids:
+                  fb_note = 'video (first slide only - FB pages have no video albums) ' + call('POST', '/%s/videos' % fbp, {'file_url': vids[0], 'description': cap}).get('id', '?')
+              else:
+                  ids = [call('POST', '/%s/photos' % fbp, {'url': u, 'published': 'false'})['id'] for u in raw]
+                  data = {'message': cap}
+                  for ix, i in enumerate(ids):
+                      data['attached_media[%d]' % ix] = json.dumps({'media_fbid': i})
+                  fb_note = 'post ' + call('POST', '/%s/feed' % fbp, data).get('id', '?')
           open('notify.txt', 'w').write('✅ Post #%s published!\nInstagram: %s\nFacebook: %s' % (os.environ['QID'], ig_link, fb_note))
           print('published')
           PY
