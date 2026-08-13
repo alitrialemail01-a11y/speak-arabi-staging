@@ -118,14 +118,28 @@ jobs:
                       raise SystemExit('IG container ERROR for %s' % cid)
                   time.sleep(10)
               raise SystemExit('IG container processing timeout for %s' % cid)
+          def publish_when_ready(cid, tries=20):
+              for _ in range(tries):
+                  data = {'creation_id': cid, 'access_token': meta}
+                  req = urllib.request.Request(G + '/%s/media_publish' % igu, data=urllib.parse.urlencode(data).encode())
+                  try:
+                      with urllib.request.urlopen(req, timeout=120) as r:
+                          return json.load(r)
+                  except urllib.error.HTTPError as e:
+                      body = e.read().decode()[:400]
+                      if '2207027' in body or '"code":9007' in body:
+                          time.sleep(15)
+                          continue
+                      raise SystemExit('Graph API error %s on media_publish: %s' % (e.code, body))
+              raise SystemExit('media never became ready to publish: %s' % cid)
           if typ == 'reel':
               c = call('POST', '/%s/media' % igu, {'media_type': 'REELS', 'video_url': raw[0], 'caption': cap, 'share_to_feed': 'true'})
               wait_ready(c['id'])
-              pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
+              pub = publish_when_ready(c['id'])
           elif typ == 'image':
               c = call('POST', '/%s/media' % igu, {'image_url': raw[0], 'caption': cap})
               wait_ready(c['id'], 30)
-              pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
+              pub = publish_when_ready(c['id'])
           else:
               kids = []
               for i, u in enumerate(raw[:10]):
@@ -138,7 +152,7 @@ jobs:
                   wait_ready(k, 90)
               c = call('POST', '/%s/media' % igu, {'media_type': 'CAROUSEL', 'children': ','.join(kids), 'caption': cap})
               wait_ready(c['id'], 30)
-              pub = call('POST', '/%s/media_publish' % igu, {'creation_id': c['id']})
+              pub = publish_when_ready(c['id'])
           ig_link = call('GET', '/%s' % pub['id'], {'fields': 'permalink'}).get('permalink', pub['id'])
           if typ == 'reel':
               fb_note = 'video ' + call('POST', '/%s/videos' % fbp, {'file_url': raw[0], 'description': cap}).get('id', '?')
