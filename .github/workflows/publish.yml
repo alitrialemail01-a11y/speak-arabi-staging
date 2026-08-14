@@ -115,11 +115,12 @@ jobs:
                   raise SystemExit('staged file never became reachable: ' + u)
           def wait_ready(cid, tries=90):
               for _ in range(tries):
-                  sc = call('GET', '/%s' % cid, {'fields': 'status_code'}).get('status_code')
+                  s = call('GET', '/%s' % cid, {'fields': 'status_code,status'})
+                  sc = s.get('status_code')
                   if sc == 'FINISHED':
                       return
                   if sc == 'ERROR':
-                      raise SystemExit('IG container ERROR for %s' % cid)
+                      raise SystemExit('IG container ERROR for %s: %s' % (cid, str(s.get('status'))[:250]))
                   time.sleep(10)
               raise SystemExit('IG container processing timeout for %s' % cid)
           def publish_when_ready(cid, tries=20):
@@ -145,15 +146,23 @@ jobs:
               wait_ready(c['id'], 30)
               pub = publish_when_ready(c['id'])
           else:
+              def mk_child(i, u):
+                  if files[i].endswith('.mp4'):
+                      return call('POST', '/%s/media' % igu, {'media_type': 'VIDEO', 'video_url': u, 'is_carousel_item': 'true'})['id']
+                  return call('POST', '/%s/media' % igu, {'image_url': u, 'is_carousel_item': 'true'})['id']
               kids = []
               for i, u in enumerate(raw[:10]):
-                  if files[i].endswith('.mp4'):
-                      k = call('POST', '/%s/media' % igu, {'media_type': 'VIDEO', 'video_url': u, 'is_carousel_item': 'true'})
-                  else:
-                      k = call('POST', '/%s/media' % igu, {'image_url': u, 'is_carousel_item': 'true'})
-                  kids.append(k['id'])
-              for k in kids:
-                  wait_ready(k, 90)
+                  kid = mk_child(i, u)
+                  try:
+                      wait_ready(kid, 90)
+                  except SystemExit as e:
+                      if 'ERROR' not in str(e):
+                          raise
+                      print('slide %d errored, recreating once: %s' % (i + 1, e))
+                      time.sleep(10)
+                      kid = mk_child(i, u)
+                      wait_ready(kid, 90)
+                  kids.append(kid)
               c = call('POST', '/%s/media' % igu, {'media_type': 'CAROUSEL', 'children': ','.join(kids), 'caption': cap})
               wait_ready(c['id'], 30)
               pub = publish_when_ready(c['id'])
