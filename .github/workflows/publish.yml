@@ -19,6 +19,7 @@ jobs:
       FBP: ${{ github.event.client_payload.brand == 'saudi' && secrets.FB_PAGE_ID_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.FB_PAGE_ID || '' }}
       CHAT: ${{ github.event.client_payload.chat_id }}
       QID: ${{ github.event.client_payload.qid }}
+      NONCE: ${{ github.event.client_payload.nonce || 0 }}
       GV: v23.0
     steps:
       - name: Verify brand secrets
@@ -26,12 +27,29 @@ jobs:
           for v in TG META IGU FBP; do
             if [ -z "${!v}" ]; then echo "::error::secret missing for brand $BRAND (env $v)"; exit 1; fi
           done
+      - name: Claim post (dedup guard)
+        run: |
+          CODE=$(curl -s -o /tmp/claim.out -w "%{http_code}" -X PUT \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/posted/${BRAND}_q${QID}_n${NONCE}.txt" \
+            -d "{\"message\":\"claim $BRAND q$QID n$NONCE\",\"content\":\"Y2xhaW0=\"}")
+          if [ "$CODE" = "201" ]; then
+            echo "claim acquired"
+          elif [ "$CODE" = "422" ]; then
+            echo "DUPLICATE dispatch detected - another run already claimed this post. Skipping."
+            echo "SKIP_PUBLISH=1" >> "$GITHUB_ENV"
+          else
+            echo "claim failed with HTTP $CODE"; cat /tmp/claim.out; exit 1
+          fi
       - uses: actions/checkout@v4
       - name: Save payload
+        if: env.SKIP_PUBLISH != '1'
         env:
           PAYLOAD: ${{ toJson(github.event.client_payload) }}
         run: printf '%s' "$PAYLOAD" > payload.json
       - name: Download media
+        if: env.SKIP_PUBLISH != '1'
         run: |
           mkdir -p media
           python3 - <<'PY'
@@ -68,6 +86,7 @@ jobs:
           print('downloaded:', files)
           PY
       - name: Stage media
+        if: env.SKIP_PUBLISH != '1'
         run: |
           git config user.name "publisher"
           git config user.email "publisher@users.noreply.github.com"
@@ -79,6 +98,7 @@ jobs:
             sleep $((RANDOM % 5 + 2))
           done
       - name: Publish to IG + FB
+        if: env.SKIP_PUBLISH != '1'
         run: |
           python3 - <<'PY'
           import json, os, time, urllib.request, urllib.parse, urllib.error
@@ -186,12 +206,13 @@ jobs:
           print('published')
           PY
       - name: Cleanup staged media
-        if: always()
+        if: always() && env.SKIP_PUBLISH != '1'
         run: |
           git pull --rebase || true
           git rm -f media/p${QID}_* 2>/dev/null || true
           git commit -m "clean post $QID" 2>/dev/null && git push || true
       - name: Notify success
+        if: env.SKIP_PUBLISH != '1'
         run: |
           MSG=$(cat notify.txt 2>/dev/null || echo "✅ Post #$QID published.")
           curl -s -X POST "https://api.telegram.org/bot$TG/sendMessage" -d chat_id="$CHAT" --data-urlencode text="$MSG" >/dev/null
