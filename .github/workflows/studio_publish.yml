@@ -1,0 +1,244 @@
+# Publish a Studio post to Instagram + Facebook.
+#
+# Additive: a new event type, handled by a new file. publish.yml is untouched,
+# so the Telegram-driven publisher keeps working exactly as it does now.
+#
+# Why a separate workflow rather than a flag on publish.yml
+# ---------------------------------------------------------
+# publish.yml exists to get media OUT of Telegram or Drive: it downloads each
+# file, commits it into this repo, and only then hands Meta a raw URL. Studio's
+# media is already in this repo -- the render jobs committed it to studio/ --
+# with public raw URLs. All of that machinery is dead weight here, and the
+# download step would fail anyway because Studio has no Telegram file ids.
+#
+# It also reports back. publish.yml messages Telegram; Studio needs the IG and
+# FB ids written onto the post, so this posts its result to the URL in the
+# payload, the same way the render bridge does.
+
+name: Publish a Studio post (IG + FB)
+
+on:
+  repository_dispatch:
+    types: [studio_publish]
+
+# One publish at a time per brand, and never cancel: a cancelled run can leave
+# a half-created IG container that later publishes on its own.
+concurrency:
+  group: studio-publish-${{ github.event.client_payload.brand || 'unknown' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GV: v23.0
+      BRAND: ${{ github.event.client_payload.brand }}
+      POST_ID: ${{ github.event.client_payload.post_id }}
+      # Per-brand credentials. This is an explicit allow-list on purpose.
+      # publish.yml selects with `brand != 'saudi'`, a catch-all that would
+      # silently hand a new German account the Egyptian token and publish to
+      # the wrong Instagram. Here an unknown brand yields empty values and the
+      # job stops before it can touch anyone's account.
+      META: ${{ github.event.client_payload.brand == 'saudi' && secrets.META_ACCESS_TOKEN_SAUDI
+             || github.event.client_payload.brand == 'main'  && secrets.META_ACCESS_TOKEN || '' }}
+      IGU: ${{ github.event.client_payload.brand == 'saudi' && secrets.IG_USER_ID_SAUDI
+            || github.event.client_payload.brand == 'main'  && secrets.IG_USER_ID || '' }}
+      FBP: ${{ github.event.client_payload.brand == 'saudi' && secrets.FB_PAGE_ID_SAUDI
+            || github.event.client_payload.brand == 'main'  && secrets.FB_PAGE_ID || '' }}
+
+    steps:
+      - name: Write payload
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: printf '%s' "$PAYLOAD" > payload.json
+
+      - name: Refuse an unknown brand
+        run: |
+          if [ -z "$META" ] || [ -z "$IGU" ] || [ -z "$FBP" ]; then
+            echo "::error::brand '$BRAND' has no Meta credentials configured."
+            echo "Add its secrets and extend the allow-list in this file."
+            echo "Refusing to publish rather than guessing which account to post to."
+            exit 1
+          fi
+          echo "brand $BRAND resolved to a full credential set"
+
+      - name: Publish to Instagram and Facebook
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.error, urllib.parse, urllib.request
+
+          p    = json.load(open('payload.json'))
+          meta = os.environ['META']; igu = os.environ['IGU']; fbp = os.environ['FBP']
+          G    = 'https://graph.facebook.com/%s' % os.environ['GV']
+          cap  = (p.get('caption') or '').strip()
+          typ  = (p.get('type') or 'reel').lower()
+          urls = [m for m in (p.get('media') or []) if m]
+
+          if not urls:
+              raise SystemExit('no media urls in the payload')
+
+          def call(method, path, data):
+              data = dict(data); data['access_token'] = meta
+              if method == 'POST':
+                  req = urllib.request.Request(G + path, data=urllib.parse.urlencode(data).encode())
+              else:
+                  req = urllib.request.Request(G + path + '?' + urllib.parse.urlencode(data))
+              try:
+                  with urllib.request.urlopen(req, timeout=120) as r:
+                      return json.load(r)
+              except urllib.error.HTTPError as e:
+                  raise SystemExit('Graph API error %s on %s: %s'
+                                   % (e.code, path, e.read().decode()[:400]))
+
+          # Meta fetches the media itself, so every URL has to be publicly
+          # readable from the outside before we hand it over. Checking here
+          # turns a confusing Graph API error into an obvious one.
+          for u in urls:
+              ok = False
+              for _ in range(24):
+                  try:
+                      with urllib.request.urlopen(
+                              urllib.request.Request(u, method='HEAD'), timeout=30) as r:
+                          if r.status == 200:
+                              ok = True
+                              break
+                  except Exception:
+                      pass
+                  time.sleep(5)
+              if not ok:
+                  raise SystemExit('media url is not publicly reachable: %s' % u)
+
+          def wait_ready(cid, tries=90):
+              for _ in range(tries):
+                  s = call('GET', '/%s' % cid, {'fields': 'status_code,status'})
+                  sc = s.get('status_code')
+                  if sc == 'FINISHED':
+                      return
+                  if sc == 'ERROR':
+                      raise SystemExit('IG container ERROR for %s: %s' % (cid, str(s.get('status'))[:250]))
+                  time.sleep(10)
+              raise SystemExit('IG container processing timeout for %s' % cid)
+
+          def publish_when_ready(cid, tries=20):
+              for _ in range(tries):
+                  data = {'creation_id': cid, 'access_token': meta}
+                  req = urllib.request.Request(G + '/%s/media_publish' % igu,
+                                               data=urllib.parse.urlencode(data).encode())
+                  try:
+                      with urllib.request.urlopen(req, timeout=120) as r:
+                          return json.load(r)
+                  except urllib.error.HTTPError as e:
+                      body = e.read().decode()[:400]
+                      # 2207027 / 9007 both mean "still processing, ask again"
+                      if '2207027' in body or '"code":9007' in body:
+                          time.sleep(15)
+                          continue
+                      raise SystemExit('Graph API error %s on media_publish: %s' % (e.code, body))
+              raise SystemExit('media never became ready to publish: %s' % cid)
+
+          is_video = typ in ('reel', 'video')
+
+          # ---- Instagram ----
+          if len(urls) == 1 and is_video:
+              c = call('POST', '/%s/media' % igu,
+                       {'media_type': 'REELS', 'video_url': urls[0],
+                        'caption': cap, 'share_to_feed': 'true'})
+              wait_ready(c['id'])
+          elif len(urls) == 1:
+              c = call('POST', '/%s/media' % igu, {'image_url': urls[0], 'caption': cap})
+          else:
+              kids = []
+              for u in urls:
+                  if u.lower().endswith('.mp4'):
+                      k = call('POST', '/%s/media' % igu,
+                               {'media_type': 'VIDEO', 'video_url': u, 'is_carousel_item': 'true'})
+                  else:
+                      k = call('POST', '/%s/media' % igu,
+                               {'image_url': u, 'is_carousel_item': 'true'})
+                  wait_ready(k['id'])
+                  kids.append(k['id'])
+              c = call('POST', '/%s/media' % igu,
+                       {'media_type': 'CAROUSEL', 'children': ','.join(kids), 'caption': cap})
+              wait_ready(c['id'])
+
+          pub     = publish_when_ready(c['id'])
+          ig_id   = pub['id']
+          ig_link = call('GET', '/%s' % ig_id, {'fields': 'permalink'}).get('permalink', ig_id)
+
+          # ---- Facebook ----
+          if len(urls) == 1 and is_video:
+              fb_id = call('POST', '/%s/videos' % fbp,
+                           {'file_url': urls[0], 'description': cap}).get('id', '')
+          elif len(urls) == 1:
+              fb_id = call('POST', '/%s/photos' % fbp,
+                           {'url': urls[0], 'caption': cap}).get('id', '')
+          else:
+              vids = [u for u in urls if u.lower().endswith('.mp4')]
+              if vids:
+                  # Facebook pages have no video albums; post the first clip.
+                  fb_id = call('POST', '/%s/videos' % fbp,
+                               {'file_url': vids[0], 'description': cap}).get('id', '')
+              else:
+                  ids  = [call('POST', '/%s/photos' % fbp,
+                               {'url': u, 'published': 'false'})['id'] for u in urls]
+                  data = {'message': cap}
+                  for i, mid in enumerate(ids):
+                      data['attached_media[%d]' % i] = json.dumps({'media_fbid': mid})
+                  fb_id = call('POST', '/%s/feed' % fbp, data).get('id', '')
+
+          json.dump({'ig_id': ig_id, 'ig_link': ig_link, 'fb_id': fb_id},
+                    open('result.json', 'w'))
+          print('published ig=%s fb=%s %s' % (ig_id, fb_id, ig_link))
+          PY
+
+      # Studio marks the post `publishing` when it dispatches, so silence would
+      # strand it there. This runs on success AND failure.
+      - name: Report to CA-4
+        if: always()
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.request
+
+          p  = json.loads(os.environ['PAYLOAD'])
+          cb = p.get('callback_url')
+          if not cb:
+              print('no callback_url in payload; nothing to report to')
+              raise SystemExit(0)
+
+          ok = os.environ.get('JOB_STATUS') == 'success'
+          body = {'kind': 'publish', 'ok': ok,
+                  'post_id': p.get('post_id'),
+                  'run_id': os.environ.get('GITHUB_RUN_ID')}
+          try:
+              body.update(json.load(open('result.json')))
+          except Exception:
+              if ok:
+                  body['ok'] = False
+                  body['error'] = 'job succeeded but produced no result.json'
+          if not body['ok']:
+              body.setdefault('error', 'publish job failed - see run %s'
+                              % os.environ.get('GITHUB_RUN_ID', '?'))
+
+          data = json.dumps(body).encode()
+          for attempt, timeout in enumerate((30, 60, 90, 120), start=1):
+              try:
+                  req = urllib.request.Request(
+                      cb, data=data, headers={'Content-Type': 'application/json'},
+                      method='POST')
+                  with urllib.request.urlopen(req, timeout=timeout) as r:
+                      print('reported to CA-4:', r.status)
+                      raise SystemExit(0)
+              except SystemExit:
+                  raise
+              except Exception as e:
+                  print('could not reach CA-4 (try %d): %s' % (attempt, e))
+                  time.sleep(5 * attempt)
+          print('GAVE UP reporting - the post will look stuck as publishing in Studio')
+          PY
