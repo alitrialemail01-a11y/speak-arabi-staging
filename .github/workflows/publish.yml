@@ -20,6 +20,7 @@ jobs:
       CHAT: ${{ github.event.client_payload.chat_id }}
       QID: ${{ github.event.client_payload.qid }}
       NONCE: ${{ github.event.client_payload.nonce || 0 }}
+      OWNER: ${{ github.event.client_payload.owner || 0 }}
       GV: v23.0
     steps:
       - name: Verify brand secrets
@@ -216,7 +217,13 @@ jobs:
         run: |
           MSG=$(cat notify.txt 2>/dev/null || echo "✅ Post #$QID published.")
           curl -s -X POST "https://api.telegram.org/bot$TG/sendMessage" -d chat_id="$CHAT" --data-urlencode text="$MSG" >/dev/null
+          if [ -n "$OWNER" ] && [ "$OWNER" != "0" ] && [ "$OWNER" != "$CHAT" ]; then
+            curl -s -X POST "https://api.telegram.org/bot$TG/sendMessage" -d chat_id="$OWNER" --data-urlencode text="(moderator post) $MSG" >/dev/null
+          fi
       - name: Alert failure
         if: failure() || cancelled()
         run: |
           curl -s -X POST "https://api.telegram.org/bot$TG/sendMessage" -d chat_id="$CHAT" --data-urlencode text="🚨 Publish #$QID FAILED. Check the Actions log in speak-arabi-staging. The post stays queued - after fixing, ask me to re-dispatch it." >/dev/null
+          if [ -n "$OWNER" ] && [ "$OWNER" != "0" ] && [ "$OWNER" != "$CHAT" ]; then
+            curl -s -X POST "https://api.telegram.org/bot$TG/sendMessage" -d chat_id="$OWNER" --data-urlencode text="(moderator post) Publish #$QID FAILED - see Actions log." >/dev/null
+          fi
