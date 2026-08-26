@@ -1,0 +1,481 @@
+TR	1	classic	عايز أشرب قهوة دلوقتي	3ayez ashrab ahwa delwa2ti	Şimdi kahve içmek istiyorum
+TR	2	cta	Kaç tanesini bildin?		Yorumlarda bize söyle!
+TR	3	classic	أنا جعان	ana ga'an	Ben açım
+TR	4	classic	أنا عطشان	ana atşan	Ben susadım
+TR	5	classic	أنا متضايق	ana mitdayye'	Canım sıkkın
+TR	6	classic	أنا مبسوط	ana mabsuut	Ben mutluyum
+TR	7	classic	بكنس الأرض	baknes el-ard	Yeri süpürüyorum
+TR	8	classic	بلم الألعاب	balemm el-al'ab	Oyuncakları topluyorum
+TR	9	classic	برتب السرير	baratteb es-sarir	Yatağı topluyorum
+TR	10	classic	بنضف المكتب	banaddaf el-maktab	Masayı temizliyorum
+TR	11	classic	بكنس الأرض كل يوم الصبح	baknes el-ard kol yom es-sob7	Her sabah yeri süpürüyorum
+TR	12	classic	بلم الألعاب من على الأرض	balemm el-al'ab men 3ala el-ard	Oyuncakları yerden topluyorum
+TR	13	classic	برتب السرير بعد ما أصحى	baratteb es-sarir ba3d ma as7a	Uyandıktan sonra yatağı topluyorum
+TR	14	classic	بنضف المكتب قبل الشغل	banaddaf el-maktab abl esh-shoghl	İşten önce masayı temizliyorum
+TR	15	classic	بكنس الأرض	baknes el-ard	Yeri süpürüyorum
+TR	16	classic	بلم الألعاب	balemm el-al'ab	Oyuncakları topluyorum
+TR	17	classic	برتب السرير	baratteb es-sarir	Yatağı topluyorum
+TR	18	classic	بغسل الهدوم	baghsil el-hudum	Kıyafetleri yıkıyorum
+TR	19	classic	بنشر الهدوم	بانşor el-hudum	Kıyafetleri asıyorum
+TR	20	classic	بطبق الهدوم	batabba' el-hudum	Kıyafetleri katlıyorum
+TR	21	classic	بكوي الهدوم	bakwi el-hudum	Kıyafetleri ütülüyorum
+TR	22	classic	اشتريت خضار ب ٧٥ جنيه	iştaret hodar be 75 gineh	75 Mısır lirasına sebze aldım
+TR	23	classic	اشتريت طماطم ب ٣٠ جنيه	iştaret tamatem be 30 gineh	30 Mısır lirasına domates aldım
+TR	24	classic	اشتريت خيار ب ٢٠ جنيه	iştaret hiyar be 20 gineh	20 Mısır lirasına salatalık aldım
+TR	25	classic	اشتريت فلفل ب ٢٠ جنيه	iştaret filfil be 20 gineh	20 Mısır lirasına biber aldım
+TR	26	classic	اشتريت جرجير ب ٥ جنيه	iştaret gargir be 5 gineh	5 Mısır lirasına roka aldım
+TR	27	classic	أنا لابسة فستان	ana labsa fustan	Elbise giyiyorum
+TR	28	classic	أنا لابسة جيبة وبلوزة	ana labsa giiba ve bluza	Etek ve bluz giyiyorum
+TR	29	classic	أنا لابسة قميص وبنطلون	ana labsa amiis ve bantalon	Gömlek ve pantolon giyiyorum
+TR	30	classic	أنا لابسة بدلة	ana labsa badla	Takım elbise giyiyorum
+TR	31	classic	أنا لابسة بيجامة	ana labsa bigama	Pijama giyiyorum
+TR	32	classic	أنا بحب أكل المحشي بكل أنواعه	ana bahebb akl el-mahşi be-koll anva'oh	Her çeşit mahşiyi yemeyi seviyorum
+TR	33	classic	بحب أكل محشي الكرنب والخس	bahebb akl mahşi el-koronb vel-hass	Lahana ve marul dolmasını seviyorum
+TR	34	classic	وبحب محشي الكوسة والباذنجان والفلفل	ve-bahebb mahşi el-kuusa vel-betingan vel-filfil	Kabak, patlıcan ve biber dolmasını seviyorum
+TR	35	classic	وبحب كمان الممبار المحشي	ve-bahebb kamen el-mombar el-mahşi	Ayrıca mumbar dolmasını da seviyorum
+TR	36	classic	أنا مش فاهم	ana miş fahim	Anlamıyorum
+TR	37	classic	أنا مش بتكلم عربي	ana miş batkallem arabi	Arapça konuşamıyorum
+TR	38	classic	اتكلم بالراحة شوية	itkallem bir-raha şuvayya	Biraz yavaş konuş
+TR	39	classic	على مهلك	ala mahlak	Yavaş ol
+TR	40	classic	أنا لسه بتعلم	ana lissa batallim	Daha yeni öğreniyorum
+TR	41	classic	دي أول مرة أجرب حمام محشي	di avval marra agarrab hamam mahşi	İlk defa iç pilavlı güvercin deniyorum
+TR	42	classic	عايز سندوتش كبدة إسكندراني	ayez sandviç kebda iskandarani	İskenderiye usulü ciğer sandviçi istiyorum
+TR	43	classic	الفتة دي طعمها حلو أوي	el-fatta di ta'maha helv avi	Bu fettanın tadı çok güzel
+TR	44	classic	عايز حواوشي سخن لو سمحت	ayez havavşi sohn lav samaht	Sıcak havavşi istiyorum, lütfen
+TR	45	classic	أنا بحب الملوخية مع الرز	ana bahebb el-molokhiyya ma' er-rozz	Molohiyeyi pilavla seviyorum
+TR	46	classic	عايز سندوتش طعمية وفول	ayez sandviç ta'miyya ve fuul	Taameya ve ful sandviçi istiyorum
+TR	47	classic	أيام الأسبوع عند المصريين بتبدأ السبت وبتنتهي الجمعة	ayyam el-usbu' and el-masriyyin bitibda es-sabt ve-bitinti el-gom'a	Mısırlılarda hafta cumartesi başlar ve cuma günü biter
+TR	48	classic	السبت أجازة رسمية في مصر	es-sabt agaza rasmiyya fi Masr	Cumartesi Mısır'da resmî tatildir
+TR	49	classic	الأحد أول أيام الدراسة	el-hadd avval ayyam ed-dirasa	Pazar okulun ilk günüdür
+TR	50	classic	الإثنين أجازة الحلاقين في مصر	el-itnen agazet el-halla'in fi Masr	Pazartesi Mısır'da berberlerin tatil günüdür
+TR	51	classic	يوم الثلاثاء عندنا سوق التلات	yom et-talatt andena su' et-talatt	Salı günü bizde Salı Pazarı kurulur
+TR	52	classic	يوم الأربعاء عندنا سوق الأربع برضه	yom el-arba' andena su' el-arba' bardo	Çarşamba günü de Çarşamba Pazarı kurulur
+TR	53	classic	الخميس نهاية أيام العمل الرسمية	el-hamis nihayet ayyam el-amal er-rasmiyya	Perşembe resmî çalışma haftasının son günüdür
+TR	54	classic	الجمعة أجازة رسمية في مصر	el-gom'a agaza rasmiyya fi Masr	Cuma Mısır'da resmî tatildir
+TR	55	classic	دي قهوة مظبوط	di ahwa mazbuut	Bu orta şekerli kahve
+TR	56	classic	عايز قهوة مظبوط لو سمحت	ayez ahwa mazbuut lav samaht	Orta şekerli kahve istiyorum, lütfen
+TR	57	classic	دي قهوة سادة	di ahwa sada	Bu şekersiz kahve
+TR	58	classic	عايز قهوة سادة لو سمحت	ayez ahwa sada lav samaht	Şekersiz kahve istiyorum, lütfen
+TR	59	classic	القهوة من غير سكر لو سمحت	el-ahwa min ğeer sokkar lav samaht	Kahve şekersiz olsun, lütfen
+TR	60	classic	أنا بطبخ	ana batboh	Yemek yapıyorum
+TR	61	classic	أنا بحب أطبخ	ana bahebb atboh	Yemek yapmayı seviyorum
+TR	62	classic	أنا بطبخ كل يوم	ana batboh kol yom	Her gün yemek yapıyorum
+TR	63	classic	أنا بطبخ الغدا كل يوم	ana batboh el-ğada kol yom	Her gün öğle yemeği yapıyorum
+TR	64	classic	أنا بحب أتمشى	ana bahebb atmaşşa	Yürüyüş yapmayı seviyorum
+TR	65	classic	أنا بحب أتمشى كل يوم	ana bahebb atmaşşa kol yom	Her gün yürüyüş yapmayı seviyorum
+TR	66	classic	أنا بحب أتمشى كل يوم مع أصحابي	ana bahebb atmaşşa kol yom ma' ashabi	Her gün arkadaşlarımla yürüyüş yapmayı seviyorum
+TR	67	classic	أنا بحب أتمشى كل يوم الساعة ٦ الصبح	ana bahebb atmaşşa kol yom es-sa'a setta es-sob7	Her gün sabah saat altıda yürüyüş yapmayı seviyorum
+TR	68	classic	وبحب أتمشى الساعة ١٠ بالليل	ve-bahebb atmaşşa es-sa'a aşara bil-leel	Gece saat onda yürüyüş yapmayı da seviyorum
+TR	69	classic	دي شجرة كبيرة	di şagara kebira	Bu büyük bir ağaç
+TR	70	classic	دي أشجار كبيرة	di aşgar kebira	Bunlar büyük ağaçlar
+TR	71	classic	دي وردة جميلة	di varda gamila	Bu güzel bir gül
+TR	72	classic	دي ورود جميلة	di vurud gamila	Bunlar güzel güller
+TR	73	classic	دي برتقالة حلوة	di borta'ana helva	Bu tatlı bir portakal
+TR	74	classic	ده برتقال حلو	da borta'an helv	Bunlar tatlı portakallar
+TR	75	classic	دي تفاحة حمرا	di toffaha hamra	Bu kırmızı bir elma
+TR	76	classic	ده تفاح أحمر	da toffah ahmar	Bunlar kırmızı elmalar
+TR	77	classic	دي رمانة كبيرة	di rommana kebira	Bu büyük bir nar
+TR	78	classic	ده رمان كبير	da romman kebir	Bunlar büyük narlar
+TR	79	classic	مش مشكلة يا صاحبي	miş moşkila ya sahbi	Sorun değil arkadaşım
+TR	80	classic	ولا يهمك يا حبيبي	vala yihimmak ya habibi	Hiç önemli değil dostum
+TR	81	classic	عادي يا عم ولا يهمك	adi ya amm vala yihimmak	Boş ver, hiç önemli değil
+TR	82	classic	مش هتفرق معايا خالص	miş hatifra' ma'aya halis	Benim için hiç fark etmez
+TR	83	classic	حصل خير ولا يهمك	hasal heer vala yihimmak	Olan oldu, sorun değil
+TR	84	classic	خيرها في غيرها يا صاحبي	heerha fi ğeerha ya sahbi	Kısmet değilmiş, başka sefere
+TR	85	classic	الكتاب فوق الترابيزة	el-kitab fo' et-tarabeeza	Kitap masanın üstünde
+TR	86	classic	الشنطة تحت الكرسي	eş-şanta taht el-korsi	Çanta sandalyenin altında
+TR	87	classic	الباب على اليمين	el-bab ala el-yemin	Kapı sağ tarafta
+TR	88	classic	الشباك على الشمال	eş-şobbak ala eş-şimal	Pencere sol tarafta
+TR	89	classic	الموبايل على السرير	el-mobayl ala es-sarir	Telefon yatağın üstünde
+TR	90	classic	المفتاح جوه الشنطة	el-miftah govva eş-şanta	Anahtar çantanın içinde
+TR	91	classic	الكرسي ما بين الترابيزتين	el-korsi ma ben et-tarabeezten	Sandalye iki masanın arasında
+TR	92	classic	الشنطة جنب الباب	eş-şanta gamb el-bab	Çanta kapının yanında
+TR	93	classic	الكتاب فوق الترابيزة	el-kitab fo' et-tarabeeza	Kitap masanın üstünde
+TR	94	classic	الشنطة تحت الكرسي	eş-şanta taht el-korsi	Çanta sandalyenin altında
+TR	95	classic	الباب على اليمين	el-bab ala el-yemin	Kapı sağ tarafta
+TR	96	classic	الشباك على الشمال	eş-şobbak ala eş-şimal	Pencere sol tarafta
+TR	97	classic	الموبايل على السرير	el-mobayl ala es-sarir	Telefon yatağın üstünde
+TR	98	classic	المفتاح جوه الشنطة	el-miftah govva eş-şanta	Anahtar çantanın içinde
+TR	99	classic	الكرسي ما بين الترابيزتين	el-korsi ma ben et-tarabeezten	Sandalye iki masanın arasında
+TR	100	classic	الشنطة جنب الباب	eş-şanta gamb el-bab	Çanta kapının yanında
+TR	101	classic	الكتاب فوق الترابيزة	el-kitab fo' et-tarabeeza	Kitap masanın üstünde
+TR	102	classic	الشنطة تحت الكرسي	eş-şanta taht el-korsi	Çanta sandalyenin altında
+TR	103	classic	الباب على اليمين	el-bab ala el-yemin	Kapı sağ tarafta
+TR	104	classic	الشباك على الشمال	eş-şobbak ala eş-şimal	Pencere sol tarafta
+TR	105	classic	الموبايل على السرير	el-mobayl ala es-sarir	Telefon yatağın üstünde
+TR	106	classic	المفتاح جوه الشنطة	el-miftah govva eş-şanta	Anahtar çantanın içinde
+TR	107	classic	الكرسي ما بين الترابيزتين	el-korsi ma ben et-tarabeezten	Sandalye iki masanın arasında
+TR	108	classic	الشنطة جنب الباب	eş-şanta gamb el-bab	Çanta kapının yanında
+TR	109	classic	معلش حصل خير	ma'leş hasal heer	Boş ver, olan oldu
+TR	110	classic	ما تزعلش نفسك	ma tez'alş nafsak	Kendini üzme
+TR	111	classic	خلاص انسى الموضوع	halas insa el-mavdu'	Tamam, konuyu unut
+TR	112	classic	ولا كأن حاجة حصلت	vala ka'en haga hasalit	Hiçbir şey olmamış gibi düşün
+TR	113	classic	مفيش داعي تعتذر	mafiiş da'i ti'tezir	Özür dilemene gerek yok
+TR	114	classic	الموضوع بسيط ما تقلقش	el-mavdu' basiit ma te'la'ş	Konu basit, endişelenme
+TR	115	classic	عايز أروح وسط البلد لو سمحت	ayez aruh vest el-balad lav samaht	Şehir merkezine gitmek istiyorum, lütfen
+TR	116	classic	ممكن تفتح العداد لو سمحت؟	momken teftah el-addad lav samaht	Taksimetreyi açabilir misin, lütfen?
+TR	117	classic	الطريق زحمة أوي النهارده	et-tari' zahma avi en-naharda	Bugün trafik çok yoğun
+TR	118	classic	ممكن تمشي من الطريق التاني؟	momken temşi min et-tari' et-tani	Diğer yoldan gidebilir misin?
+TR	119	classic	نزلني هنا لو سمحت	nazzilni hina lav samaht	Beni burada indir, lütfen
+TR	120	classic	الأجرة كام لو سمحت؟	el-ogra kam lav samaht	Ücret ne kadar, lütfen?
+TR	121	classic	أنا ماشية	ana maşya	Yürüyorum
+TR	122	classic	أنا ماشية رايحة السوق	ana maşya rayha es-su'	Pazara gidiyorum
+TR	123	classic	أنا ماشية رايحة السوق أشتري خضار	ana maşya rayha es-su' aşteri hodar	Sebze almak için pazara gidiyorum
+TR	124	classic	هشتري خضار وفاكهة	haşteri hodar ve-fakha	Sebze ve meyve alacağım
+TR	125	classic	وهجيب سمك وطحينة ولمون	ve-hagib samak ve-tahina ve-lamun	Balık, tahin ve limon da alacağım
+TR	126	classic	علشان أعمل غدا النهارده	alaşan a'mel ğada en-naharda	Bugün öğle yemeği yapmak için
+TR	127	classic	تعالوا اتغدوا معانا	ta'alu itğaddu ma'ana	Gelin, bizimle öğle yemeği yiyin
+TR	128	classic	ده مسجد كبير	da masgid kebir	Bu büyük bir cami
+TR	129	classic	دي مكتبة صغيرة	di maktaba soğayyara	Bu küçük bir kütüphane
+TR	130	classic	ده سوبر ماركت قريب	da supermarket orayyeb	Bu yakın bir süpermarket
+TR	131	classic	ده فرن بلدي مشهور	da forn baladi maşhur	Bu meşhur bir mahalle fırını
+TR	132	classic	ده كافيه هادي	da kafe hadi	Bu sakin bir kafe
+TR	133	classic	ده بيت جميل	da bet gamil	Bu güzel bir ev
+TR	134	classic	دي جنينة واسعة	di genena vas'a	Bu geniş bir bahçe
+TR	135	classic	إزيك؟	izzayyek	Nasılsın?
+TR	136	classic	الحمد لله، وإنتي؟	el-hamdu lillah, ve-enti	İyiyim, sen nasılsın?
+TR	137	classic	تمام، إنتي منين؟	tamam, enti minen	İyiyim, sen nerelisin?
+TR	138	classic	أنا من تركيا	ana min Torkeya	Ben Türkiyeliyim
+TR	139	classic	عندك كام سنة؟	andik kam sana	Kaç yaşındasın?
+TR	140	classic	عندي ٢٥ سنة، وإنتي؟	andi hamşa ve-işrin sana, ve-enti	25 yaşındayım, ya sen?
+TR	141	classic	أنا برضه عندي ٢٥ سنة	ana bardo andi hamşa ve-işrin sana	Ben de 25 yaşındayım
+TR	142	cta	İş yerinde bu diyaloğu kurabilir misin?		İş Yerinde Öğle Molası
+TR	143	classic	إنتي هتاكلي إيه؟	enti hatakli eh	Ne yiyeceksin?
+TR	144	classic	أنا جايبة أكل من البيت	ana gayba akl min el-beyt	Evden yemek getirdim
+TR	145	classic	عملتي إيه النهارده؟	amalti eh en-naharda	Bugün ne yaptın?
+TR	146	classic	عملت رز وفراخ	amalt rozz ve-farah	Pilav ve tavuk yaptım
+TR	147	classic	الأكل شكله حلو أوي	el-akl şeklo helv avi	Yemek çok güzel görünüyor
+TR	148	classic	تعالي كلي معايا	ta'ali koli ma'aya	Gel, benimle ye
+TR	149	classic	ماشي، بالهنا والشفا	maşi, bil-hana veş-şifa	Tamam, afiyet olsun
+TR	150	cta	Yeni iş arkadaşınla tanışabilir misin?		Yeni İş Arkadaşıyla Tanışma
+TR	151	classic	إنتي جديدة هنا؟	enti gedida hina	Burada yeni misin?
+TR	152	classic	آه، ده أول يوم ليا	ah, da avval yom leya	Evet, bugün ilk günüm
+TR	153	classic	بتشتغلي في قسم إيه؟	bitiştağali fi 'ism eh	Hangi bölümde çalışıyorsun?
+TR	154	classic	أنا بشتغل في قسم المبيعات	ana baştğal fi 'ism el-mabi'at	Satış bölümünde çalışıyorum
+TR	155	classic	لو احتجتي حاجة قوليلي	lav ihtigti haga 'ulili	Bir şeye ihtiyacın olursa bana söyle
+TR	156	classic	شكرا، إنتي ذوق أوي	şokran, enti zo' avi	Teşekkür ederim, çok naziksin
+TR	157	classic	العفو، نورتينا	el-afv, navvartina	Rica ederim, hoş geldin
+TR	158	cta	İş arkadaşından yardım isteyebilir misin?		İş Arkadaşından Yardım İstemek
+TR	159	classic	ممكن تساعديني في حاجة؟	momken tsa'idini fi haga	Bir konuda bana yardım edebilir misin?
+TR	160	classic	آه طبعًا، محتاجة إيه؟	ah tab'an, mihtaga eh	Evet tabii, neye ihtiyacın var?
+TR	161	classic	مش عارفة أفتح الملف ده	miş arfa aftah el-malaf da	Bu dosyayı nasıl açacağımı bilmiyorum
+TR	162	classic	استني، هورهولك	istanni, havarriholik	Bekle, sana göstereyim
+TR	163	classic	كده تمام، شكرًا أوي	keda tamam, şokran avi	Şimdi oldu, çok teşekkür ederim
+TR	164	classic	العفو، ولا يهمك	el-afv, vala yihimmik	Rica ederim, hiç önemli değil
+TR	165	classic	بجد وفرتي عليا وقت كتير	bigad vaffarti alayya va't kitir	Gerçekten bana çok zaman kazandırdın
+TR	166	cta	İşten erken çıkmak için izin isteyebilir misin?		İşten Erken Çıkmak İçin İzin İstemek
+TR	167	classic	ممكن أخرج بدري النهارده؟	momken ahrog badri en-naharda	Bugün işten erken çıkabilir miyim?
+TR	168	classic	خير، في حاجة؟	heer, fi haga	Hayırdır, bir şey mi oldu?
+TR	169	classic	عندي معاد مهم الساعة أربعة	andi mi'ad mohim es-sa'a arba'a	Saat dörtte önemli bir randevum var
+TR	170	classic	خلصتي الشغل اللي عليكي؟	hallasti eş-şuğl illi aleeki	Yapman gereken işleri bitirdin mi?
+TR	171	classic	آه، خلصت كل حاجة	ah, hallast kol haga	Evet, her şeyi bitirdim
+TR	172	classic	تمام، ممكن تمشي الساعة تلاتة	tamam, momken timşi es-sa'a talata	Tamam, saat üçte çıkabilirsin
+TR	173	classic	شكرًا جدًا، مش هتأخر بكرة	şokran giddan, miş hat'ahhar bokra	Çok teşekkür ederim, yarın geç kalmayacağım
+TR	174	cta	İşe geç kalınca ne dersin?		İşe Geç Kalınca Ne Dersin?
+TR	175	classic	صباح الخير، معلش إني اتأخرت	sabah el-heer, ma'leş inni it'ahhart	Günaydın, geç kaldığım için kusura bakmayın
+TR	176	classic	صباح النور، إيه اللي حصل؟	sabah en-nur, eh illi hasal	Günaydın, ne oldu?
+TR	177	classic	الطريق كان زحمة أوي	et-tari' kan zahma avi	Trafik çok yoğundu
+TR	178	classic	دي تاني مرة تتأخري الأسبوع ده	di tani marra tit'ahhari el-usbu' da	Bu hafta ikinci kez geç kalıyorsun
+TR	179	classic	معاكي حق، مش هتتكرر تاني	ma'aki ha', miş hatitkarrar tani	Haklısınız, bir daha tekrarlanmayacak
+TR	180	classic	تمام، يلا ابدئي شغلك	tamam, yalla ibda'i şuğlek	Tamam, hadi işine başla
+TR	181	classic	حاضر، وشكرًا لتفهمك	hadir, ve-şokran li-tafahhomek	Peki, anlayışınız için teşekkür ederim
+TR	182	cta	İşten izin isteyebilir misin?		İşten İzin İstemek
+TR	183	classic	ممكن أخد إجازة يوم الخميس؟	momken ahod agaza yom el-hamis	Perşembe günü izin alabilir miyim?
+TR	184	classic	في مناسبة ولا عندك مشوار؟	fi monasba vala andik maşvar	Özel bir durum mu var, yoksa bir işin mi var?
+TR	185	classic	عندي معاد مهم ومش هقدر أأجله	andi mi'ad mohim ve-miş ha'dar a'aggelo	Önemli bir randevum var ve erteleyemem
+TR	186	classic	خلصي شغلك قبل ما تمشي	hallisi şuğlek abl ma timşi	Gitmeden önce işini bitir
+TR	187	classic	حاضر، هخلص كل حاجة	hadir, hahallas kol haga	Tamam, her şeyi bitireceğim
+TR	188	classic	تمام، الإجازة موافق عليها	tamam, el-agaza movafa' aleeha	Tamam, iznin onaylandı
+TR	189	classic	شكرًا جدًا، مش هعطلك	şokran giddan, miş ha'attalek	Çok teşekkür ederim, işlerinizi aksatmayacağım
+TR	190	cta	Önemli bir şeyi unutunca ne dersin?		İş Yerinde Bir Şeyi Unutmak
+TR	191	classic	أنا نسيت أبعت الإيميل امبارح	ana niseet ab'at el-email imbarih	Dün e-postayı göndermeyi unuttum
+TR	192	classic	الإيميل كان مهم جدًا	el-email kan mohim giddan	E-posta çok önemliydi
+TR	193	classic	معلش، هبعته دلوقتي حالًا	ma'leş, hab'ato dilva'ti halan	Kusura bakmayın, hemen şimdi göndereceğim
+TR	194	classic	خلي بالك المرة الجاية	halli balek el-marra el-gaya	Bir dahaki sefere dikkat et
+TR	195	classic	حاضر، مش هنسى تاني	hadir, miş hansa tani	Tamam, bir daha unutmayacağım
+TR	196	classic	تمام، ابعتيه وبلغيني	tamam, ib'atiih ve-ballağiini	Tamam, gönder ve bana haber ver
+TR	197	classic	حاضر، هبعته دلوقتي	hadir, hab'ato dilva'ti	Tamam, şimdi göndereceğim
+TR	198	cta	Vardiyanı değiştirmek için nasıl izin istersin?		Vardiya Değiştirmek İstemek
+TR	199	classic	ممكن أبدّل الشيفت بتاعي بكرة؟	momken abaddel eş-şift beta'i bokra	Yarınki vardiyamı değiştirebilir miyim?
+TR	200	classic	عايزة تبدليه ليه؟	ayza tibaddelih leeh	Neden değiştirmek istiyorsun?
+TR	201	classic	عندي ظرف مهم الصبح	andi zarf mohim es-sobh	Sabah önemli bir durumum var
+TR	202	classic	لقيتي حد يبدّل معاكي؟	la'eeti hadd yibaddel ma'aki	Seninle vardiya değiştirecek birini buldun mu?
+TR	203	classic	آه، سارة وافقت تبدّل معايا	ah, Sara vaf'et tibaddel ma'aya	Evet, Sara benimle vardiya değiştirmeyi kabul etti
+TR	204	classic	تمام، ابعتيلي المواعيد الجديدة	tamam, ib'atili el-mava'iid el-gidiida	Tamam, yeni saatleri bana gönder
+TR	205	classic	حاضر، هبعتهالك دلوقتي	hadir, hab'athalek dilva'ti	Tamam, şimdi göndereceğim
+TR	206	cta	Kıyafet alışverişi yapabilir misin?		Kıyafet Mağazasında Alışveriş
+TR	207	classic	ممكن أشوف البلوزة دي؟	momken aşuf el-bloza di	Bu bluzu görebilir miyim?
+TR	208	classic	طبعًا، مقاسك كام؟	tab'an, mi'asek kam	Tabii, bedenin kaç?
+TR	209	classic	غالبًا مقاسي ميديوم	ğaliban mi'asi medium	Genellikle bedenim medium
+TR	210	classic	تحبي تجربي اللون الأسود؟	tihibbi tigarrabi el-lon el-isvid	Siyah rengini denemek ister misin?
+TR	211	classic	آه، فين أوضة القياس؟	ah, fen odet el-'eyas	Evet, deneme kabini nerede?
+TR	212	classic	هناك على اليمين	hinak ala el-yemin	Orada, sağ tarafta
+TR	213	classic	مقاسها مناسب، بكام؟	mi'asha monasib, bikam	Bedeni uygun, fiyatı ne kadar?
+TR	214	cta	Kuaförde konuşabilir misin?		Güzellik Salonunda
+TR	215	classic	عندي حجز الساعة خمسة	andi hagz es-sa'a hamsa	Saat beşte randevum var
+TR	216	classic	حجزك باسم مين؟	hagzek bism min	Randevunuz hangi isimle?
+TR	217	classic	باسم ليلى	bism Leyla	Leyla adına
+TR	218	classic	تحبي تعملي إيه النهارده؟	tihibbi ta'mali eh en-naharda	Bugün ne yaptırmak istersiniz?
+TR	219	classic	عايزة أقص الأطراف بس	ayza a'oss el-atraf bas	Sadece uçlarını kestirmek istiyorum
+TR	220	classic	تحبي نعمله سيشوار كمان؟	tihibbi na'mello seşvar kamen	Fön de ister misiniz?
+TR	221	classic	آه، بس من غير ما يقصر أوي	ah, bas min ğeer ma yi'sar avi	Evet, ama çok kısalmasın
+TR	222	cta	Mısır’da bankada konuşabilir misin?		Bankada İşlem Yapmak
+TR	223	classic	عايزة أفتح حساب جديد	ayza aftah hisab gidiid	Yeni bir hesap açmak istiyorum
+TR	224	classic	معاكي البطاقة أو الباسبور؟	ma'aki el-bita'a av el-pasaport	Kimliğiniz veya pasaportunuz yanınızda mı?
+TR	225	classic	آه، الباسبور معايا	ah, el-pasaport ma'aya	Evet, pasaportum yanımda
+TR	226	classic	تحبي الحساب بالجنيه ولا بالدولار؟	tihibbi el-hisab bil-gineh vala bid-dolar	Hesabı Mısır lirasıyla mı, dolarla mı istersiniz?
+TR	227	classic	بالجنيه لو سمحت	bil-gineh lav samaht	Mısır lirasıyla, lütfen
+TR	228	classic	املي الاستمارة دي وامضي هنا	imli el-istimara di vemdi hina	Bu formu doldurun ve burayı imzalayın
+TR	229	classic	الحساب هيتفتح إمتى؟	el-hisab hayitfatah emta	Hesap ne zaman açılır?
+TR	230	cta	Hastanede bu diyaloğu kurabilir misin?		Hastanede Doktorla Konuşmak
+TR	231	classic	أنا عندي معاد مع الدكتور	ana andi mi'ad ma' ed-doktor	Doktorla randevum var
+TR	232	classic	اسمك إيه؟	ismek eh	Adınız ne?
+TR	233	classic	اسمي ليلى	ismi Leyla	Benim adım Leyla
+TR	234	classic	إنتي تعبانة من إيه؟	enti ta'bana min eh	Neyiniz var?
+TR	235	classic	عندي سخونية وصداع	andi sohoneya ve-soda'	Ateşim ve baş ağrım var
+TR	236	classic	استني هنا، الدكتور هينادي عليكي	istanni hina, ed-doktor haynadi aleeki	Burada bekleyin, doktor sizi çağıracak
+TR	237	classic	تمام، شكرًا	tamam, şokran	Tamam, teşekkür ederim
+TR	238	cta	Postaneden paket alırken ne söylersin?		Postaneden Paket Teslim Almak
+TR	239	classic	لو سمحت، أنا جاية أستلم طرد	lav samaht, ana gaya astalim tard	Affedersiniz, bir paket teslim almaya geldim
+TR	240	classic	معاكي رقم الشحنة؟	ma'aki ra'm eş-şohna	Kargo takip numarası yanınızda mı?
+TR	241	classic	آه، الرقم موجود في الرسالة دي	ah, er-ra'm mavguud fir-risala di	Evet, numara bu mesajda yazıyor
+TR	242	classic	ممكن أشوف الباسبور أو البطاقة؟	momken aşuf el-pasaport av el-bita'a	Pasaportunuzu veya kimliğinizi görebilir miyim?
+TR	243	classic	اتفضل، الطرد وصل إمتى؟	itfaddal, et-tard visil emta	Buyurun, paket ne zaman geldi?
+TR	244	classic	وصل امبارح، امضي هنا لو سمحتي	visil imbarih, imdi hina lav samahti	Dün geldi, lütfen burayı imzalayın
+TR	245	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	246	cta	Evdeki sorunu nasıl anlatırsın?		Evde Bir Sorun Olduğunda
+TR	247	classic	ألو، لو سمحت عندي مشكلة في الشقة	alo, lav samaht andi moşkila fiş-şa'a	Alo, affedersiniz, dairede bir sorun var
+TR	248	classic	إيه المشكلة بالظبط؟	eh el-moşkila biz-zabt	Sorun tam olarak nedir?
+TR	249	classic	الحنفية بتسرّب مية من امبارح	el-hanafiyya bitsarrab mayya min imbarih	Musluk dünden beri su sızdırıyor
+TR	250	classic	تمام، هبعتلك سباك النهارده	tamam, hab'atlek sabbak en-naharda	Tamam, bugün sana bir tesisatçı göndereceğim
+TR	251	classic	هييجي الساعة كام تقريبًا؟	hayigi es-sa'a kam ta'riiban	Yaklaşık saat kaçta gelecek?
+TR	252	classic	غالبًا بعد الساعة خمسة	ğaliban ba'd es-sa'a hamsa	Büyük ihtimalle saat beşten sonra
+TR	253	classic	تمام، هكون مستنياه	tamam, hakun mistannyah	Tamam, onu bekliyor olacağım
+TR	254	cta	AVM’de mağazanın yerini nasıl sorarsın?		AVM’de Mağaza Sormak
+TR	255	classic	لو سمحت، محل الملابس فين؟	lav samaht, mahall el-malabis fen	Affedersiniz, kıyafet mağazası nerede?
+TR	256	classic	في الدور التاني جنب الكافيه	fid-door et-tani gamb el-kafe	İkinci katta, kafenin yanında
+TR	257	classic	أطلع منين؟	atla' min fen	Nereden çıkabilirim?
+TR	258	classic	السلم الكهربا قدامك على اليمين	es-sellem el-kahraba oddamik al-yemin	Yürüyen merdiven önünüzde, sağ tarafta
+TR	259	classic	المحل بعيد؟	el-mahall bi'id	Mağaza uzak mı?
+TR	260	classic	لا، أول ما تطلعي هتلاقيه قدامك	la, avval ma titla'i hatla'ih oddamik	Hayır, yukarı çıkar çıkmaz karşınızda göreceksiniz
+TR	261	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	262	cta	Farklı bir beden nasıl istersin?		AVM’de Farklı Beden İstemek
+TR	263	classic	لو سمحتي، عندك مقاس أكبر من ده؟	lav samahti, andik mi'as akbar min da	Affedersiniz, bunun daha büyük bedeni var mı?
+TR	264	classic	حضرتك محتاجة مقاس كام؟	hadritik mihtaga mi'as kam	Hangi bedene ihtiyacınız var?
+TR	265	classic	مقاس لارج لو موجود	mi'as large lav mavguud	Varsa large beden istiyorum
+TR	266	classic	ثانية واحدة، هشوفه في المخزن	sanya vahda, haşufo fil-makhzan	Bir saniye, depoda kontrol edeceğim
+TR	267	classic	تمام، أنا مستنية هنا	tamam, ana mistannya hina	Tamam, burada bekliyorum
+TR	268	classic	للأسف اللارج خلص، بس عندنا إكس لارج	lil-asaf el-large hilis, bas andena X-large	Maalesef large tükendi, ama X-large var
+TR	269	classic	ماشي، ممكن أجربه؟	maşi, momken agarrabo	Tamam, deneyebilir miyim?
+TR	270	cta	Mağazada ödeme yaparken ne söylersin?		AVM’de Ödeme Yapmak
+TR	271	classic	لو سمحتي، عايزة أحاسب على الحاجات دي	lav samahti, ayza ahasib ala el-hagat di	Affedersiniz, bunların ödemesini yapmak istiyorum
+TR	272	classic	طبعًا، معاكي كاش ولا كارت؟	tab'an, ma'aki kaş vala kart	Tabii, nakit mi kart mı?
+TR	273	classic	هحاسب بالكارت	hahasib bil-kart	Kartla ödeyeceğim
+TR	274	classic	تحبي تدفعي مرة واحدة ولا تقسيط؟	tihibbi tidfa'i marra vahda vala ta'siit	Tek çekim mi, taksit mi ödemek istersiniz?
+TR	275	classic	مرة واحدة لو سمحتي	marra vahda lav samahti	Tek çekim, lütfen
+TR	276	classic	تمام، دخلي الرقم السري	tamam, dahhali er-ra'm es-sirri	Tamam, şifrenizi girin
+TR	277	classic	ممكن آخد الفاتورة؟	momken ahod el-fatura	Fişi alabilir miyim?
+TR	278	cta	Bir ürünü nasıl değiştirirsin?		AVM’de Ürün Değiştirmek
+TR	279	classic	لو سمحتي، عايزة أبدّل البلوزة دي	lav samahti, ayza abaddel el-bloza di	Affedersiniz, bu bluzu değiştirmek istiyorum
+TR	280	classic	فيها مشكلة؟	fiha moşkila	Bir sorunu mu var?
+TR	281	classic	لا، بس المقاس طلع صغير	la, bas el-mi'as tili' soğayyar	Hayır, ama bedeni küçük geldi
+TR	282	classic	معاكي الفاتورة؟	ma'aki el-fatura	Fiş yanınızda mı?
+TR	283	classic	آه، الفاتورة معايا	ah, el-fatura ma'aya	Evet, fiş yanımda
+TR	284	classic	تحبي تبدّليها بمقاس أكبر ولا ترجّعيها؟	tihibbi tibaddeliha bi-mi'as akbar vala tiragga'iha	Daha büyük bir bedenle değiştirmek mi, yoksa iade etmek mi istersiniz?
+TR	285	classic	عايزة أبدّلها بمقاس أكبر	ayza abaddelha bi-mi'as akbar	Daha büyük bir bedenle değiştirmek istiyorum
+TR	286	cta	Mağazada indirim nasıl sorulur?		AVM’de İndirim Sormak
+TR	287	classic	لو سمحتي، البلوزة دي عليها خصم؟	lav samahti, el-bloza di aleeha hasm	Affedersiniz, bu bluzda indirim var mı?
+TR	288	classic	آه، عليها خصم عشرين في المية	ah, aleeha hasm işriin fil-miyya	Evet, yüzde yirmi indirim var
+TR	289	classic	طيب سعرها بعد الخصم كام؟	tayyeb se'rha ba'd el-hasm kam	Peki indirimden sonra fiyatı ne kadar?
+TR	290	classic	بقت بألف ومتين جنيه	bi'it bi-alf ve-miteen gineh	Bin iki yüz Mısır lirası oldu
+TR	291	classic	الخصم على كل الألوان؟	el-hasm ala kol el-alvan	İndirim bütün renklerde geçerli mi?
+TR	292	classic	لا، على اللون ده بس	la, ala el-lon da bas	Hayır, sadece bu renkte
+TR	293	classic	تمام، هاخدها	tamam, hahodha	Tamam, bunu alacağım
+TR	294	cta	AVM’de tuvaleti nasıl sorarsın?		AVM’de Tuvaleti Sormak
+TR	295	classic	لو سمحت، الحمام فين؟	lav samaht, el-hammam fen	Affedersiniz, tuvalet nerede?
+TR	296	classic	في الدور الأول جنب المصعد	fid-door el-avval gamb el-mis'ad	Birinci katta, asansörün yanında
+TR	297	classic	أطلع من هنا؟	atla' min hina	Buradan mı çıkıyorum?
+TR	298	classic	آه، اطلعي بالسلم الكهربا	ah, itla'i bis-sellem el-kahraba	Evet, yürüyen merdivenden çıkın
+TR	299	classic	بعيد من هنا؟	bi'id min hina	Buradan uzak mı?
+TR	301	classic	تمام، شكرًا	tamam, şokran	Tamam, teşekkür ederim
+TR	302	classic	لو سمحت، أنا مش لاقية الموبايل بتاعي	lav samaht, ana miş la'ya el-mobayl beta'i	Affedersiniz, telefonumu bulamıyorum
+TR	303	classic	آخر مرة كان معاكي فين؟	aher marra kan ma'aki fen	En son nerede yanındaydı?
+TR	304	classic	تقريبًا كان معايا عند الكافيه	ta'riiban kan ma'aya and el-kafe	Sanırım en son kafedeydi
+TR	305	classic	طب جربتي تتصلي عليه؟	tab garrabti tittisili aleeh	Peki onu aramayı denedin mi?
+TR	306	classic	آه، بس محدش بيرد	ah, bas mahaddeş biyerodd	Evet, ama kimse cevap vermiyor
+TR	307	classic	تعالي نروح الأمن ونسأل هناك	ta'ali niruuh el-amn ve-nis'al hinak	Hadi güvenliğe gidip orada soralım
+TR	308	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	309	classic	لو سمحت، أنا مش لاقية بنتي	lav samaht, ana miş la'ya binti	Affedersiniz, kızımı bulamıyorum
+TR	310	classic	آخر مرة شفتيها فين؟	aher marra şoftiha fen	Onu en son nerede gördünüz?
+TR	311	classic	كانت معايا قدام محل الألعاب	kanit ma'aya oddam mahall el-al'ab	Oyuncak mağazasının önünde yanımdaydı
+TR	312	classic	عندها كام سنة؟	andaha kam sana	Kaç yaşında?
+TR	313	classic	عندها ست سنين، ولابسة فستان أحمر	andaha sitt siniin, ve-labsa fustan ahmar	Altı yaşında ve kırmızı bir elbise giyiyor
+TR	314	classic	ما تقلقيش، هنلاقيها إن شاء الله	ma ti'la'iiş, hanla'iha inşallah	Endişelenmeyin, inşallah onu bulacağız
+TR	315	classic	شكرًا، ياريت بسرعة	şokran, yaret bisor'a	Teşekkür ederim, lütfen çabuk olun
+TR	316	cta	Kafede bu diyaloğu kurabilir misin?		Kafede Sipariş Vermek
+TR	317	classic	مرحبًا، ماذا تريد أن تشرب؟	marhaban, maza turidu an tashrab?	Merhaba, ne içmek istersin?
+TR	318	classic	أريد فنجانًا من القهوة، من فضلك	uridu finjanan min al-qahwa, min fadlik	Bir fincan kahve istiyorum, lütfen
+TR	319	classic	هل تريد السكر؟	hal turidu as-sukkar?	Şeker ister misin?
+TR	320	classic	نعم، أريد قليلًا من السكر	na'am, uridu qalilan min as-sukkar	Evet, biraz şeker istiyorum
+TR	321	classic	هل تريد شيئًا آخر؟	hal turidu shay'an akhar?	Başka bir şey ister misin?
+TR	322	classic	لا، شكرًا، هذا يكفي	la, shukran, haza yakfi	Hayır, teşekkürler, bu yeterli
+TR	323	classic	سأحضر القهوة الآن	sa'uhdiru al-qahwa al-an	Kahveyi şimdi getireceğim
+TR	324	classic	لو سمحتي، الكارت مش راضي يشتغل	lav samahti, el-kart miş radi yiştağal	Affedersiniz, kart çalışmıyor
+TR	325	classic	جربي تدخليه تاني لو سمحتي	garrabi tidahhalih tani lav samahti	Lütfen kartı tekrar takmayı deneyin
+TR	326	classic	جربت، بس لسه مش شغال	garrabt, bas lissa miş şağğal	Denedim ama hâlâ çalışmıyor
+TR	327	classic	معاكي كارت تاني أو كاش؟	ma'aki kart tani av kaş	Başka bir kartınız veya nakit paranız var mı?
+TR	328	classic	آه، معايا كارت تاني	ah, ma'aya kart tani	Evet, başka bir kartım var
+TR	329	classic	تمام، جربيه كده	tamam, garrabih keda	Tamam, bunu deneyin
+TR	330	classic	أيوه، اشتغل، شكرًا	ayva, iştağal, şokran	Evet, çalıştı. Teşekkür ederim
+TR	331	cta	Otelde bu diyaloğu kurabilir misin?		Otelde Oda Rezervasyonu
+TR	332	classic	مرحبًا، هل لديكم غرفة فارغة؟	marhaban, hal ladaykum ghurfa farigha?	Merhaba, boş odanız var mı?
+TR	333	classic	نعم، لدينا غرفة لشخص واحد	na'am, ladayna ghurfa li-shakhs wahid	Evet, tek kişilik bir odamız var
+TR	334	classic	كم سعر الغرفة لليلة واحدة؟	kam si'ru al-ghurfa li-laylatin wahida?	Odanın bir gecelik fiyatı ne kadar?
+TR	335	classic	السعر مئة دولار لليلة	as-si'ru mi'atu dolar li-layla	Fiyat gecelik yüz dolar
+TR	336	classic	هل الإفطار مشمول؟	hal al-iftar mashmul?	Kahvaltı dahil mi?
+TR	337	classic	نعم، الإفطار مشمول في السعر	na'am, al-iftar mashmul fi as-si'r	Evet, kahvaltı fiyata dahil
+TR	338	classic	حسنًا، أريد حجز الغرفة	hasanan, uridu hajza al-ghurfa	Tamam, odayı ayırtmak istiyorum
+TR	339	cta	Havaalanında bu diyaloğu kurabilir misin?		Havaalanında Check-in
+TR	340	classic	مرحبًا، أين مكتب تسجيل الوصول؟	marhaban, ayna maktab tasjil al-wusul?	Merhaba, check-in kontuarı nerede?
+TR	341	classic	مكتب تسجيل الوصول في الجهة اليمنى	maktab tasjil al-wusul fi al-jiha al-yumna	Check-in kontuarı sağ tarafta
+TR	342	classic	شكرًا، هل أحتاج إلى جواز السفر؟	shukran, hal ahtaju ila jawaz as-safar?	Teşekkürler, pasaporta ihtiyacım var mı?
+TR	343	classic	نعم، تحتاج إلى جواز السفر والتذكرة	na'am, tahtaju ila jawaz as-safar wa at-tadhkira	Evet, pasaport ve bilete ihtiyacınız var
+TR	344	classic	أين يمكنني وضع حقيبتي؟	ayna yumkinuni wad'u haqibati?	Valizimi nereye bırakabilirim?
+TR	345	classic	يمكنك وضعها على الميزان	yumkinuka wad'uha ala al-mizan	Onu tartının üzerine koyabilirsiniz
+TR	346	classic	حسنًا، شكرًا لمساعدتك	hasanan, shukran li-musa'adatik	Tamam, yardımınız için teşekkür ederim
+TR	347	classic	لو سمحتي، أنا اشتريت الحاجة دي امبارح وطلع فيها مشكلة	lav samahti, ana iştaret el-haga di imbarih ve-tili' fiha moşkila	Affedersiniz, bunu dün aldım ve sorunlu çıktı
+TR	348	classic	إيه المشكلة بالظبط؟	eh el-moşkila biz-zabt	Sorun tam olarak nedir?
+TR	349	classic	السوستة مش بتتقفل خالص	es-sostah miş bitit'ifil halis	Fermuar hiç kapanmıyor
+TR	350	classic	معاكي الفاتورة؟	ma'aki el-fatura	Fiş yanınızda mı?
+TR	351	classic	آه، الفاتورة معايا	ah, el-fatura ma'aya	Evet, fiş yanımda
+TR	352	classic	تحبي تبدّليها ولا ترجّعيها؟	tihibbi tibaddeliha vala tiragga'iha	Değiştirmek mi, iade etmek mi istersiniz?
+TR	353	classic	عايزة أبدّلها لو سمحتي	ayza abaddelha lav samahti	Değiştirmek istiyorum, lütfen
+TR	354	cta	Restoranda bu diyaloğu kurabilir misin?		Restoranda Sipariş Vermek
+TR	355	classic	مرحبًا، هل يمكنني رؤية قائمة الطعام؟	marhaban, hal yumkinuni ru'yatu qa'imat at-ta'am?	Merhaba, menüyü görebilir miyim?
+TR	356	classic	نعم، تفضل، هذه قائمة الطعام	na'am, tafaddal, hazihi qa'imat at-ta'am	Evet, buyurun, bu menü
+TR	357	classic	ماذا تنصحني أن أطلب؟	maza tansahuni an atlub?	Bana ne sipariş etmemi önerirsiniz?
+TR	358	classic	أنصحك بالدجاج مع الأرز	ansahuka bid-dajaj ma'a al-aruzz	Tavuk ve pilavı tavsiye ederim
+TR	359	classic	حسنًا، أريد هذا الطبق من فضلك	hasanan, uridu haza at-tabaq min fadlik	Tamam, bu yemeği istiyorum lütfen
+TR	360	classic	هل تريد شيئًا للشرب؟	hal turidu shay'an lil-shurb?	İçmek için bir şey ister misiniz?
+TR	361	classic	نعم، أريد كوبًا من الماء	na'am, uridu kuban min al-ma'	Evet, bir bardak su istiyorum
+TR	362	classic	لو سمحتي، أنا بدور على هدية لصاحبتي	lav samahti, ana badavvar ala hadiyya li-sahibti	Affedersiniz, arkadaşıma bir hediye arıyorum
+TR	363	classic	مناسبة إيه؟ عيد ميلادها؟	monasbet eh, eid miladha	Ne için? Doğum günü mü?
+TR	364	classic	آه، عيد ميلادها الأسبوع الجاي	ah, eid miladha el-usbu' el-gay	Evet, doğum günü gelecek hafta
+TR	365	classic	هي بتحب إيه؟	heyya bitihibb eh	Nelerden hoşlanıyor?
+TR	366	classic	بتحب البرفانات والحاجات البسيطة	bitihibb el-barfanat vel-hagat el-basiita	Parfümleri ve sade şeyleri seviyor
+TR	367	classic	طيب، إيه رأيك في البرفان ده؟	tayyeb, eh ra'yek fil-barfan da	Peki, bu parfüme ne dersiniz?
+TR	368	classic	حلو أوي، ممكن تلفيه هدية؟	helv avi, momken tiliffih hadiyya	Çok güzel! Hediye paketi yapabilir misiniz?
+TR	369	cta	Markette bu diyaloğu kurabilir misin?		Markette Alışveriş
+TR	370	classic	عفوًا، كم سعر هذا؟	afwan, kam si'ru haza?	Affedersiniz, bunun fiyatı ne kadar?
+TR	371	classic	سعره خمسة دولارات	si'ruhu khamsatu dolarāt	Fiyatı beş dolar
+TR	372	classic	هل لديكم نوع أرخص؟	hal ladaykum naw'un arkhas?	Daha ucuz bir çeşidiniz var mı?
+TR	373	classic	نعم، هذا أرخص قليلًا	na'am, haza arkhas qalilan	Evet, bu biraz daha ucuz
+TR	374	classic	حسنًا، سأشتري هذا	hasanan, sa'ashtari haza	Tamam, bunu satın alacağım
+TR	375	classic	هل تريد شيئًا آخر؟	hal turidu shay'an akhar?	Başka bir şey ister misiniz?
+TR	376	classic	لا، شكرًا، هذا كل شيء	la, shukran, haza kullu shay'	Hayır, teşekkürler, hepsi bu kadar
+TR	377	classic	عايزة أجيب هدية لجوزي	ayza agib hadiyya li-gozi	Eşime bir hediye almak istiyorum
+TR	378	classic	هو بيحب إيه؟	hovva biyihibb eh	Nelerden hoşlanıyor?
+TR	379	classic	بيحب الساعات والبرفانات	biyihibb es-sa'at vel-barfanat	Saatleri ve parfümleri seviyor
+TR	380	classic	تحبي حاجة في حدود كام؟	tihibbi haga fi hodud kam	Yaklaşık ne kadarlık bir şey düşünüyorsunuz?
+TR	381	classic	في حدود ألفين جنيه	fi hodud alfeen gineh	Yaklaşık iki bin Mısır lirası
+TR	382	classic	طيب، شوفي الساعة دي كده	tayyeb, şufi es-sa'a di keda	Peki, şu saate bir bakın
+TR	383	cta	Doktorda bu diyaloğu kurabilir misin?		Doktorda Muayene
+TR	384	classic	مرحبًا، ما المشكلة؟	marhaban, ma al-mushkila?	Merhaba, sorun nedir?
+TR	385	classic	أشعر بألم في رأسي منذ الصباح	as'uru bi-alamin fi ra'si mundhu as-sabah	Sabahtan beri başım ağrıyor
+TR	386	classic	هل لديك حمى؟	hal ladayka humma?	Ateşin var mı?
+TR	387	classic	لا، ولكنني أشعر بالتعب	la, walakinni ash'uru bi-at-ta'ab	Hayır, ama kendimi yorgun hissediyorum
+TR	388	classic	هل نمت جيدًا الليلة الماضية؟	hal nimta jayyidan al-laylata al-madiya?	Dün gece iyi uyudun mu?
+TR	389	classic	لا، لم أنم جيدًا	la, lam anam jayyidan	Hayır, iyi uyumadım
+TR	390	classic	حسنًا، تحتاج إلى الراحة وشرب الكثير من الماء	hasanan, tahtaju ila ar-raha wa shurbi al-kathiri min al-ma'	Tamam, dinlenmen ve bol su içmen gerekiyor
+TR	391	classic	لو سمحتي، ممكن أشوف الجزمة دي؟	lav samahti, momken aşuf el-gazma di	Affedersiniz, bu ayakkabıyı görebilir miyim?
+TR	392	classic	طبعًا، مقاسك كام؟	tab'an, mi'asek kam	Tabii, numaranız kaç?
+TR	393	classic	مقاسي تمانية وتلاتين	mi'asi tamanya ve-talatin	Numaram otuz sekiz
+TR	394	classic	تحبي تجربيها؟	tihibbi tigarrabiha	Denemek ister misiniz?
+TR	395	classic	آه، بس حاساها ضيقة شوية	ah, bas hassaha dayya'a şuvayya	Evet, ama biraz dar gibi
+TR	396	classic	أجيبلك مقاس أكبر؟	agiblek mi'as akbar	Size bir numara büyüğünü getireyim mi?
+TR	397	classic	آه، ياريت تجيبي مقاس أكبر	ah, yaret tigibi mi'as akbar	Evet, lütfen bir numara büyüğünü getirin
+TR	398	cta	Üniversitede bu diyaloğu kurabilir misin?		Üniversitede İlk Gün
+TR	399	classic	مرحبًا، هل أنت طالب جديد؟	marhaban, hal anta talib jadid?	Merhaba, yeni öğrenci misin?
+TR	400	classic	نعم، هذا أول يوم لي في الجامعة	na'am, haza awwalu yawmin li fi al-jami'a	Evet, bugün üniversitedeki ilk günüm
+TR	401	classic	ما التخصص الذي تدرسه؟	ma at-takhassus alladhi tadrusuhu?	Hangi bölümde okuyorsun?
+TR	402	classic	أدرس إدارة الأعمال	adrusu idarat al-a'mal	İşletme okuyorum
+TR	403	classic	أين قاعة المحاضرات؟	ayna qa'atu al-muhadarat?	Derslik nerede?
+TR	404	classic	القاعة في الطابق الثاني	al-qa'atu fi at-tabiq ath-thani	Derslik ikinci katta
+TR	405	classic	شكرًا لك، أراك لاحقًا	shukran laka, araka lahiqan	Teşekkür ederim, sonra görüşürüz
+TR	406	classic	لو سمحت، ممكن أشوف المنيو؟	lav samaht, momken aşuf el-menu	Affedersiniz, menüyü görebilir miyim?
+TR	407	classic	طبعًا، تحبي تاكلي إيه؟	tab'an, tihibbi takli eh	Tabii, ne yemek istersiniz?
+TR	408	classic	عايزة برجر فراخ وبطاطس	ayza burger farah ve-batates	Tavuk burger ve patates istiyorum
+TR	409	classic	تحبي معاه مشروب؟	tihibbi ma'ah maşrub	Yanında içecek ister misiniz?
+TR	410	classic	آه، كولا من غير تلج لو سمحت	ah, kola min ğeer talg lav samaht	Evet, buzsuz kola lütfen
+TR	411	classic	تاكلي هنا ولا تيك أواي؟	takli hina vala take away	Burada mı yiyeceksiniz, paket mi?
+TR	412	classic	هآكل هنا، الحساب كام؟	hakol hina, el-hisab kam	Burada yiyeceğim, hesap ne kadar?
+TR	413	cta	İş görüşmesinde bu diyaloğu kurabilir misin?		İş Görüşmesi
+TR	414	classic	أهلا، اتفضل اقعد	ahlan, itfaddal o'od	Merhaba, lütfen oturun
+TR	416	classic	عندك خبرة في المجال ده؟	andak hibra fil-magal da	Bu alanda deneyiminiz var mı?
+TR	417	classic	آه، عندي خبرة تلات سنين	ah, andi hibra talat siniin	Evet, üç yıllık deneyimim var
+TR	418	classic	عايز تشتغل معانا ليه؟	ayez tiştağal ma'ana leeh	Neden bizimle çalışmak istiyorsunuz?
+TR	419	classic	علشان عايز أطور مهاراتي	alaşan ayez atavvar maharati	Çünkü becerilerimi geliştirmek istiyorum
+TR	420	classic	شكرًا، هنتواصل معاك قريب	şokran, hantavasal ma'ak orayyeb	Teşekkürler, sizinle yakında iletişime geçeceğiz
+TR	421	classic	لو سمحت، في مكان أشحن فيه الموبايل؟	lav samaht, fi makan aşhan fih el-mobayl	Affedersiniz, telefonumu şarj edebileceğim bir yer var mı?
+TR	422	classic	آه، في محطة شحن جنب الكافيه	ah, fi mahattet şahn gamb el-kafe	Evet, kafenin yanında bir şarj istasyonu var
+TR	423	classic	لازم أجيب الشاحن بتاعي؟	lazim agib eş-şahin beta'i	Kendi şarj aletimi getirmem gerekiyor mu?
+TR	424	classic	لا، الكابلات موجودة هناك	la, el-kablat mavguuda hinak	Hayır, kablolar orada mevcut
+TR	425	classic	ممكن أسيب الموبايل هناك شوية؟	momken asiib el-mobayl hinak şuvayya	Telefonumu biraz orada bırakabilir miyim?
+TR	426	classic	آه، بس خلي بالك من حاجتك	ah, bas halli balek min hagtek	Evet, ama eşyalarınıza dikkat edin
+TR	427	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	428	classic	أهلا، عايز أفتح حساب في البنك	ahlan, ayez aftah hisab fil-bank	Merhaba, banka hesabı açmak istiyorum
+TR	429	classic	طبعًا، معاك بطاقة أو باسبور؟	tab'an, ma'ak bita'a av pasaport	Elbette, kimliğiniz veya pasaportunuz yanınızda mı?
+TR	430	classic	آه، البطاقة معايا	ah, el-bita'a ma'aya	Evet, kimliğim yanımda
+TR	431	classic	عايز حساب جاري ولا حساب توفير؟	ayez hisab gari vala hisab tavfir	Vadesiz hesap mı, tasarruf hesabı mı istiyorsunuz?
+TR	432	classic	عايز حساب جاري لو سمحت	ayez hisab gari lav samaht	Vadesiz hesap istiyorum, lütfen
+TR	433	classic	تمام، املى الاستمارة دي لو سمحت	tamam, imla el-istimara di lav samaht	Tamam, lütfen bu formu doldurun
+TR	434	classic	شكرًا، هملاها دلوقتي	şokran, hamlaha dilva'ti	Teşekkürler, şimdi dolduracağım
+TR	435	classic	لو سمحت، عندكم واي فاي هنا؟	lav samaht, andokom Wi-Fi hina	Affedersiniz, burada Wi-Fi var mı?
+TR	436	classic	آه، في واي فاي مجاني	ah, fi Wi-Fi maggani	Evet, ücretsiz Wi-Fi var
+TR	437	classic	طيب الباسورد إيه؟	tayyeb el-password eh	Peki şifre ne?
+TR	438	classic	مش محتاج باسورد، بس سجلي برقم موبايلك	miş mihtag password, bas saggili bi-ra'm mobaylek	Şifre gerekmiyor, sadece telefon numaranla giriş yap
+TR	439	classic	جربت، بس النت مش شغال عندي	garrabt, bas en-net miş şağğal andi	Denedim ama internet bende çalışmıyor
+TR	440	classic	اقفلي الواي فاي وافتحيه تاني	i'fili el-Wi-Fi veftahih tani	Wi-Fi’yi kapatıp tekrar aç
+TR	441	classic	أيوه اشتغل، شكرًا	ayva iştağal, şokran	Evet, çalıştı. Teşekkür ederim
+TR	442	classic	أهلا، عايز تذكرة إسكندرية	ahlan, ayez tazkara Iskandareyya	Merhaba, İskenderiye’ye bir bilet istiyorum
+TR	443	classic	رايح بس ولا رايح جاي؟	rayeh bas vala rayeh gay	Sadece gidiş mi, gidiş-dönüş mü?
+TR	444	classic	رايح جاي لو سمحت	rayeh gay lav samaht	Gidiş-dönüş, lütfen
+TR	445	classic	عايز تسافر إمتى؟	ayez tisafir emta	Ne zaman seyahat etmek istiyorsunuz?
+TR	446	classic	عايز أسافر بكرة الصبح	ayez asafir bokra es-sobh	Yarın sabah seyahat etmek istiyorum
+TR	447	classic	تمام، القطر هيتحرك الساعة تسعة	tamam, el-atr hayitaharrak es-sa'a tis'a	Tamam, tren saat dokuzda kalkıyor
+TR	448	classic	تمام، هاخد التذكرة دي	tamam, hahod et-tazkara di	Tamam, bu bileti alacağım
+TR	449	classic	لو سمحت، أنا مش لاقية الشنطة بتاعتي	lav samaht, ana miş la'ya eş-şanta beta'ti	Affedersiniz, çantamı bulamıyorum
+TR	450	classic	آخر مرة كانت معاكي فين؟	aher marra kanit ma'aki fen	En son çantan yanındayken neredeydin?
+TR	451	classic	كانت معايا في الكافيه فوق	kanit ma'aya fil-kafe fo'	Üst kattaki kafede yanımdaydı
+TR	452	classic	لونها إيه وشكلها عامل إزاي؟	lonha eh ve-şaklaha amel izzay	Rengi ne ve nasıl görünüyor?
+TR	453	classic	سودة وصغيرة وفيها محفظتي	soda ve-soğayyara ve-fiha mahfazti	Siyah, küçük ve içinde cüzdanım var
+TR	454	classic	تمام، هنراجع الكاميرات ونسأل هناك	tamam, haniraga' el-kamerat ve-nis'al hinak	Tamam, kameraları kontrol edip orada soracağız
+TR	455	classic	شكرًا، ياريت تلاقوها	şokran, yaret tila'uha	Teşekkür ederim, umarım bulursunuz
+TR	456	classic	مرحبًا، أبحث عن كتاب لتعلم اللغة العربية	marhaban, abhathu an kitabin li-ta'allum al-lugha al-arabiyya	Merhaba, Arapça öğrenmek için bir kitap arıyorum
+TR	457	classic	هل تريد كتابًا للمبتدئين؟	hal turidu kitaban lil-mubtadi'in?	Başlangıç seviyesi için bir kitap mı istiyorsunuz?
+TR	458	classic	نعم، أنا ما زلت مبتدئًا	na'am, ana ma ziltu mubtadi'an	Evet, ben hâlâ başlangıç seviyesindeyim
+TR	459	classic	لدينا هذا الكتاب، وهو سهل جدًا	ladayna haza al-kitab, wa huwa sahlun jiddan	Bu kitabımız var, oldukça kolay
+TR	460	classic	هل يمكنني استعارة الكتاب؟	hal yumkinuni isti'aratu al-kitab?	Kitabı ödünç alabilir miyim?
+TR	461	classic	نعم، يمكنك الاحتفاظ به لمدة أسبوعين	na'am, yumkinuka al-ihtifazu bihi li-muddati usbuu'ayn	Evet, kitabı iki hafta boyunca tutabilirsiniz
+TR	462	classic	شكرًا لك، سأستعيره	shukran laka, sa'asta'iruhu	Teşekkür ederim, ödünç alacağım
+TR	463	classic	لو سمحت، أنا مش فاكرة ركنت العربية فين	lav samaht, ana miş fakra rakant el-arabiyya fen	Affedersiniz, arabayı nereye park ettiğimi hatırlamıyorum
+TR	464	classic	فاكرة دخلتي من أنهي بوابة؟	fakra dahalti min anhi bavvaba	Hangi girişten girdiğinizi hatırlıyor musunuz?
+TR	465	classic	تقريبًا من البوابة التانية	ta'riiban min el-bavvaba et-tanya	Sanırım ikinci girişten
+TR	466	classic	طب فاكرة رقم الدور أو المنطقة؟	tab fakra ra'm ed-door av el-manta'a	Kat numarasını veya bölgeyi hatırlıyor musunuz?
+TR	467	classic	لا، بس العربية لونها أبيض	la, bas el-arabiyya lonha abyad	Hayır, ama araba beyaz
+TR	468	classic	تمام، تعالي نراجع مكان الركنة	tamam, ta'ali niraga' makan er-rakna	Tamam, park alanını birlikte kontrol edelim
+TR	469	classic	شكرًا جدًا، أنا فعلًا اتلخبطت	şokran giddan, ana fi'lan itlahbatt	Çok teşekkür ederim, gerçekten kafam karıştı
+TR	470	classic	مرحبًا، أريد إرسال هذا الطرد	marhaban, uridu irsala haza at-tard	Merhaba, bu paketi göndermek istiyorum
+TR	471	classic	إلى أي بلد تريد إرساله؟	ila ayyi baladin turidu irsalahu?	Hangi ülkeye göndermek istiyorsunuz?
+TR	472	classic	أريد إرساله إلى تركيا	uridu irsalahu ila turkiya	Türkiye'ye göndermek istiyorum
+TR	473	classic	هل تريد الشحن العادي أم السريع؟	hal turidu ash-shahna al-adi am as-sari'?	Normal gönderi mi, hızlı gönderi mi istiyorsunuz?
+TR	474	classic	أريد الشحن السريع، من فضلك	uridu ash-shahna as-sari', min fadlik	Hızlı gönderi istiyorum, lütfen
+TR	475	classic	سيصل الطرد خلال ثلاثة أيام	sayasilu at-tardu khilala thalathati ayyamin	Paket üç gün içinde ulaşacak
+TR	476	classic	حسنًا، شكرًا لك	hasanan, shukran laka	Tamam, teşekkür ederim
+TR	477	classic	لو سمحت، في ماكينة ATM هنا؟	lav samaht, fi makinet ATM hina	Affedersiniz, burada ATM var mı?
+TR	478	classic	آه، في ماكينة جنب السوبر ماركت	ah, fi makena gamb el-supermarket	Evet, süpermarketin yanında bir ATM var
+TR	479	classic	بعيدة من هنا؟	bi'ida min hina	Buradan uzak mı?
+TR	480	classic	لا، امشي على طول وبعدين شمال	la, imşi ala tul ve-ba'den şimal	Hayır, dümdüz gidin, sonra sola dönün
+TR	481	classic	الماكينة بتقبل كروت أجنبية؟	el-makena biti'bal korut agnabiyya	ATM yabancı kartları kabul ediyor mu?
+TR	482	classic	آه، المفروض تشتغل عادي	ah, el-mafrud tiştağal adi	Evet, normalde çalışması gerekir
+TR	483	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
