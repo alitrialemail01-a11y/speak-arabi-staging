@@ -1,0 +1,1777 @@
+bot	id	type	arabic	translit	english
+SA	1	classic	هو يحبها	huwa yuhibbuha	He loves her
+SA	2	classic	هي تقرأ كتاب	hiya taqra kitab	She reads a book
+SA	3	classic	وش تسوي؟	wesh tsawwi?	What are you doing?
+SA	4	classic	وين عنوانك؟	wēn ʿunwānak?	Where is your address?
+SA	5	classic	وين عنوانك؟	wēn ʿunwānak?	Where is your address?
+SA	6	classic	أبغى أجرب	abgha ajarrib	I want to try
+SA	7	classic	حياك الله	hayyak Allah	Welcome / You’re welcome
+SA	8	classic	أبغى قهوة لو سمحت	abgha gahwa law samaht	I want a coffee, please
+SA	9	classic	والله للحين ما جاني رد	wallah lilḥīn ma jāni radd	Honestly, I still haven’t received a reply
+SA	10	classic	والله اليوم عندي مشوار	wallah alyōm ʿindi mishwār	Honestly, I have an errand today
+SA	11	classic	آكل	ākil	I eat
+SA	12	classic	آكل مانجو	ākil māngo	I eat mango
+SA	13	classic	آكل مانجو كل يوم	ākil māngo kul yōm	I eat mango every day
+SA	14	classic	آكل مانجو كل يوم بالليل	ākil māngo kul yōm bil-lēl	I eat mango every evening
+SA	15	classic	أشرب	ashrab	I drink
+SA	16	classic	أشرب قهوة	ashrab gahwa	I drink coffee
+SA	17	classic	أشرب قهوة كل صباح	ashrab gahwa kul sabah	I drink coffee every morning
+SA	19	classic	أشرب	ashrab	I drink
+SA	20	classic	أشرب قهوة	ashrab gahwa	I drink coffee
+SA	21	classic	أشرب قهوة كل صباح	ashrab gahwa kul sabah	I drink coffee every morning
+SA	22	classic	أشرب قهوة كل صباح في المكتب	ashrab gahwa kul sabah fil-maktab	I drink coffee every morning at the office
+SA	23	classic	أشرب قهوة	ashrab gahwa	I drink coffee
+SA	24	classic	أشرب	ashrab	I drink
+SA	25	classic	أشرب قهوة	ashrab gahwa	I drink coffee
+SA	26	classic	أشرب قهوة كل صباح	ashrab gahwa kul sabah	I drink coffee every morning
+SA	27	classic	أشرب قهوة كل صباح في المكتب	ashrab gahwa kul sabah fil-maktab	I drink coffee every morning at the office
+SA	28	classic	أروح	arouh	I go
+SA	29	classic	أروح السوق	arouh as-soug	I go to the market
+SA	30	classic	أروح السوق بعد الدوام	arouh as-soug baad ad-dawam	I go to the market after work
+SA	31	classic	أروح السوق بعد الدوام مع صاحبي	arouh as-soug baad ad-dawam maa sahbi	I go to the market after work with my friend
+SA	32	classic	أطبخ	atbukh	I cook
+SA	33	classic	أطبخ عشاء	atbukh asha	I cook dinner
+SA	34	classic	أطبخ عشاء في البيت	atbukh asha fil-bet	I cook dinner at home
+SA	35	classic	أطبخ عشاء في البيت كل خميس	atbukh asha fil-bet kul khamees	I cook dinner at home every Thursday
+SA	36	classic	أتعلم	atallam	I learn
+SA	37	classic	أتعلم عربي	atallam arabi	I learn Arabic
+SA	38	classic	أتعلم عربي كل يوم	atallam arabi kul yawm	I learn Arabic every day
+SA	39	classic	أتعلم عربي كل يوم عشر دقايق	atallam arabi kul yawm ashar dagayig	I learn Arabic every day for ten minutes
+SA	40	classic	أسمع	asma	I listen
+SA	41	classic	أسمع بودكاست	asma podcast	I listen to a podcast
+SA	42	classic	أسمع بودكاست في السيارة	asma podcast fis-sayyarah	I listen to a podcast in the car
+SA	43	classic	أسمع بودكاست في السيارة وأنا رايح الدوام	asma podcast fis-sayyarah wa ana rayeh ad-dawam	I listen to a podcast in the car while going to work
+SA	44	classic	أرسل	arsil	I send
+SA	45	classic	أرسل رسالة	arsil risalah	I send a message
+SA	46	classic	أرسل رسالة للمدير	arsil risalah lil-mudeer	I send a message to the manager
+SA	47	classic	أرسل رسالة للمدير قبل الاجتماع	arsil risalah lil-mudeer gabl al-ijtimaa	I send a message to the manager before the meeting
+SA	48	classic	أشتري	ashtari	I buy
+SA	49	classic	أشتري خبز	ashtari khubz	I buy bread
+SA	50	classic	أشتري خبز من البقالة	ashtari khubz min al-baggalah	I buy bread from the grocery store
+SA	51	classic	أشتري خبز من البقالة قبل الفطور	ashtari khubz min al-baggalah gabl al-futoor	I buy bread from the grocery store before breakfast
+SA	52	classic	أقابل	agabil	I meet
+SA	53	classic	أقابل صاحبي	agabil sahbi	I meet my friend
+SA	54	classic	أقابل صاحبي في الكافيه	agabil sahbi fil-kafيه	I meet my friend at the café
+SA	55	classic	أقابل صاحبي في الكافيه بعد العصر	agabil sahbi fil-kafيه baad al-asr	I meet my friend at the café after Asr
+SA	56	classic	أقرأ	agra	I read
+SA	57	classic	أقرأ كتاب	agra kitab	I read a book
+SA	58	classic	أقرأ كتاب قبل النوم	agra kitab gabl an-nom	I read a book before sleep
+SA	59	classic	أقرأ كتاب قبل النوم كل ليلة	agra kitab gabl an-nom kul leilah	I read a book before sleep every night
+SA	60	classic	أفتح	aftah	I open
+SA	61	classic	أفتح الباب	aftah al-bab	I open the door
+SA	62	classic	أفتح الباب الصبح	aftah al-bab as-subh	I open the door in the morning
+SA	63	classic	أفتح الباب الصبح قبل الدوام	aftah al-bab as-subh gabl ad-dawam	I open the door in the morning before work
+SA	64	classic	ألبس	albis	I wear
+SA	65	classic	ألبس عباية	albis abayah	I wear an abaya
+SA	66	classic	ألبس عباية قبل ما أطلع	albis abayah gabl ma atla	I wear an abaya before I go out
+SA	67	classic	ألبس عباية قبل ما أطلع للسوق	albis abayah gabl ma atla lis-soug	I wear an abaya before I go out to the market
+SA	68	classic	أغسل	aghsil	I wash
+SA	69	classic	أغسل السيارة	aghsil as-sayyarah	I wash the car
+SA	70	classic	أغسل السيارة يوم الجمعة	aghsil as-sayyarah yawm al-jumuah	I wash the car on Friday
+SA	71	classic	أغسل السيارة يوم الجمعة بعد الصلاة	aghsil as-sayyarah yawm al-jumuah baad as-salah	I wash the car on Friday after prayer
+SA	72	classic	أطلب	atlub	I order
+SA	73	classic	أطلب أكل	atlub akil	I order food
+SA	74	classic	أطلب أكل من المطعم	atlub akil min al-matam	I order food from the restaurant
+SA	75	classic	أطلب أكل من المطعم وأنا في البيت	atlub akil min al-matam wa ana fil-bet	I order food from the restaurant while I’m at home
+SA	76	classic	أنتظر	antathir	I wait
+SA	77	classic	أنتظر التاكسي	antathir at-taksi	I wait for the taxi
+SA	78	classic	أنتظر التاكسي عند الباب	antathir at-taksi ind al-bab	I wait for the taxi at the door
+SA	79	classic	أنتظر التاكسي عند الباب الصبح	antathir at-taksi ind al-bab as-subh	I wait for the taxi at the door in the morning
+SA	80	classic	أنام	anam	I sleep
+SA	81	classic	أنام بدري	anam badri	I sleep early
+SA	82	classic	أنام بدري في أيام الدوام	anam badri fi ayyam ad-dawam	I sleep early on workdays
+SA	83	classic	أنام بدري في أيام الدوام عشان أصحى نشيط	anam badri fi ayyam ad-dawam ashan asha نشيط	I sleep early on workdays so I wake up active
+SA	84	classic	أنظف	anazzif	I clean
+SA	85	classic	أنظف الغرفة	anazzif al-ghurfah	I clean the room
+SA	86	classic	أنظف الغرفة قبل ما أطلع	anazzif al-ghurfah gabl ma atla	I clean the room before I go out
+SA	87	classic	أنظف الغرفة قبل ما أطلع مع أهلي	anazzif al-ghurfah gabl ma atla ma أهلي	I clean the room before I go out with my family
+SA	88	classic	ألعب	alab	I play
+SA	89	classic	ألعب كورة	alab كورah	I play football
+SA	90	classic	ألعب كورة مع أصحابي	alab كورah ma as-habi	I play football with my friends
+SA	91	classic	ألعب كورة مع أصحابي بعد المغرب	alab كورah ma as-habi baad al-maghrib	I play football with my friends after Maghrib
+SA	92	classic	أسكن	askun	I live
+SA	93	classic	أسكن في الرياض	askun fir-riyadh	I live in Riyadh
+SA	94	classic	أسكن في الرياض مع أهلي	askun fir-riyadh ma ahli	I live in Riyadh with my family
+SA	95	classic	أسكن في الرياض مع أهلي من سنتين	askun fir-riyadh ma ahli min sanatein	I have lived in Riyadh with my family for two years
+SA	96	classic	أدق	adigg	I call
+SA	97	classic	أدق على أمي	adigg ala ummi	I call my mom
+SA	98	classic	أدق على أمي كل مساء	adigg ala ummi kul masa	I call my mom every evening
+SA	99	classic	أدق على أمي كل مساء بعد العشاء	adigg ala ummi kul masa baad al-asha	I call my mom every evening after dinner
+SA	100	classic	أجهز	ajahhiz	I get ready
+SA	101	classic	أجهز شنطتي	ajahhiz shantati	I prepare my bag
+SA	102	classic	أجهز شنطتي قبل السفر	ajahhiz shantati gabl as-safar	I prepare my bag before travel
+SA	103	classic	أجهز شنطتي قبل السفر بيوم	ajahhiz shantati gabl as-safar biyom	I prepare my bag one day before travel
+SA	104	classic	أكتب	aktub	I write
+SA	105	classic	أكتب ملاحظة	aktub mulahtha	I write a note
+SA	106	classic	أكتب ملاحظة في الجوال	aktub mulahtha fil-jawwal	I write a note on my phone
+SA	107	classic	أكتب ملاحظة في الجوال قبل الاجتماع	aktub mulahtha fil-jawwal gabl al-ijtima	I write a note on my phone before the meeting
+SA	108	classic	أشحن	ashhin	I charge
+SA	109	classic	أشحن جوالي	ashhin jawwali	I charge my phone
+SA	110	classic	أشحن جوالي قبل ما أطلع	ashhin jawwali gabl ma atla	I charge my phone before going out
+SA	111	classic	أشحن جوالي قبل ما أطلع للدوام	ashhin jawwali gabl ma atla lid-dawam	I charge my phone before work
+SA	112	classic	أتمرن	atmaran	I exercise
+SA	113	classic	أتمرن في النادي	atmaran fin-nadi	I exercise at the gym
+SA	114	classic	أتمرن في النادي بعد الدوام	atmaran fin-nadi baad ad-dawam	I exercise at the gym after work
+SA	115	classic	أتمرن في النادي بعد الدوام كل ثلاثاء	atmaran fin-nadi baad ad-dawam kul thulatha	I exercise at the gym after work every Tuesday
+SA	116	classic	أصور	asawwir	I take photos
+SA	117	classic	أصور البحر	asawwir al-bahr	I take photos of the sea
+SA	118	classic	أصور البحر وقت الغروب	asawwir al-bahr wagt al-ghuroob	I take photos of the sea at sunset
+SA	119	classic	أصور البحر وقت الغروب مع صاحبي	asawwir al-bahr wagt al-ghuroob ma sahbi	I take photos of the sea at sunset with my friend
+SA	120	classic	أسوق	asoog	I drive
+SA	121	classic	أسوق السيارة	asoog as-sayyarah	I drive the car
+SA	122	classic	أسوق السيارة للدوام	asoog as-sayyarah lid-dawam	I drive the car to work
+SA	123	classic	أسوق السيارة للدوام كل يوم	asoog as-sayyarah lid-dawam kul yawm	I drive the car to work every day
+SA	124	classic	أتمشى	atamashsha	I walk
+SA	125	classic	أتمشى في الحديقة	atamashsha fil-hadigah	I walk in the park
+SA	126	classic	أتمشى في الحديقة بعد العشاء	atamashsha fil-hadigah baad al-asha	I walk in the park after dinner
+SA	127	classic	أتمشى في الحديقة بعد العشاء مع أخوي	atamashsha fil-hadigah baad al-asha ma akhoy	I walk in the park after dinner with my brother
+SA	128	classic	عندي موعد	indi maw'id	I have an appointment
+SA	129	classic	الموعد اليوم	al-maw'id al-yom	The appointment is today
+SA	130	classic	الموعد الساعة خمسة	al-maw'id as-saah khamsah	The appointment is at five
+SA	131	classic	لازم أوصل بدري	lazim awsal badri	I must arrive early
+SA	132	classic	عندي صداع	indi suda	I have a headache
+SA	133	classic	أحتاج صيدلية	ahtaj saydaliyah	I need a pharmacy
+SA	134	classic	وين أقرب صيدلية؟	wen aqrab saydaliyah?	Where is the nearest pharmacy?
+SA	135	classic	أبغى مسكن لو سمحت	abgha musakkin law samaht	I want painkiller, please
+SA	136	classic	أزور	azoor	I visit
+SA	137	classic	أزور جدي	azoor jaddi	I visit my grandfather
+SA	138	classic	أزور جدي يوم السبت	azoor jaddi yawm as-sabt	I visit my grandfather on Saturday
+SA	139	classic	أزور جدي يوم السبت بعد العصر	azoor jaddi yawm as-sabt baad al-asr	I visit my grandfather on Saturday after Asr
+SA	140	classic	أستلم	astalim	I receive
+SA	141	classic	أستلم الطلب	astalim at-talab	I receive the order
+SA	142	classic	أستلم الطلب من المندوب	astalim at-talab min al-mandoob	I receive the order from the delivery driver
+SA	143	classic	أستلم الطلب من المندوب عند الباب	astalim at-talab min al-mandoob ind al-bab	I receive the order from the delivery driver at the door
+SA	144	classic	أدفع	adfa	I pay
+SA	145	classic	أدفع بالبطاقة	adfa bil-bitagah	I pay by card
+SA	146	classic	أدفع بالبطاقة في المحل	adfa bil-bitagah fil-mahall	I pay by card at the shop
+SA	147	classic	أدفع بالبطاقة في المحل بعد ما أخلص	adfa bil-bitagah fil-mahall baad ma akhallis	I pay by card at the shop after I finish
+SA	148	classic	أنا [أشرب] قهوة كل يوم	ana [ashrab] gahwa kul yom	I [drink] coffee every day
+SA	149	classic	أنا [أشرب] قهوة كل يوم	ana [ashrab] gahwa kul yom	I drink coffee every day
+SA	150	classic	أنا [أشرب] قهوة	ana [ashrab] gahwa	I drink coffee
+SA	151	classic	أنا [آكل] تمر	ana [akil] tamr	I eat dates
+SA	152	classic	أنا [أروح] السوق	ana [arooh] as-soog	I go to the market
+SA	153	classic	أنا [أفتح] الباب	ana [aftah] al-bab	I open the door
+SA	154	classic	أنا [أرسل] رسالة	ana [arsil] risalah	I send a message
+SA	155	classic	أنا [أقرأ] كتاب	ana [agra] kitab	I read a book
+SA	156	classic	أنا [أدفع] كاش	ana [adfa] cash	I pay cash
+SA	157	classic	أنا [ألبس] عباية	ana [albis] abayah	I wear an abaya
+SA	158	cta	Comment QUIZ		Test your Arabic level
+SA	159	classic	أرتب	arratib	I arrange
+SA	160	classic	أرتب مكتبي	arratib maktabi	I arrange my office
+SA	161	classic	أرتب مكتبي كل صباح	arratib maktabi kul sabah	I arrange my office every morning
+SA	162	classic	أرتب مكتبي كل صباح قبل الدوام	arratib maktabi kul sabah gabl ad-dawam	I arrange my office every morning before work
+SA	163	classic	أرتاح	artah	I rest
+SA	164	classic	أرتاح في البيت	artah fil-bet	I rest at home
+SA	165	classic	أرتاح في البيت بعد الدوام	artah fil-bet baad ad-dawam	I rest at home after work
+SA	166	classic	أرتاح في البيت بعد الدوام شوي	artah fil-bet baad ad-dawam shway	I rest at home a little after work
+SA	167	cta	Follow for Saudi Arabic		Daily useful sentences
+SA	168	classic	أشغل	ashaghil	I turn on
+SA	169	classic	أشغل المكيف	ashaghil al-mukayyif	I turn on the AC
+SA	170	classic	أشغل المكيف في الغرفة	ashaghil al-mukayyif fil-ghurfah	I turn on the AC in the room
+SA	171	classic	أشغل المكيف في الغرفة قبل النوم	ashaghil al-mukayyif fil-ghurfah gabl an-nom	I turn on the AC in the room before sleep
+SA	172	cta	Follow for Saudi Arabic		Real daily sentences
+SA	173	classic	وش تسوي؟	wesh tsawwi?	What are you doing?
+SA	174	classic	أقفل	agfil	I turn off
+SA	175	classic	أقفل النور	agfil an-noor	I turn off the light
+SA	176	classic	أقفل النور قبل ما أطلع	agfil an-noor gabl ma atla3	I turn off the light before I leave
+SA	177	classic	أقفل النور قبل ما أطلع من البيت	agfil an-noor gabl ma atla3 min al-bayt	I turn off the light before I leave the house
+SA	178	cta	What do you say?		Practice with us every day
+SA	179	classic	هذا [مكتب]	hatha [maktab]	This is an office.
+SA	180	classic	هذه [سيارة]	hathihi [sayyarah]	This is a car.
+SA	181	classic	هذا [مطعم]	hatha [matam]	This is a restaurant.
+SA	182	classic	هذا [مطار]	hatha [matar]	This is an airport.
+SA	183	cta	Did you get all 4?		Comment your score below
+SA	184	classic	أكتب	aktub	I write
+SA	185	classic	أكتب رسالة	aktub risalah	I write a message
+SA	186	classic	أكتب رسالة لصديقي	aktub risalah li-sadeegi	I write a message to my friend
+SA	187	classic	أكتب رسالة لصديقي كل يوم	aktub risalah li-sadeegi kul yom	I write a message to my friend every day
+SA	188	cta	What's your favorite phrase?		Tell us below
+SA	189	classic	أفتح	afta7	I open
+SA	190	classic	أفتح الباب	afta7 al-bab	I open the door
+SA	191	classic	أفتح الباب بهدوء	afta7 al-bab bihudoo	I open the door quietly
+SA	192	classic	أفتح الباب لما أوصل	afta7 al-bab lamma awsal	I open the door when I arrive
+SA	193	cta	Can you say it?		Practice out loud
+SA	194	classic	ألبس	albas	I wear
+SA	195	classic	ألبس الجاكيت	albas al-jakit	I wear the jacket
+SA	196	classic	ألبس الجاكيت إذا برد	albas al-jakit iza barad	I wear the jacket when it's cold
+SA	197	classic	ألبس الجاكيت قبل ما أطلع	albas al-jakit gabl ma atla3	I wear the jacket before I go out
+SA	198	cta	Keep practicing		One phrase every day
+SA	199	classic	هذا [بيت]	hatha [bayt]	This is a house.
+SA	200	classic	هذه [مدرسة]	hathihi [madrasah]	This is a school.
+SA	201	classic	هذا [سوق]	hatha [soog]	This is a market.
+SA	202	classic	هذا [فندق]	hatha [funduq]	This is a hotel.
+SA	203	cta	How many did you get?		Tell us in the comments
+SA	204	classic	أتعلم	ata3allam	I learn
+SA	205	classic	أتعلم عربي	ata3allam 3arabi	I learn Arabic
+SA	206	classic	أتعلم عربي كل يوم	ata3allam 3arabi kul yom	I learn Arabic every day
+SA	207	classic	أتعلم عربي مع أصدقائي	ata3allam 3arabi ma3 asdiga'i	I learn Arabic with my friends
+SA	208	cta	Keep learning!		One step every day
+SA	209	classic	أشتري	ashtari	I buy
+SA	210	classic	أشتري خبز	ashtari khubz	I buy bread
+SA	211	classic	أشتري خبز كل صباح	ashtari khubz kul sabah	I buy bread every morning
+SA	212	classic	أشتري خبز من المخبز	ashtari khubz min al-makhbaz	I buy bread from the bakery
+SA	213	cta	Can you say it?		Practice with us
+SA	214	classic	هذا [مسجد]	hatha [masjid]	This is a mosque.
+SA	215	classic	هذه [حديقة]	hathihi [hadeegah]	This is a park.
+SA	216	classic	هذا [مقهى]	hatha [magha]	This is a café.
+SA	217	classic	هذا [مطار]	hatha [matar]	This is an airport.
+SA	218	cta	How many did you get right?		Comment your score
+SA	219	challenge	أنا [أشرب] قهوة كل يوم	ana [ashrab] gahwa kul yom	I drink coffee every day
+SA	220	classic	أطبخ	atbukh	I cook
+SA	221	classic	أطبخ الغدا	atbukh al-ghada	I cook lunch
+SA	222	classic	أطبخ الغدا كل يوم	atbukh al-ghada kul yom	I cook lunch every day
+SA	223	classic	أطبخ الغدا مع أمي	atbukh al-ghada ma3 ummi	I cook lunch with my mom
+SA	224	cta	Great job!		Keep practicing every day
+SA	225	classic	أقرا	agra	I read
+SA	226	classic	أقرا كتاب	agra kitab	I read a book
+SA	227	classic	أقرا كتاب قبل النوم	agra kitab gabl an-nom	I read a book before bed
+SA	228	classic	أقرا كتاب كل أسبوع	agra kitab kul usboo3	I read a book every week
+SA	229	cta	Ready for more?		Learn Saudi Arabic daily
+SA	230	classic	هذا [جسر]	hatha [jisr]	This is a bridge.
+SA	231	classic	هذه [صيدلية]	hathihi [saydaliyyah]	This is a pharmacy.
+SA	232	classic	هذا [مخبز]	hatha [makhbaz]	This is a bakery.
+SA	233	classic	هذه [مكتبة]	hathihi [maktabah]	This is a library.
+SA	234	cta	How many did you get?		Comment your score
+SA	235	challenge	أنا [أشرب] قهوة كل صباح	ana [ashrab] gahwa kul sabah	I drink coffee every morning.
+SA	236	challenge	هو [يسوق] السيارة كل يوم	huwa [yasoog] as-sayyarah kul yom	He drives the car every day.
+SA	237	challenge	هي [تطبخ] العشا الليلة	heya [tatbukh] al-3asha al-laylah	She cooks dinner tonight.
+SA	238	challenge	إحنا [نروح] السوق بعد الشغل	e7na [naroo7] as-soog ba3d ash-shughl	We go to the market after work.
+SA	239	classic	أصحى	asha	I wake up
+SA	240	classic	أصحى بدري	asha badri	I wake up early
+SA	241	classic	أصحى بدري كل يوم	asha badri kul yom	I wake up early every day
+SA	242	classic	أصحى بدري عشان الدوام	asha badri 3ashan ad-dawam	I wake up early for work
+SA	243	cta	Great work!		Keep learning daily
+SA	244	classic	أتفرج	atfarraj	I watch
+SA	245	classic	أتفرج فيلم	atfarraj film	I watch a movie
+SA	246	classic	أتفرج فيلم مع أصحابي	atfarraj film ma3 as7abi	I watch a movie with my friends
+SA	247	classic	أتفرج فيلم في الويكند	atfarraj film fil-weekend	I watch a movie on the weekend
+SA	248	cta	Ready for more?		Learn Saudi Arabic every day
+SA	253	cta	Keep it up!		Learn one phrase a day
+SA	254	classic	أشتغل	ashtaghil	I work
+SA	255	classic	أشتغل في المكتب	ashtaghil fil-maktab	I work in the office
+SA	256	classic	أشتغل في المكتب كل يوم	ashtaghil fil-maktab kul yom	I work in the office every day
+SA	257	classic	أشتغل في المكتب مع فريقي	ashtaghil fil-maktab ma3 fareegi	I work in the office with my team
+SA	258	cta	You're doing great!		Practice every day
+SA	259	classic	أذاكر	athakir	I study
+SA	260	classic	أذاكر في البيت	athakir fil-bayt	I study at home
+SA	261	classic	أذاكر في البيت كل ليلة	athakir fil-bayt kul laylah	I study at home every night
+SA	262	classic	أذاكر في البيت مع أخوي	athakir fil-bayt ma3 akhoy	I study at home with my brother
+SA	263	cta	Awesome progress!		Learn every day
+SA	264	challenge	أنا [ألبس] الجاكيت إذا برد	ana [albas] al-jakit iza barad	I wear the jacket when it's cold.
+SA	265	challenge	هو [يقرأ] كتاب قبل النوم	huwa [yigra] kitab gabl an-nom	He reads a book before bed.
+SA	266	challenge	هي [تفتح] الباب بهدوء	heya [tifta7] al-bab bihudoo	She opens the door quietly.
+SA	267	challenge	إحنا [نتمشى] في الحديقة كل مساء	e7na [natamashsha] fil-hadeegah kul masa	We walk in the park every evening.
+SA	268	classic	أركض	arkud	I run
+SA	269	classic	أركض كل صباح	arkud kul sabah	I run every morning
+SA	270	classic	أركض في الحديقة	arkud fil-hadeegah	I run in the park
+SA	271	classic	أركض في الحديقة مع صديقي	arkud fil-hadeegah ma3 sadeegi	I run in the park with my friend
+SA	272	cta	Keep going!		Practice every day
+SA	273	classic	أسمع	asma3	I listen
+SA	274	classic	أسمع موسيقى	asma3 mooseeqa	I listen to music
+SA	275	classic	أسمع موسيقى في السيارة	asma3 mooseeqa fis-sayyarah	I listen to music in the car
+SA	276	classic	أسمع موسيقى وأنا راجع البيت	asma3 mooseeqa wa ana raje3 al-bayt	I listen to music while going home
+SA	277	cta	You're improving!		Learn Saudi Arabic daily
+SA	278	challenge	أنا [أكتب] رسالة لصديقي	ana [aktub] risalah lisadeegi	I write a message to my friend.
+SA	279	challenge	هو [يشرب] موية بعد التمرين	huwa [yishrab] moyah ba3d at-tamreen	He drinks water after the workout.
+SA	280	challenge	هي [تغسل] السيارة اليوم	heya [taghsil] as-sayyarah al-yom	She washes the car today.
+SA	281	challenge	إحنا [نزور] جدتي في الويكند	e7na [nazoor] jaddati fil-weekend	We visit our grandmother on the weekend.
+SA	282	classic	أتصل	attasil	I call
+SA	283	classic	أتصل بصديقي	attasil bisadeegi	I call my friend
+SA	284	classic	أتصل بصديقي بعد الدوام	attasil bisadeegi ba3d ad-dawam	I call my friend after work
+SA	285	classic	أتصل بصديقي كل يوم	attasil bisadeegi kul yom	I call my friend every day
+SA	286	cta	Great job!		Learn Saudi Arabic every day
+SA	287	challenge	أنا [أشرب] قهوة كل صباح	ana [ashrab] gahwa kul sabah	I drink coffee every morning.
+SA	288	challenge	هو [يسوق] السيارة كل يوم	huwa [yasoog] as-sayyarah kul yom	He drives the car every day.
+SA	289	challenge	هي [تطبخ] العشا الليلة	heya [tatbukh] al-3asha al-laylah	She cooks dinner tonight.
+SA	290	challenge	إحنا [نزور] جدتي في الويكند	e7na [nazoor] jaddati fil-weekend	We visit our grandmother on the weekend.
+SA	291	classic	أنا [أشرب] قهوة كل صباح	ana [ashrab] gahwa kul sabah	I drink coffee every morning.
+SA	292	classic	هو [يسوق] السيارة كل يوم	huwa [yasoog] as-sayyarah kul yom	He drives the car every day.
+SA	293	classic	هي [تطبخ] العشا الليلة	heya [tatbukh] al-3asha al-laylah	She cooks dinner tonight.
+SA	294	challenge	إحنا [نزور] جدتي في الويكند	e7na [nazoor] jaddati fil-weekend	We visit our grandmother on the weekend.
+SA	295	classic	أنا [ألبس] الجاكيت إذا برد	ana [albas] al-jakit itha barad	I wear a jacket when it's cold.
+SA	296	classic	هو [يفتح] الباب بسرعة	huwa [yafta7] al-bab bisur'ah	He opens the door quickly.
+SA	297	classic	هي [تقرأ] كتاب قبل النوم	heya [tagra] kitab gabl an-nawm	She reads a book before bed.
+SA	298	challenge	إحنا [نروح] المطعم بعد الدوام	e7na [nroo7] al-mat3am ba3d ad-dawam	We go to the restaurant after work.
+SA	299	classic	أنا [أطلب] قهوة بدون سكر	ana [atlub] gahwa bidoon sukkar	I order coffee without sugar.
+SA	300	classic	هو [يلعب] كورة مع أصحابه	huwa [yil3ab] koorah ma3 as7abah	He plays football with his friends.
+SA	301	classic	هي [تنظف] الغرفة اليوم	heya [tnaththif] al-ghurfah al-yom	She cleans the room today.
+SA	302	challenge	إحنا [نسافر] الرياض بكرة	e7na [nsafir] ar-Riyadh bukrah	We travel to Riyadh tomorrow.
+SA	303	classic	أنا [أكتب] واجبي بعد المدرسة	ana [aktub] wajibi ba3d al-madrasah	I do my homework after school.
+SA	304	classic	هو [يشاهد] مباراة الليلة	huwa [yishahid] mubarah al-laylah	He watches the match tonight.
+SA	305	classic	هي [تشتري] فاكهة من السوق	heya [tishtari] fakihah min as-soog	She buys fruit from the market.
+SA	306	challenge	إحنا [نجتمع] مع العائلة يوم الجمعة	e7na [nijtami3] ma3 al-3a'ilah yawm al-jum3ah	We meet with the family on Friday.
+SA	307	classic	أنا [أنتظر] الباص كل صباح	ana [antathir] al-bas kul sabah	I wait for the bus every morning.
+SA	308	classic	هو [يغسل] السيارة يوم السبت	huwa [yaghsil] as-sayyarah yawm as-sabt	He washes the car on Saturday.
+SA	309	classic	هي [تساعد] أمها في المطبخ	heya [tisa3id] ummaha fil-matbakh	She helps her mother in the kitchen.
+SA	310	challenge	إحنا [نشرب] شاي بعد العشا	e7na [nishrab] shay ba3d al-3asha	We drink tea after dinner.
+SA	311	classic	أنتظر	antathir	I wait
+SA	312	classic	أنتظر الباص	antathir al-bas	I wait for the bus
+SA	313	classic	أنتظر الباص كل صباح	antathir al-bas kul sabah	I wait for the bus every morning.
+SA	314	classic	أنتظر الباص قبل الدوام	antathir al-bas gabl ad-dawam	I wait for the bus before work.
+SA	315	cta	Great job!		Practice every day
+SA	316	classic	أساعد	asa3id	I help
+SA	317	classic	أساعد أمي	asa3id ummi	I help my mom
+SA	318	classic	أساعد أمي في المطبخ	asa3id ummi fil-matbakh	I help my mom in the kitchen.
+SA	319	classic	أساعد أمي كل يوم	asa3id ummi kul yom	I help my mom every day.
+SA	320	cta	Awesome!		Keep learning Saudi Arabic
+SA	321	classic	أتعلم	ata3allam	I learn
+SA	322	classic	أتعلم عربي	ata3allam 3arabi	I learn Arabic
+SA	323	classic	أتعلم عربي كل يوم	ata3allam 3arabi kul yom	I learn Arabic every day.
+SA	324	classic	أتعلم عربي مع صديقي	ata3allam 3arabi ma3 sadeegi	I learn Arabic with my friend.
+SA	325	cta	Well done!		Learn a little every day
+SA	326	classic	أطبخ	atbukh	I cook
+SA	327	classic	أطبخ العشا	atbukh al-3asha	I cook dinner
+SA	328	classic	أطبخ العشا لعيلتي	atbukh al-3asha li3ailti	I cook dinner for my family.
+SA	329	classic	أطبخ العشا في البيت	atbukh al-3asha fil-bait	I cook dinner at home.
+SA	330	cta	Keep going!		Practice Saudi Arabic daily
+SA	331	classic	أنا [أمشي] للدوام كل صباح	ana [amshi] lid-dawam kul sabah	I walk to work every morning.
+SA	332	classic	هو [يلبس] الشماغ في المناسبات	huwa [yalbas] ash-shimagh fil-munasabat	He wears the shemagh on special occasions.
+SA	333	classic	هي [تشرب] شاي بعد العشا	heya [tishrab] shay ba3d al-3asha	She drinks tea after dinner.
+SA	334	challenge	إحنا [نجلس] في الكوفي بعد الدوام	e7na [nijlis] fil-kofi ba3d ad-dawam	We sit at the café after work.
+SA	335	classic	ألعب	al3ab	I play
+SA	336	classic	ألعب كورة	al3ab koorah	I play football
+SA	337	classic	ألعب كورة مع أصحابي	al3ab koorah ma3 as7abi	I play football with my friends.
+SA	338	classic	ألعب كورة بعد الدوام	al3ab koorah ba3d ad-dawam	I play football after work.
+SA	339	cta	Great job!		Learn one phrase every day
+SA	340	classic	أشتري	ashtari	I buy
+SA	341	classic	أشتري فاكهة	ashtari fakihah	I buy fruit
+SA	342	classic	أشتري فاكهة من السوق	ashtari fakihah min as-soog	I buy fruit from the market.
+SA	343	classic	أشتري فاكهة لعيلتي	ashtari fakihah li3ailti	I buy fruit for my family.
+SA	344	cta	Nice work!		Speak Saudi Arabic with confidence
+SA	345	classic	أنا [أشتري] قهوة كل صباح	ana [ashtari] gahwa kul sabah	I buy coffee every morning.
+SA	346	classic	هو [يشغل] المكيف إذا حر	huwa [yishghil] al-mukayyif itha harr	He turns on the air conditioner when it's hot.
+SA	347	classic	هي [تطبخ] الغدا اليوم	heya [tatbukh] al-ghada al-yom	She cooks lunch today.
+SA	348	challenge	إحنا [نجتمع] مع الأصحاب بالويكند	e7na [nijtami3] ma3 al-ashab bil-weekend	We meet our friends on the weekend.
+SA	349	classic	أستأجر	asta'jir	I rent
+SA	350	classic	أستأجر سيارة	asta'jir sayyarah	I rent a car
+SA	351	classic	أستأجر سيارة في السفر	asta'jir sayyarah fis-safar	I rent a car when I travel.
+SA	352	classic	أستأجر سيارة أسبوع كامل	asta'jir sayyarah usboo3 kamil	I rent a car for a whole week.
+SA	353	cta	Awesome!		Learn Saudi Arabic every day
+SA	354	classic	أرتب	arattib	I organize
+SA	355	classic	أرتب مكتبي	arattib maktabi	I organize my desk
+SA	356	classic	أرتب مكتبي قبل الدوام	arattib maktabi gabl ad-dawam	I organize my desk before work.
+SA	357	classic	أرتب مكتبي كل يوم جمعة	arattib maktabi kul yom jum3ah	I organize my desk every Friday.
+SA	358	cta	Great job!		Keep practicing with Speak Saudi
+SA	359	classic	أنا [أحجز] غرفة بالفندق	ana [a7jiz] ghurfah fil-funduq	I book a hotel room.
+SA	360	classic	هو [يستقبل] الضيوف بابتسامة	huwa [yistaqbil] ad-dhuyouf bibtisamah	He welcomes the guests with a smile.
+SA	361	classic	هي [تغسل] الملابس اليوم	heya [taghsil] al-malabis al-yom	She washes the clothes today.
+SA	362	challenge	إحنا [نزور] المتحف بكرة	e7na [nzour] al-mat7af bukrah	We visit the museum tomorrow.
+SA	363	classic	أستلم	astalim	I receive
+SA	364	classic	أستلم طرد	astalim tarad	I receive a package
+SA	365	classic	أستلم طرد من البريد	astalim tarad min al-barid	I receive a package from the post office.
+SA	366	classic	أستلم طرد الصباح	astalim tarad aS-Saba7	I receive a package in the morning.
+SA	367	cta	Excellent!		Build your Saudi Arabic every day
+SA	368	classic	أصلح	aSalla7	I fix
+SA	369	classic	أصلح الدراجة	aSalla7 ad-darrajah	I fix the bicycle
+SA	370	classic	أصلح الدراجة في البيت	aSalla7 ad-darrajah fil-bait	I fix the bicycle at home.
+SA	371	classic	أصلح الدراجة مع أخوي	aSalla7 ad-darrajah ma3 akhoy	I fix the bicycle with my brother.
+SA	372	cta	Keep going!		One lesson a day makes a difference
+SA	373	classic	أنا [أرسل] إيميل للمدير	ana [arsil] email lil-mudeer	I send an email to the manager.
+SA	374	classic	هو [ينتظر] القطار بالمحطة	huwa [yintathir] al-qitar bil-mahattah	He waits for the train at the station.
+SA	375	classic	هي [ترتب] الغرفة قبل الضيوف	heya [tirattib] al-ghurfah gabl ad-dhuyouf	She tidies the room before the guests arrive.
+SA	376	challenge	إحنا [نستأجر] سيارة للإجازة	e7na [nista'jir] sayyarah lil-ijazah	We rent a car for the vacation.
+SA	377	classic	أكنس	aknis	I sweep
+SA	378	classic	أكنس الصالة	aknis aS-Salah	I sweep the living room
+SA	379	classic	أكنس الصالة كل أسبوع	aknis aS-Salah kul usboo3	I sweep the living room every week.
+SA	380	classic	أكنس الصالة قبل الزيارة	aknis aS-Salah gabl az-ziyarah	I sweep the living room before the visit.
+SA	381	cta	Well done!		Keep learning Saudi Arabic
+SA	382	classic	أستعير	asta3eer	I borrow
+SA	383	classic	أستعير كتاب	asta3eer kitab	I borrow a book
+SA	384	classic	أستعير كتاب من المكتبة	asta3eer kitab min al-maktabah	I borrow a book from the library.
+SA	385	classic	أستعير كتاب كل شهر	asta3eer kitab kul shahar	I borrow a book every month.
+SA	386	cta	Awesome!		Practice a little every day
+SA	387	classic	أنا [أقود] السيارة للجامعة	ana [agood] as-sayyarah lil-jami3ah	I drive the car to the university.
+SA	388	classic	هو [يشرح] الدرس للطلاب	huwa [yishra7] ad-dars lil-tullab	He explains the lesson to the students.
+SA	389	classic	هي [تختار] فستان للحفلة	heya [tikhtar] fustan lil-7aflah	She chooses a dress for the party.
+SA	390	challenge	إحنا [نحضر] الاجتماع بدري	e7na [na7dur] al-ijtima3 badri	We attend the meeting early.
+SA	391	classic	أغسل	aghsil	I wash
+SA	392	classic	أغسل الصحون	aghsil aS-Su7oon	I wash the dishes
+SA	393	classic	أغسل الصحون بعد العشا	aghsil aS-Su7oon ba3d al-3asha	I wash the dishes after dinner.
+SA	394	classic	أغسل الصحون مع أختي	aghsil aS-Su7oon ma3 ukhti	I wash the dishes with my sister.
+SA	395	cta	Excellent!		Keep practicing every day
+SA	396	classic	أزرع	azra3	I plant
+SA	397	classic	أزرع ورد	azra3 ward	I plant flowers
+SA	398	classic	أزرع ورد في الحديقة	azra3 ward fil-7adeegah	I plant flowers in the garden.
+SA	399	classic	أزرع ورد مع جيراني	azra3 ward ma3 jirani	I plant flowers with my neighbors.
+SA	400	cta	Great job!		Learn Saudi Arabic one step at a time
+SA	401	classic	أنا [أتصل] بصاحبي بعد الدوام	ana [attasil] biSa7bi ba3d ad-dawam	I call my friend after work.
+SA	402	classic	هو [يوقف] السيارة قدام البيت	huwa [yowaggif] as-sayyarah gaddam al-bait	He parks the car in front of the house.
+SA	403	classic	هي [تلبس] العباية للمناسبة	heya [tilbas] al-3abayah lil-munasabah	She wears an abaya for the occasion.
+SA	404	challenge	إحنا [نتمشى] على البحر بالليل	e7na [natamashsha] 3ala al-ba7r bil-layl	We walk by the sea at night.
+SA	405	classic	ما أتكلم عربي	ma atakallam arabi	I don’t speak Arabic
+SA	406	classic	أنا أتعلم عربي	ana atallam arabi	I am learning Arabic
+SA	407	classic	أتكلم عربي شوي	atakallam arabi shway	I speak a little Arabic
+SA	408	classic	أفهم عربي شوي	afham arabi shway	I understand a little Arabic
+SA	409	classic	ممكن تتكلم شوي شوي؟	mumkin titakallam shway shway?	Can you speak slowly?
+SA	410	classic	ممكن تقولها مرة ثانية؟	mumkin tgoolha marrah thanyah?	Can you say it again?
+SA	411	classic	أتدرب	atdarrab	I train
+SA	412	classic	أتدرب بالنادي	atdarrab bin-nadi	I train at the gym
+SA	413	classic	أتدرب بالنادي ثلاث مرات بالأسبوع	atdarrab bin-nadi thalath marrat bil-usboo3	I train at the gym three times a week.
+SA	414	classic	أتدرب مع المدرب كل اثنين	atdarrab ma3 al-mudarrib kul ithnayn	I train with the coach every Monday.
+SA	415	cta	Amazing!		Keep improving your Saudi Arabic
+SA	416	classic	أصور	aSawwir	I take photos
+SA	417	classic	أصور الطبيعة	aSawwir aT-Tabee3ah	I take photos of nature
+SA	418	classic	أصور الطبيعة في الويكند	aSawwir aT-Tabee3ah fil-weekend	I take photos of nature on the weekend.
+SA	419	classic	أصور الطبيعة مع أصحابي	aSawwir aT-Tabee3ah ma3 aS7abi	I take photos of nature with my friends.
+SA	420	cta	Awesome!		Practice one lesson every day
+SA	421	classic	أنا [أدفع] الفاتورة بالكرت	ana [adfa3] al-fatourah bil-kart	I pay the bill by card.
+SA	422	classic	هو [يصور] المبنى الجديد	huwa [yuSawwir] al-mabna al-jadeed	He photographs the new building.
+SA	423	classic	هي [تسقي] الزرع كل صباح	heya [tisgi] az-zar3 kul sabah	She waters the plants every morning.
+SA	424	challenge	إحنا [نكتشف] مكان جديد بالإجازة	e7na [niktishif] makan jadeed bil-ijazah	We discover a new place on vacation.
+SA	425	classic	أخبز	akhbiz	I bake
+SA	426	classic	أخبز خبز	akhbiz khubz	I bake bread
+SA	427	classic	أخبز خبز طازج	akhbiz khubz tazij	I bake fresh bread.
+SA	428	classic	أخبز خبز لعيلتي	akhbiz khubz li3ailti	I bake bread for my family.
+SA	429	cta	Fantastic!		Keep learning Saudi Arabic
+SA	430	classic	أرسم	arsum	I draw
+SA	431	classic	أرسم لوحة	arsum lohah	I draw a painting
+SA	432	classic	أرسم لوحة بالبيت	arsum lohah bil-bait	I draw a painting at home.
+SA	433	classic	أرسم لوحة وقت الفراغ	arsum lohah wagt al-faragh	I draw a painting in my free time.
+SA	434	cta	Great work!		Practice every day
+SA	435	classic	أنا [أوقظ] أخوي بدري	ana [awaggith] akhoy badri	I wake my brother up early.
+SA	436	classic	هو [يبدل] ملابسه قبل الخروج	huwa [yibaddil] malabisah gabl al-khurooj	He changes his clothes before going out.
+SA	437	classic	هي [تحضر] القهوة للضيوف	heya [ti7aDDar] al-gahwah lidh-dhuyouf	She prepares coffee for the guests.
+SA	438	challenge	إحنا [نودع] أصحابنا بالمطار	e7na [nuwaddi3] aS7abna bil-maTar	We say goodbye to our friends at the airport.
+SA	439	classic	أتصل	attasil	I call
+SA	440	classic	أتصل بأمي	attasil bi-ummi	I call my mom
+SA	441	classic	أتصل بأمي بعد الدوام	attasil bi-ummi ba3d ad-dawam	I call my mom after work.
+SA	442	classic	أتصل بأمي كل يوم	attasil bi-ummi kul yom	I call my mom every day.
+SA	443	cta	Awesome!		Keep practicing Saudi Arabic
+SA	444	classic	أقص	agoSS	I cut
+SA	445	classic	أقص الورق	agoSS al-waraq	I cut the paper
+SA	446	classic	أقص الورق للمشروع	agoSS al-waraq lil-mashroo3	I cut the paper for the project.
+SA	447	classic	أقص الورق بالمقص	agoSS al-waraq bil-magaSS	I cut the paper with scissors.
+SA	448	cta	Great job!		Learn one new phrase every day
+SA	449	classic	أنا [أشحن] جوالي قبل النوم	ana [ash7in] jawwali gabl an-nawm	I charge my phone before bed.
+SA	450	classic	هو [يختار] كرسي قريب من الشباك	huwa [yikhtar] kursi gareeb min ash-shubbak	He chooses a seat near the window.
+SA	451	classic	هي [تكنس] الحوش الصباح	heya [tiknis] al-7awsh aS-Saba7	She sweeps the yard in the morning.
+SA	452	challenge	إحنا [نركب] المترو للمدينة	e7na [nirkab] al-mitro lil-madinah	We take the metro to the city.
+SA	453	classic	أسبح	asba7	I swim
+SA	454	classic	أسبح في المسبح	asba7 fil-misba7	I swim in the pool
+SA	455	classic	أسبح في المسبح كل جمعة	asba7 fil-misba7 kul jum3ah	I swim in the pool every Friday.
+SA	456	classic	أسبح مع أصحابي بالصيف	asba7 ma3 aS7abi biS-Saif	I swim with my friends in the summer.
+SA	457	cta	Keep going!		Learn Saudi Arabic daily
+SA	458	classic	أراجع	araji3	I review
+SA	459	classic	أراجع دروسي	araji3 duroosi	I review my lessons
+SA	460	classic	أراجع دروسي قبل الاختبار	araji3 duroosi gabl al-ikhtibar	I review my lessons before the exam.
+SA	461	classic	أراجع دروسي مع زميلي	araji3 duroosi ma3 zameeli	I review my lessons with my classmate.
+SA	462	cta	Excellent!		One lesson every day
+SA	463	classic	أنا [أغلق] الباب قبل النوم	ana [aghlig] al-bab gabl an-nawm	I close the door before bed.
+SA	464	classic	هو [يصلح] الكمبيوتر اليوم	huwa [yiSalli7] al-kumbiyuter al-yom	He fixes the computer today.
+SA	465	classic	هي [تزرع] شجرة بالحديقة	heya [tizra3] shajarah bil-7adeegah	She plants a tree in the garden.
+SA	466	challenge	إحنا [نحجز] تذاكر السفر بدري	e7na [na7jiz] tadhakir as-safar badri	We book the travel tickets early.
+SA	467	classic	أبدل	abaddil	I change
+SA	468	classic	أبدل ملابسي	abaddil malabsi	I change my clothes
+SA	469	classic	أبدل ملابسي بعد التمرين	abaddil malabsi ba3d at-tamreen	I change my clothes after the workout.
+SA	470	classic	أبدل ملابسي قبل الخروج	abaddil malabsi gabl al-khurooj	I change my clothes before going out.
+SA	471	cta	Awesome!		Keep learning every day
+SA	472	classic	أمسح	amsa7	I wipe
+SA	473	classic	أمسح الطاولة	amsa7 aT-Tawlah	I wipe the table
+SA	474	classic	أمسح الطاولة بعد الأكل	amsa7 aT-Tawlah ba3d al-akl	I wipe the table after eating.
+SA	475	classic	أمسح الطاولة كل مساء	amsa7 aT-Tawlah kul masa	I wipe the table every evening.
+SA	476	cta	Excellent!		Practice Saudi Arabic daily
+SA	477	classic	أنا [أعلق] اللوحة على الجدار	ana [a3allig] al-lo7ah 3ala al-jidar	I hang the picture on the wall.
+SA	478	classic	هو [يجمع] الألعاب بعد اللعب	huwa [yijamma3] al-al3ab ba3d al-la3ib	He collects the toys after playing.
+SA	479	classic	هي [تغلف] الهدية اليوم	heya [tighallif] al-hadiyyah al-yom	She wraps the gift today.
+SA	480	challenge	إحنا [نشارك] بالمسابقة بكرة	e7na [nisharik] bil-musabaqah bukrah	We participate in the competition tomorrow.
+SA	481	classic	أستبدل	astabdil	I replace
+SA	482	classic	أستبدل البطارية	astabdil al-baTTariyyah	I replace the battery
+SA	483	classic	أستبدل البطارية إذا خلصت	astabdil al-baTTariyyah itha khalaSat	I replace the battery when it runs out.
+SA	484	classic	أستبدل البطارية بنفسي	astabdil al-baTTariyyah binafsi	I replace the battery myself.
+SA	485	cta	Keep learning!		One new phrase every day
+SA	486	classic	أجمع	ajma3	I collect
+SA	487	classic	أجمع الطرود	ajma3 aT-Turud	I collect the packages
+SA	488	classic	أجمع الطرود من المكتب	ajma3 aT-Turud min al-maktab	I collect the packages from the office.
+SA	489	classic	أجمع الطرود قبل الظهر	ajma3 aT-Turud gabl aD-Dhuhr	I collect the packages before noon.
+SA	490	cta	Awesome!		Practice Saudi Arabic daily
+SA	491	classic	أنا [أوفر] فلوسي للسفر	ana [awaffir] floosi lis-safar	I save my money for travel.
+SA	492	classic	هو [يقيس] الطاولة قبل الشراء	huwa [yigees] aT-Tawlah gabl ash-shira	He measures the table before buying it.
+SA	493	classic	هي [تزين] الغرفة بالورود	heya [tzayyin] al-ghurfah bil-wurood	She decorates the room with flowers.
+SA	494	challenge	إحنا [نحتفل] بعيد الميلاد الليلة	e7na [ni7tifil] bi3eed al-meelad al-laylah	We celebrate a birthday tonight.
+SA	495	classic	لازم أصحى بدري	lazim asha badri	I have to wake up early
+SA	496	classic	لازم أروح الدوام	lazim arooh ad-dawam	I have to go to work
+SA	497	classic	لازم أذاكر اليوم	lazim athakir alyom	I have to study today
+SA	498	classic	لازم أرسل الرسالة	lazim arsil ar-risalah	I have to send the message
+SA	499	classic	لازم أشتري خبز	lazim ashtari khubz	I have to buy bread
+SA	500	classic	لازم أنام بدري	lazim anam badri	I have to sleep early
+SA	501	classic	أبغى أصحى بدري	abgha asha badri	I want to wake up early
+SA	502	classic	أبغى أتعلم عربي	abgha atallam arabi	I want to learn Arabic
+SA	503	classic	أبغى أروح السوق	abgha arooh as-soog	I want to go to the market
+SA	504	classic	أبغى أطلب قهوة	abgha atlub gahwa	I want to order coffee
+SA	505	classic	أبغى أقابل صاحبي	abgha agabil sahbi	I want to meet my friend
+SA	506	classic	أبغى أرتاح شوي	abgha artah shway	I want to rest a little
+SA	507	classic	أعلق	a3allig	I hang
+SA	508	classic	أعلق الصورة	a3allig aS-Soorah	I hang the picture
+SA	509	classic	أعلق الصورة في الصالة	a3allig aS-Soorah fiS-Salah	I hang the picture in the living room.
+SA	510	classic	أعلق الصورة فوق الكنبة	a3allig aS-Soorah fawg al-kanabah	I hang the picture above the sofa.
+SA	511	cta	Nice work!		Learn Saudi Arabic every day
+SA	512	classic	أطفي	aTfi	I turn off
+SA	513	classic	أطفي النور	aTfi an-noor	I turn off the light
+SA	514	classic	أطفي النور قبل النوم	aTfi an-noor gabl an-nawm	I turn off the light before bed.
+SA	515	classic	أطفي النور إذا طلعت	aTfi an-noor itha Tila3t	I turn off the light when I leave.
+SA	516	cta	Keep going!		Practice one phrase a day
+SA	517	classic	أنا [أصلح] الباب اليوم	ana [aSalli7] al-bab al-yom	I fix the door today.
+SA	518	classic	هو [يرتب] الملفات بالمكتب	huwa [yirattib] al-malaffat bil-maktab	He organizes the files in the office.
+SA	519	classic	هي [تملأ] الزجاجة بالموية	heya [timla] az-zujajah bil-moyah	She fills the bottle with water.
+SA	520	challenge	إحنا [نبدل] أماكننا بالطاولة	e7na [nibaddil] amakinna biT-Tawlah	We change our seats at the table.
+SA	521	classic	ألمع	alma3	I polish
+SA	522	classic	ألمع حذائي	alma3 7itha'i	I polish my shoes
+SA	523	classic	ألمع حذائي قبل الدوام	alma3 7itha'i gabl ad-dawam	I polish my shoes before work.
+SA	524	classic	ألمع حذائي كل أسبوع	alma3 7itha'i kul usboo3	I polish my shoes every week.
+SA	525	cta	Fantastic!		Learn Saudi Arabic daily
+SA	526	classic	أعبي	a3abbi	I fill
+SA	527	classic	أعبي موية	a3abbi moyah	I fill water
+SA	528	classic	أعبي موية قبل الرياضة	a3abbi moyah gabl ar-riyaDah	I fill my water bottle before exercising.
+SA	529	classic	أعبي موية للسفر	a3abbi moyah lis-safar	I fill my water bottle for the trip.
+SA	530	cta	Great job!		Keep practicing every day
+SA	531	classic	أنا [أقيس] الطاولة قبل الشراء	ana [agees] aT-Tawlah gabl ash-shira	I measure the table before buying it.
+SA	532	classic	هو [ينظف] الحذاء بعد المشي	huwa [yinaDDFif] al-7itha ba3d al-mashi	He cleans the shoes after walking.
+SA	533	classic	هي [تعلق] المفاتيح عند الباب	heya [ti3allig] al-mafatih 3ind al-bab	She hangs the keys by the door.
+SA	534	challenge	إحنا [نجرب] مطعم جديد الليلة	e7na [nijarrib] maT3am jadeed al-laylah	We try a new restaurant tonight.
+SA	535	classic	أقدر أساعدك الحين	agdar asaadak alhin	I can help you now
+SA	536	classic	أقدر أجي بكرة	agdar aji bukra	I can come tomorrow
+SA	537	classic	أقدر أتكلم عربي	agdar atakallam arabi	I can speak Arabic
+SA	538	classic	أقدر أدفع بالبطاقة	agdar adfa bil-bitagah	I can pay by card
+SA	539	classic	أقدر أرسل الموقع	agdar arsil al-mowgi	I can send the location
+SA	540	classic	أقدر أفتح الباب	agdar aftah al-bab	I can open the door
+SA	541	classic	خلني أفكر شوي	khallini afakkir shway	Let me think for a moment.
+SA	542	classic	بخلص هالشي أول	bakhalliS hal-shay awwal	I'll finish this first.
+SA	543	classic	ما أقدر أطلع الحين	ma agdar aTla3 al-7een	I can't go out right now.
+SA	544	classic	بمر عليك بعد شوي	bamurr 3alayk ba3d shway	I'll stop by in a little while.
+SA	545	classic	دقيقة وبكون معك	dageegah wabakoon ma3ak	Give me a minute and I'll be with you.
+SA	546	classic	بكلمك إذا فضيت	bakallimak itha faDeet	I'll call you when I'm free.
+SA	547	classic	خلها لبعدين	khalliha liba3dayn	Let's leave it for later.
+SA	548	classic	مو وقته الحين	moo wagtah al-7een	Now isn't the right time.
+SA	549	classic	بخلص اللي بيدي أول	bakhalliS alli biyadi awwal	I'll finish what I'm doing first.
+SA	550	classic	إذا خلصت بخبرك	itha khalaSt bakhabbirak	I'll let you know when I'm done.
+SA	551	classic	تقدر تساعدني شوي الحين؟	tagdar tusaadni shway alhin?	Can you help me now?
+SA	552	classic	الجوال ما يشتغل عندي	al-jawwal ma yishtaghil indi	My phone isn’t working
+SA	553	classic	أنا تعبان مرة اليوم	ana taaban marrah al-yom	I’m really tired today
+SA	554	classic	وين أقرب بقالة هنا؟	ween aqrab baggalah hina?	Where’s the nearest grocery here?
+SA	555	classic	خلينا نطلع بعدين شوي	khalina nitla baadeen shway	Let’s go out a bit later
+SA	556	reveal	Feelings in Saudi Arabic		reveal: 7 rows
+SA	557	classic	أنا أبغى موية باردة	ana abgha moya bārdah	I want cold water
+SA	558	classic	أنا جالس في الصالة	ana jālis fis-sālah	I’m sitting in the living room
+SA	559	classic	أنا رايح للمطعم الحين	ana rāyih lil-matam alhin	I’m going to the restaurant now
+SA	560	classic	أنا ناسي مفتاح البيت	ana nāsi miftāh al-bet	I forgot the house key
+SA	561	classic	أنا أحتاج مساعدة شوي	ana ahtāj musāʿadah shway	I need a little help
+SA	562	classic	بنتفاهم بعدين	bintafahim ba3dayn	We'll talk it through later.
+SA	563	classic	أحتاج شوي وقت	a7taj shway wagt	I need a little time.
+SA	564	classic	خلني أراجع أول	khallini araji3 awwal	Let me check first.
+SA	565	classic	بخلصه اليوم إن شاء الله	bakhalliSah al-yom inshallah	I'll finish it today, God willing.
+SA	566	classic	لا تستعجل علي	la tista3jil 3alay	Don't rush me.
+SA	567	classic	وين أقرب صراف؟	wayn agrab Sarraf?	Where's the nearest ATM?
+SA	568	classic	ممكن تعيد الكلام؟	mumkin t3eed al-kalam?	Could you say that again?
+SA	569	classic	طلبي للحين ما وصل	Talabi lil7een ma waSal	My order still hasn't arrived.
+SA	570	classic	تكفى ساعدني شوي	takfa sa3idni shway	Please help me for a moment.
+SA	571	classic	ما فهمت عليك زين	ma fahimt 3alayk zayn	I didn't understand you very well.
+SA	572	classic	وش تقصد؟	wush tagSid?	What do you mean?
+SA	573	classic	لا تشيل هم	la tsheel hamm	Don't worry.
+SA	574	classic	أرسل لي الموقع	arsil li al-mawgi3	Send me the location.
+SA	575	classic	تأخرت شوي بالطريق	ta'akhkhart shway biT-Tareeg	I got delayed on the way.
+SA	576	classic	يعطيك العافية	ya3Teek al-3afiyah	Thank you, I appreciate it.
+SA	577	classic	أنا بالطريق الحين	ana biT-Tareeg al-7een	I'm on my way now.
+SA	578	classic	وش ودك تطلب؟	wush waddak tiTlub?	What would you like to order?
+SA	579	classic	أحتاج أشحن جوالي	a7taj ash7in jawwali	I need to charge my phone.
+SA	580	classic	خلنا نطلع الحين	khallna niTla3 al-7een	Let's go now.
+SA	581	classic	أنا تعبان شوي اليوم	ana ta3ban shway al-yom	I'm a little tired today.
+SA	582	classic	وين مكانك الحين؟	wayn makanak al-7een?	Where are you right now?
+SA	583	classic	انتظرني دقيقة	intaThirni dageegah	Wait for me a minute.
+SA	584	classic	خلصت شغلي أخيرًا	khallaSt shughli akheeran	I finally finished my work.
+SA	585	classic	أبغى قهوة بدون سكر	abgha gahwa bidoon sukkar	I want a coffee without sugar.
+SA	586	classic	كل شيء تمام؟	kul shay tamam?	Is everything okay?
+SA	587	classic	وين وصلت الحين؟	wayn waSilt al-7een?	Where are you now?
+SA	588	classic	وش تبغى تاكل؟	wush tabgha taakul?	What do you want to eat?
+SA	589	classic	أبغى أرتاح شوي	abgha arta7 shway	I want to rest for a bit.
+SA	590	classic	خلني أخلص هذا أول	khallini akhallis hatha awwal	Let me finish this first.
+SA	591	classic	ممكن تنتظرني شوي؟	mumkin tintaThirni shway?	Can you wait for me a little?
+SA	592	classic	وش صار معك اليوم؟	wush Sar ma3ak al-yom?	What happened to you today?
+SA	593	classic	أنا للحين ما تغديت	ana lil7een ma tghaddayt	I still haven't had lunch.
+SA	594	classic	متى نقدر نتقابل؟	mata nigdar nitgabil?	When can we meet?
+SA	595	classic	أرسل لي إذا وصلت	arsil li itha waSilt	Text me when you arrive.
+SA	596	classic	اليوم الجو مرة حلو	al-yom al-jaw marrah 7لو	The weather is really nice today.
+SA	597	classic	وش رايك نروح الحين؟	wush rayak nroo7 al-7een?	What do you think about going now?
+SA	598	classic	أنا محتاج بريك شوي	ana mu7taj breek shway	I need a little break.
+SA	599	classic	ممكن ترسل لي التفاصيل؟	mumkin tirsil li at-tafaSeel?	Can you send me the details?
+SA	600	classic	ما عندي وقت اليوم	ma 3indi wagt al-yom	I don't have time today.
+SA	601	classic	بشوفك بعد الدوام	bashoofak ba3d ad-dawam	I'll see you after work.
+SA	602	reveal	Daily Saudi Phrases		reveal: 9 rows
+SA	603	reveal	Daily Saudi Replies		reveal: 9 rows
+SA	604	reveal	Travel Saudi Phrases		reveal: 9 rows
+SA	605	classic	أنا رايح المطار	ana rāyih al-matar	I’m going to the airport
+SA	606	classic	معي شنطة كبيرة	mai shantah kibeerah	I have a big suitcase
+SA	607	classic	أبغى أغير المقعد	abgha aghayir al-magʿad	I want to change the seat
+SA	608	classic	وين استلام الشنط؟	ween istilam ash-shunat?	Where is baggage claim?
+SA	609	classic	الجواز في الشنطة	al-jawaz fish-shantah	The passport is in the bag
+SA	610	classic	أبيك معي دايم	abīk maʿī dāyim	I want you always with me
+SA	611	classic	أعشقك مرة والله	aʿshagak marrah wallah	I adore you so much
+SA	612	classic	أنا مجنون فيك	ana majnūn fīk	I’m crazy about you
+SA	613	classic	ما أبي غيرك	ma abī ghērak	I don’t want anyone but you
+SA	614	classic	وجودك يفرحني مرة	wujūdak yfarriḥni marrah	Your presence makes me so happy
+SA	615	classic	قلبي معك دايم	galbi maʿak dāyim	My heart is always with you
+SA	616	classic	أحبك أكثر كل يوم	aḥibbak akthar kul yōm	I love you more every day
+SA	617	classic	أبغى أطلب شي خفيف	abgha aTlub shay khafeef	I want to order something light.
+SA	618	classic	وين أقرب محطة؟	wayn agrab ma7aTtah?	Where's the nearest station?
+SA	619	classic	أنا مو جاهز للحين	ana moo jahiz lil7een	I'm not ready yet.
+SA	620	classic	ممكن تساعدني بهذا؟	mumkin tsa3idni bihatha?	Can you help me with this?
+SA	621	classic	بكلمك لما أوصل	bakallimak lamma awSal	I'll call you when I arrive.
+SA	622	classic	وش عندك اليوم؟	wush 3indak al-yom?	What are you up to today?
+SA	623	classic	أبغى أخلص هذا اليوم	abgha akhalliS hatha al-yom	I want to finish this today.
+SA	624	classic	متى ترجع للبيت؟	mata tirja3 lil-bait?	When are you going back home?
+SA	625	classic	نسيت أجيب المحفظة	naseet ajeeb al-ma7faThah	I forgot to bring my wallet.
+SA	626	classic	خلنا نتعشى برا اليوم	khallna nita3ashsha barra al-yom	Let's have dinner out today.
+SA	627	reveal	Bad Day Saudi Phrases		reveal: 9 rows + quiz
+SA	628	classic	أبغى أروح بدري	abgha aroo7 badri	I want to leave early.
+SA	629	classic	وش نطلب للعشا؟	wush niTlub lil-3asha?	What should we order for dinner?
+SA	630	classic	أنا ضيعت مفاتيحي	ana Dayya3t mafati7i	I lost my keys.
+SA	631	classic	ممكن ترسل لي الصورة؟	mumkin tirsil li aS-Soorah?	Can you send me the picture?
+SA	632	classic	بجيك بعد شوي	bajik ba3d shway	I'll come to you in a little while.
+SA	633	classic	وش صار على الموعد؟	wush Sar 3ala al-mow3id?	What happened with the appointment?
+SA	634	classic	أنا نسيت أرد عليك	ana naseet arudd 3alayk	I forgot to reply to you.
+SA	635	classic	ممكن تخفف الصوت شوي؟	mumkin tkhafif aS-Sawt shway?	Can you lower the volume a little?
+SA	636	classic	أبغى أجلس هنا	abgha ajlis hina	I want to sit here.
+SA	637	classic	بنتظر لين يجي	bantathir leen yiji	I'll wait until he comes.
+SA	638	classic	أبغى أجرب شي جديد	abgha ajarrib shay jadeed	I want to try something new.
+SA	639	classic	وين حطيت جوالي؟	wayn 7aTTait jawwali?	Where did I put my phone?
+SA	640	classic	اليوم ما لي خلق	al-yom ma li khilg	I’m not in the mood today.
+SA	641	classic	ممكن تعطيني دقيقة؟	mumkin ti3Teeni dageegah?	Can you give me a minute?
+SA	642	classic	بقولك شي مهم	bagoolak shay muhim	I want to tell you something important.
+SA	643	classic	وش تبي تسوي اليوم؟	wush tibgha tisawwi al-yom?	What do you want to do today?
+SA	644	classic	أنا مره مبسوط اليوم	ana marrah mabsuT al-yom	I'm really happy today.
+SA	645	classic	وين نلتقي اليوم؟	wayn niltaqi al-yom?	Where should we meet today?
+SA	646	classic	ممكن تشرح لي أكثر؟	mumkin tishra7 li akthar?	Can you explain more to me?
+SA	647	classic	بشوف وش يصير	bashoof wush yiSir	I'll see what happens.
+SA	648	classic	أبغى أغير جو اليوم	abgha aghayyar jaw al-yom	I want a change of scenery today.
+SA	649	classic	وش رايك بهذا المكان؟	wush rayak bihatha al-makan?	What do you think of this place?
+SA	650	classic	أنا للحين ما قررت	ana lil7een ma qarrart	I still haven't decided.
+SA	651	classic	ممكن تعطيني رأيك؟	mumkin ti3Teeni rayak?	Can you give me your opinion?
+SA	652	classic	بشوف وأرد عليك	bashoof wa arudd 3alayk	I'll check and get back to you.
+SA	653	classic	وش أخبارك اليوم؟	wush akhbarak al-yom?	How are you doing today?
+SA	654	classic	أبغى أطلب من هنا	abgha aTlub min hina	I want to order from here.
+SA	655	classic	متى تقدر تجي؟	mata tigdar tiji?	When can you come?
+SA	656	classic	أنا شوي مشغول الحين	ana shway mashghool al-7een	I'm a little busy right now.
+SA	657	classic	خلنا نتكلم بعدين	khallna nitkallam ba3dayn	Let's talk later.
+SA	658	classic	أبغى أعرف وش صار	abgha a3raf wush Sar	I want to know what happened.
+SA	659	classic	متى يفتح المكان؟	mata yifta7 al-makan?	When does the place open?
+SA	660	classic	أنا وصلت قبل شوي	ana waSilt gabl shway	I arrived a little while ago.
+SA	661	classic	ممكن تعطيني الفاتورة؟	mumkin ti3Teeni al-fatoorah?	Can you give me the bill?
+SA	662	classic	بنتظر ردك اليوم	bantathir raddak al-yom	I'll wait for your reply today.
+SA	663	classic	وش رايك نتعشى برا؟	wush rayak nita3ashsha barra?	What do you think about having dinner out?
+SA	664	classic	أبغى أجرب هذا المطعم	abgha ajarrib hatha al-maT3am	I want to try this restaurant.
+SA	665	classic	متى يناسبك نتقابل؟	mata ynasibak nitgabil?	When works for you to meet?
+SA	666	classic	أنا نسيت وين حطيتها	ana naseet wayn 7aTTaytha	I forgot where I put it.
+SA	667	classic	بشوف لك وأقولك	bashoof lak wa agoolak	I'll check and let you know.
+SA	668	classic	وش ناوي تسوي بكرة؟	wush nawi tisawwi bukra?	What are you planning to do tomorrow?
+SA	669	classic	أبغى أمر على أهلي	abgha amurr 3ala ahli	I want to visit my family.
+SA	670	classic	ممكن ترسلها لي واتساب؟	mumkin tirsilha li WhatsApp?	Can you send it to me on WhatsApp?
+SA	671	classic	أنا محتار وش أختار	ana mu7tar wush akhtar	I can't decide what to choose.
+SA	672	classic	إذا خلصت علمني	itha khalaSt 3allimni	Let me know when you're done.
+SA	673	classic	عندي برد من امبارح	3andi bard men embare7	I’ve had a cold since yesterday
+SA	674	classic	محتاج حاجة للكحة	me7tag 7aga lel-ko7a	I need something for the cough
+SA	675	classic	الدواء ده قبل الأكل؟	el-dawa da abl el-akl?	Do I take this medicine before eating?
+SA	676	classic	آخده كام مرة؟	akhdo kam marra?	How many times should I take it?
+SA	677	classic	فيه بديل أرخص؟	feeh badeel arkhas?	Is there a cheaper alternative?
+SA	678	classic	وش تبغى نشرب اليوم؟	wush tibgha nishrab al-yom?	What do you want to drink today?
+SA	679	classic	أبغى أتمشى شوي	abgha atamashsha shway	I want to go for a little walk.
+SA	680	classic	ممكن تعطيني رقمك؟	mumkin ti3Teeni raqmak?	Can you give me your number?
+SA	681	classic	أنا ما سمعت زين	ana ma sami3t zayn	I didn't hear properly.
+SA	682	classic	خلنا نأجلها لبكرة	khallna najjilha libukra	Let's postpone it until tomorrow.
+SA	683	classic	وين نقدر نروح الليلة؟	wayn nigdar nroo7 al-laylah?	Where can we go tonight?
+SA	684	classic	أبغى أغير ملابسي	abgha aghayyar malabsi	I want to change my clothes.
+SA	685	classic	ممكن تفتح لي الباب؟	mumkin tifta7 li al-bab?	Can you open the door for me?
+SA	686	classic	أنا ما أعرف الطريق	ana ma a3raf aT-Tareeg	I don't know the way.
+SA	687	classic	إذا وصلت دق علي	itha waSilt digg 3alay	Call me when you arrive.
+SA	688	classic	وش الوقت المناسب لك؟	wush al-wagt al-munasib lak?	What time works for you?
+SA	689	classic	أبغى آخذ بريك قصير	abgha akhuth breek gaSeer	I want to take a short break.
+SA	690	classic	ممكن تنتظرني عند الباب؟	mumkin tintaThirni 3ind al-bab?	Can you wait for me at the door?
+SA	691	classic	أنا للحين ما خلصت	ana lil7een ma khalaSt	I still haven't finished.
+SA	692	classic	إذا احتجت شي كلمني	itha i7tajt shay kallimni	If you need anything, call me.
+SA	693	classic	أشحن جوالي	ashhin jawwali	I charge my phone
+SA	694	classic	أشحن جوالي في السيارة	ashhin jawwali fis-sayyarah	I charge my phone in the car
+SA	695	classic	أشحن جوالي قبل لا أطلع	ashhin jawwali gabl la atla	I charge my phone before I go out
+SA	696	classic	أشحن جوالي إذا قرب يطفي	ashhin jawwali itha garab yitfi	I charge my phone when it’s almost dead
+SA	697	reveal	Saudi Hotel Phrases		reveal: 9 rows + quiz
+SA	698	classic	وش صار على طلبك؟	wush Sar 3ala Talabak?	What happened with your order?
+SA	699	classic	أبغى أجلس برا	abgha ajlis barra	I want to sit outside.
+SA	700	classic	ممكن توريني هذا؟	mumkin tawwarini hatha?	Can you show me this?
+SA	701	classic	أنا مستعجل شوي اليوم	ana mista3jil shway al-yom	I'm in a bit of a hurry today.
+SA	702	classic	خلني أتأكد وأرجع لك	khallini atakkad wa arja3 lak	Let me check and get back to you.
+SA	703	classic	وش ودك نسوي اليوم؟	wush waddak nsawwi al-yom?	What do you want to do today?
+SA	704	classic	أبغى آخذ شي خفيف	abgha akhuth shay khafeef	I want to have something light.
+SA	705	classic	ممكن ترسلها مرة ثانية؟	mumkin tirsilha marrah thanyah?	Can you send it again?
+SA	706	classic	أنا للحين أنتظر الرد	ana lil7een antaThir ar-radd	I'm still waiting for the reply.
+SA	707	classic	إذا فضيت مر علي	itha faDeet mur 3alay	If you're free, come by.
+SA	708	classic	وش تبي تشوف أول؟	wush tibgha tshoof awwal?	What do you want to see first?
+SA	709	classic	أبغى أغير الحجز	abgha aghayyar al-7ajz	I want to change the booking.
+SA	710	classic	ممكن تعطيني الموية؟	mumkin ti3Teeni al-moyah?	Can you give me the water?
+SA	711	classic	أنا ما معي كاش	ana ma ma3i cash	I don't have cash with me.
+SA	712	classic	خلني أشوف وأقرر	khallini ashoof wa aqarrir	Let me see and decide.
+SA	713	classic	وش فيه بالقائمة؟	wush feh bil-ga'imah?	What's on the menu?
+SA	714	classic	أبغى أحجز طاولة الليلة	abgha a7jiz Tawlah al-laylah	I want to book a table tonight.
+SA	715	classic	ممكن تقفل الشباك؟	mumkin tigfil ash-shubbak?	Can you close the window?
+SA	716	classic	أنا ما أعرف هالمكان	ana ma a3raf hal-makan	I don't know this place.
+SA	717	classic	إذا وصلت خبرني	itha waSilt khabbirni	Let me know when you arrive.
+SA	718	classic	وش تبغى تشرب؟	wush tibgha tishrab?	What do you want to drink?
+SA	719	classic	أبغى أرجع البيت بدري	abgha arja3 al-bait badri	I want to go home early.
+SA	720	classic	ممكن تعطيني دقيقة بس؟	mumkin ti3Teeni dageegah bas?	Can you give me just a minute?
+SA	721	classic	أنا اليوم مو رايق	ana al-yom moo rayig	I'm not feeling great today.
+SA	722	classic	خلنا نكمل بكرة	khallna nkammil bukra	Let's continue tomorrow.
+SA	723	classic	وش ناقصك اليوم؟	wush nagSak al-yom?	What do you need today?
+SA	724	classic	أبغى أخلص مشواري	abgha akhalliS mashwari	I want to finish my errands.
+SA	725	classic	ممكن تدلني على المكان؟	mumkin tidillni 3ala al-makan?	Can you show me where the place is?
+SA	726	classic	أنا توّي وصلت	ana tawwi waSilt	I just arrived.
+SA	727	classic	بكلمك إذا صار شي	bakallimak itha Sar shay	I'll call you if anything happens.
+SA	728	classic	أبغى أغير الموعد	abgha aghayyar al-mow3id	I want to change the appointment.
+SA	729	classic	متى توصل الشحنة؟	mata tooSal ash-shi7nah?	When will the delivery arrive?
+SA	730	classic	ممكن تنتظر شوي؟	mumkin tintaThir shway?	Can you wait a little?
+SA	731	classic	ما عندي مشكلة	ma 3indi mushkilah	I don't have a problem with that.
+SA	732	classic	بشوف لك الموضوع	bashoof lak al-mawDoo3	I'll look into it for you.
+SA	733	classic	وش تبي من البقالة؟	wush tibgha min al-baqqalah?	What do you want from the grocery store?
+SA	734	classic	أبغى آخذ معي شي	abgha akhuth ma3i shay	I want to take something with me.
+SA	735	classic	ممكن تحجز لي موعد؟	mumkin ti7jiz li mow3id?	Can you book an appointment for me?
+SA	736	classic	أنا مستني من بدري	ana mistanni min badri	I've been waiting for a while.
+SA	737	classic	إذا احتجتني أنا موجود	itha i7tajtni ana mawjud	If you need me, I'm here.
+SA	738	classic	وش صار في الاجتماع؟	wush Sar fil-ijtima3?	What happened in the meeting?
+SA	739	classic	أبغى أرتب أموري أول	abgha arattib umoori awwal	I want to get things organized first.
+SA	740	classic	ممكن ترسل لي العنوان؟	mumkin tirsil li al-3unwan?	Can you send me the address?
+SA	741	classic	اليوم عندي شغل كثير	al-yom 3indi shughul katheer	I have a lot of work today.
+SA	742	classic	بخبرك لما أتأكد	bakhabbirak lamma atakkad	I'll let you know when I confirm.
+SA	743	classic	وش تحس اليوم؟	wush ti7iss al-yom?	How are you feeling today?
+SA	744	classic	أبغى أغير الموعد لبكرة	abgha aghayyar al-mow3id libukra	I want to move the appointment to tomorrow.
+SA	745	classic	ممكن تعطيني اسم المكان؟	mumkin ti3Teeni ism al-makan?	Can you give me the name of the place?
+SA	746	classic	أنا توّي مخلص الغدا	ana tawwi mukhalliS al-ghada	I just finished lunch.
+SA	747	classic	خلنا نمر على الكوفي	khallna nimurr 3ala al-kofi	Let's stop by the café.
+SA	748	classic	وين نلقى موقف قريب؟	wayn nilga mawgif gareeb?	Where can we find a nearby parking spot?
+SA	749	classic	أبغى أشتري شي للبيت	abgha ashtari shay lil-bait	I want to buy something for the house.
+SA	750	classic	ممكن توضح لي أكثر؟	mumkin twaddi7 li akthar?	Can you explain it more clearly?
+SA	751	classic	اليوم ما نمت زين	al-yom ma nimt zayn	I didn't sleep well today.
+SA	752	classic	بنتقابل بعد المغرب	binitgabil ba3d al-maghrib	We'll meet after sunset.
+SA	753	classic	وش عندك للويكند؟	wush 3indak lil-weekend?	What are your plans for the weekend?
+SA	754	classic	أبغى أجرب الكوفي الجديد	abgha ajarrib al-kofi al-jadeed	I want to try the new café.
+SA	755	classic	ممكن تصور لي المكان؟	mumkin tiSawwir li al-makan?	Can you take a picture of the place for me?
+SA	756	classic	أنا باقي ما قررت	ana baagi ma qarrart	I still haven't decided.
+SA	757	classic	إذا فضيت نتقابل	itha faDeet nitgabil	If you're free, we'll meet.
+SA	758	classic	أبغى أتعلم هالكلمة	abgha ata3allam hal-kalimah	I want to learn this word.
+SA	759	classic	ممكن تشرح لي الطريقة؟	mumkin tishra7 li aT-Tareegah?	Can you explain how to do it?
+SA	760	classic	أنا محتاج أرتب وقتي	ana mu7taj arattib wagti	I need to organize my time.
+SA	761	classic	بجيك بعد العشا	bajik ba3d al-3asha	I'll come to you after dinner.
+SA	762	classic	وش رايك نكمل بكرة؟	wush rayak nkammil bukra?	What do you think about continuing tomorrow?
+SA	763	classic	وين نقدر نحجز؟	wayn nigdar na7jiz?	Where can we make a booking?
+SA	764	classic	أبغى أجرب الأكل هنا	abgha ajarrib al-akl hina	I want to try the food here.
+SA	765	classic	ممكن تجيب لي الفاتورة؟	mumkin tjib li al-fatoorah?	Can you bring me the bill?
+SA	766	classic	أنا مرة نعسان اليوم	ana marrah na3san al-yom	I'm really sleepy today.
+SA	767	classic	خلنا نطلب شي سريع	khallna nTlub shay saree3	Let's order something quick.
+SA	768	classic	وش الوقت الحين؟	wush al-wagt al-7een?	What time is it now?
+SA	769	classic	أبغى أرجع بعد شوي	abgha arja3 ba3d shway	I want to come back later.
+SA	770	classic	ممكن تفتح لي الخريطة؟	mumkin tifta7 li al-khareeTah?	Can you open the map for me?
+SA	771	classic	أنا ضايع شوي	ana Dayi3 shway	I'm a little lost.
+SA	772	classic	بنتظرك عند المدخل	bantathirak 3ind al-madkhal	I'll wait for you at the entrance.
+SA	773	classic	وش تبي تاخذ معك؟	wush tibgha takhuth ma3ak?	What do you want to take with you?
+SA	774	classic	أبغى أخلص مشواري قبل الزحمة	abgha akhalliS mashwari gabl az-za7mah	I want to finish my errands before the traffic.
+SA	775	classic	ممكن تقول لي وينه؟	mumkin tgool li waynah?	Can you tell me where it is?
+SA	776	classic	أنا اليوم مزاجي حلو	ana al-yom mizaji 7ilw	I'm in a good mood today.
+SA	777	classic	بمر عليك قبل أروح	bamurr 3alayk gabl aroo7	I'll stop by before I leave.
+SA	778	classic	وش تفضل تاكل؟	wush tifaDDil taakul?	What do you prefer to eat?
+SA	779	classic	أبغى شي بدون بصل	abgha shay bidoon baSal	I want something without onions.
+SA	780	classic	ممكن تعطيني المنيو؟	mumkin ti3Teeni al-menu?	Can you give me the menu?
+SA	781	classic	أنا شبعت خلاص	ana shibi3t khalaS	I'm full now.
+SA	782	classic	خلنا ناخذها معنا	khallna nakhuthha ma3ana	Let's take it with us.
+SA	783	classic	وش الوقت اللي يناسبك؟	wush al-wagt illi ynasibak?	What time works for you?
+SA	784	classic	أبغى أخلص قبل الظهر	abgha akhalliS gabl aD-Dhuhr	I want to finish before noon.
+SA	785	classic	ممكن تذكرني بعدين؟	mumkin tithakkarni ba3dayn?	Can you remind me later?
+SA	786	classic	أنا شوي متوتر اليوم	ana shway mutawattir al-yom	I'm a little nervous today.
+SA	787	classic	إذا فضيت أرسل لك	itha faDeet arsil lak	If I get free, I'll send it to you.
+SA	788	classic	وش تحب تسوي بعد الدوام؟	wush ti7ibb tisawwi ba3d ad-dawam?	What do you like to do after work?
+SA	789	classic	أبغى أشتري هدية لأخوي	abgha ashtari hadiyyah li-akhoy	I want to buy a gift for my brother.
+SA	790	classic	ممكن تساعدني أختار؟	mumkin tsa3idni akhtar?	Can you help me choose?
+SA	791	classic	أنا مرة فرحان بالخبر	ana marrah far7an bil-khabar	I'm really happy about the news.
+SA	792	classic	بنتظر لين تخلص	bantathir leen tikhlaS	I'll wait until you finish.
+SA	793	classic	وش ناقصنا للبيت؟	wush nagSna lil-bait?	What do we need for the house?
+SA	794	classic	أبغى أجيب موية للبيت	abgha ajeeb moyah lil-bait	I want to get water for the house.
+SA	795	classic	ممكن تذكرني آخذها؟	mumkin tithakkarni akhuthha?	Can you remind me to get it?
+SA	796	classic	أنا توّي راجع من الدوام	ana tawwi raje3 min ad-dawam	I just got back from work.
+SA	797	classic	خلنا نرتاح قبل العشا	khallna nirtah gabl al-3asha	Let's rest before dinner.
+SA	798	classic	وش صار مع التوصيل؟	wush Sar ma3 at-tawSeel?	What happened with the delivery?
+SA	799	classic	أبغى أعرف متى يوصل	abgha a3raf mata yooSal	I want to know when it will arrive.
+SA	800	classic	ممكن تتأكد من الطلب؟	mumkin titakkad min aT-Talab?	Can you check the order?
+SA	801	classic	أنا للحين ما استلمته	ana lil7een ma istalamta	I still haven't received it.
+SA	802	classic	إذا وصل دق علي	itha waSal digg 3alay	Call me when it arrives.
+SA	803	classic	وش عندكم اليوم؟	wush 3indakum al-yom?	What do you have today?
+SA	804	classic	أبغى أجرب شي من عندكم	abgha ajarrib shay min 3indakum	I want to try something from here.
+SA	805	classic	ممكن تعطيني شوي وقت؟	mumkin ti3Teeni shway wagt?	Can you give me a little time?
+SA	806	classic	أنا للحين محتار	ana lil7een mu7tar	I'm still unsure.
+SA	807	classic	خلني أسأل أخوي	khallini as'al akhoy	Let me ask my brother.
+SA	808	classic	وش فيه حولنا؟	wush feh 7awlna?	What's around here?
+SA	809	classic	أبغى مكان هادي	abgha makan hadi	I want a quiet place.
+SA	810	classic	ممكن تدلني على المدخل؟	mumkin tidillni 3ala al-madkhal?	Can you show me the entrance?
+SA	811	classic	أنا جاي من بعيد	ana jayi min ba3eed	I've come from far away.
+SA	812	classic	بروح وأرجع لك	baroo7 wa arja3 lak	I'll go and get back to you.
+SA	813	classic	وش تبغى نجيب للعشا؟	wush tibgha njib lil-3asha?	What should we get for dinner?
+SA	814	classic	أبغى شي يشبع	abgha shay yishba3	I want something filling.
+SA	815	classic	ممكن نخليها لبكرة؟	mumkin nkhalliha libukra?	Can we leave it until tomorrow?
+SA	816	classic	أنا اليوم عندي موعد	ana al-yom 3indi mow3id	I have an appointment today.
+SA	817	classic	إذا خلصت أجيك	itha khalaSt ajeek	I'll come to you when I'm done.
+SA	818	classic	وش رايك نروح كوفي؟	wush rayak nroo7 kofi?	What do you think about going to a café?
+SA	819	classic	أبغى آخذ قهوتي معي	abgha akhuth gahwati ma3i	I want to take my coffee with me.
+SA	820	classic	ممكن أسدد بالبطاقة؟	mumkin asaddid bil-biTaqah?	Can I pay by card?
+SA	821	classic	أنا جوعان مرة الحين	ana joo3an marrah al-7een	I'm really hungry right now.
+SA	822	classic	بنشوف بعض بعدين	binshoof ba3D ba3dayn	We'll see each other later.
+SA	823	classic	وش تبي تسوي بعدين؟	wush tibgha tisawwi ba3dayn?	What do you want to do later?
+SA	824	classic	أبغى أمر البقالة أول	abgha amurr al-baqqalah awwal	I want to stop by the grocery store first.
+SA	825	classic	ممكن تحطها هنا؟	mumkin ti7uTTha hina?	Can you put it here?
+SA	826	classic	أنا ما شبعت للحين	ana ma shibi3t lil7een	I'm still not full yet.
+SA	827	classic	خلاص أنا بطلع الحين	khalaS ana baTla3 al-7een	Alright, I'm heading out now.
+SA	828	classic	وش ودك تسوي الليلة؟	wush waddak tisawwi al-laylah?	What do you want to do tonight?
+SA	829	classic	أبغى أطلب أكل الحين	abgha aTlub akl al-7een	I want to order food now.
+SA	830	classic	ممكن تعطيني الشاحن؟	mumkin ti3Teeni ash-sha7in?	Can you give me the charger?
+SA	831	classic	أنا متأخر شوي عليك	ana mita'akhkhir shway 3alayk	I'm running a little late.
+SA	832	classic	لا تنسى ترسل لي	la tinsa tirsil li	Don't forget to send it to me.
+SA	833	classic	وش رايك نطلع شوي؟	wush rayak niTla3 shway?	What do you think about going out for a bit?
+SA	834	classic	أبغى أبدل ملابسي	abgha abdil malabsi	I want to change my clothes.
+SA	835	classic	ممكن تخلي لي مكان؟	mumkin tkhalli li makan?	Can you save me a seat?
+SA	836	classic	أنا ما أقدر أجي اليوم	ana ma agdar aji al-yom	I can't come today.
+SA	837	classic	بشوفك عند المكان	bashoofak 3ind al-makan	I'll see you at the place.
+SA	838	classic	وش ناوي تسوي بالويكند؟	wush nawi tisawwi bil-weekend?	What are you planning to do on the weekend?
+SA	839	classic	أبغى أنام بدري الليلة	abgha anam badri al-laylah	I want to sleep early tonight.
+SA	840	classic	ممكن نطلبها توصيل؟	mumkin nTlubha tawSeel?	Can we order it for delivery?
+SA	841	classic	أنا للحين أدور عليها	ana lil7een adawwir 3alayha	I'm still looking for it.
+SA	842	classic	إذا ما رديت اتصل	itha ma raddayt ittiSil	If I don't reply, call me.
+SA	843	reveal	Saudi Phrases When You’re Late		reveal: 8 rows + quiz
+SA	844	classic	وش تحب نسوي اليوم؟	wush ti7ibb nsawwi al-yom?	What would you like us to do today?
+SA	845	classic	أبغى أغير جو شوي	abgha aghayyar jaw shway	I want a change of scenery.
+SA	846	classic	ممكن تمسك لي هذا؟	mumkin timsik li hatha?	Can you hold this for me?
+SA	847	classic	أنا ما لحقت أفطر	ana ma la7agt afTar	I didn't have time for breakfast.
+SA	848	classic	بنتلاقى بعد شوي	bintalaaga ba3d shway	We'll meet in a little while.
+SA	849	classic	وش ودك تاخذ معك؟	wush waddak takhuth ma3ak?	What do you want to take with you?
+SA	850	classic	أبغى أشيك على جوالي	abgha asheek 3ala jawwali	I want to check my phone.
+SA	851	classic	ممكن تعطيني رأيك؟	mumkin ti3Teeni rayak?	Can you give me your opinion?
+SA	852	classic	أنا ما انتبهت للوقت	ana ma intabaht lil-wagt	I didn't realize the time.
+SA	853	classic	خلنا نرتبها سوا	khallna nrattibha sawa	Let's arrange it together.
+SA	854	reveal	Saudi Phrases When You Need Help		reveal: 8 rows + quiz
+SA	855	classic	وش تبغى من الطريق؟	wush tibgha min aT-Tareeg?	What do you want me to get on the way?
+SA	856	classic	أبغى أرجع أنام شوي	abgha arja3 anam shway	I want to go back to sleep for a bit.
+SA	857	classic	ممكن ترفع صوتك شوي؟	mumkin tirfa3 Sawtak shway?	Can you speak a little louder?
+SA	858	classic	أنا ما كنت أدري	ana ma kunt adri	I didn't know.
+SA	859	classic	إذا خلصنا نطلع	itha khalaSna niTla3	When we're done, let's leave.
+SA	860	reveal	Saudi Phrases When You Don’t Understand		reveal: 8 rows + quiz
+SA	861	classic	وش عندك بعد شوي؟	wush 3indak ba3d shway?	What are you doing later?
+SA	862	classic	أبغى أطلب لي قهوة	abgha aTlub li gahwa	I want to order myself a coffee.
+SA	863	classic	ممكن ترسل لي اللوكيشن؟	mumkin tirsil li al-location?	Can you send me the location?
+SA	864	classic	أنا توّي صاحي من النوم	ana tawwi Sa7i min an-nawm	I just woke up.
+SA	865	classic	خلنا نروح مع بعض	khallna nroo7 ma3 ba3D	Let's go together.
+SA	866	reveal	Saudi Phrases at the Restaurant		reveal: 8 rows + quiz
+EG	1	classic	عايز أشرب قهوة دلوقتي	3ayez ashrab ahwa delwa2ti	I want to drink coffee now
+EG	2	classic	أنا باكل	ana bakol	I eat
+EG	3	classic	أنا باكل بطاطس في الغدا كل يوم	ana bakol batates fel-ghada kol yom	I eat potatoes for lunch every day
+EG	4	classic	أنا كلت	ana kalt	I ate
+EG	5	classic	أنا كلت بطاطس امبارح بالليل	ana kalt batates embare7 bel-leil	I ate potatoes last night
+EG	6	classic	أنا هاكل	ana hakol	I will eat
+EG	7	classic	أنا هاكل بطاطس بكره بالليل	ana hakol batates bokra bel-leil	I will eat potatoes tomorrow night
+EG	8	classic	أنا [باكل] لحمة في الغدا	ana [bakol] la7ma fel-ghada	I eat meat for lunch
+EG	9	classic	أنا [بشرب] قهوة كل يوم الصبح	ana [bashrab] ahwa kol yom el-sob7	I drink coffee every morning
+EG	10	classic	أنا [بروح] الشغل بدري كل يوم	ana [baroo7] el-shoghl badri kol yom	I go to work early every day
+EG	11	classic	أنا [بحب] الأكل المصري أوي	ana [ba7eb] el-akl el-masri awi	I really love Egyptian food
+EG	12	cta	Comment QUIZ		Get your free Arabic level test
+EG	13	classic	أنا [باكل] لحمة	ana [bakol] la7ma	I eat meat
+EG	14	classic	أنا [بشرب] قهوة	ana [bashrab] ahwa	I drink coffee
+EG	15	classic	أنا [بروح] الشغل	ana [baroo7] el-shoghl	I go to work
+EG	16	classic	أنا [بحب] مصر	ana [ba7eb] masr	I love Egypt
+EG	17	cta	Comment QUIZ		Get a free Arabic level test
+EG	18	classic	برتب	barattab	I organize
+EG	19	classic	برتب مكتبي	barattab maktabi	I organize my desk
+EG	20	classic	برتب مكتبي كل يوم	barattab maktabi kol yom	I organize my desk every day
+EG	21	classic	برتب مكتبي كل يوم قبل الشغل	barattab maktabi kol yom abl el-shoghl	I organize my desk every day before work
+EG	22	classic	ده [باب] البيت الكبير	da [bab] el-beit el-kebir	This is the big house door
+EG	23	classic	دي [عربية] جديدة أوي	di [3arabeya] gedida awi	This is a very new car
+EG	24	classic	هو [عطشان] بعد المشي	howa [3atshan] ba3d el-mashy	He is thirsty after walking
+EG	25	classic	هي [تعبانة] شوية النهارده	heyya [ta3bana] shwaya el-naharda	She is a little tired today
+EG	26	cta	Comment QUIZ		Get your free level test
+EG	27	classic	أنا ضربت	ana darabt	I hit
+EG	28	classic	أنا ضربت أحمد	ana darabt Ahmed	I hit Ahmed
+EG	29	classic	أنا ضربت أحمد امبارح	ana darabt Ahmed embare7	I hit Ahmed yesterday
+EG	30	classic	أنا ضربت أحمد امبارح عشان هو عبيط	ana darabt Ahmed embare7 3ashan howa 3abeet	I hit Ahmed yesterday because he is stupid
+EG	31	classic	أنا عايز	ana 3ayez	I want
+EG	32	classic	أنا عايز آكل برجر	ana 3ayez akol burger	I want to eat a burger
+EG	33	classic	أنا عايز آكل برجر كل يوم	ana 3ayez akol burger kol yom	I want to eat a burger every day
+EG	34	classic	أنا عايز آكل برجر كل يوم مع أصحابي	ana 3ayez akol burger kol yom ma3 as7abi	I want to eat a burger every day with my friends
+EG	35	classic	أنا بجري	ana bagri	I run
+EG	36	classic	أنا بجري كل يوم	ana bagri kol yom	I run every day
+EG	37	classic	أنا بجري كل يوم في الحديقة	ana bagri kol yom fel-7adi2a	I run every day in the park
+EG	38	classic	أنا بجري كل يوم في الحديقة مع صاحبي	ana bagri kol yom fel-7adi2a ma3 sa7bi	I run every day in the park with my friend
+EG	39	classic	أنا بقرأ كل يوم	ana ba2ra kol yom	I read every day
+EG	40	classic	أنا بقرأ كل يوم في البيت	ana ba2ra kol yom fel beit	I read every day at home
+EG	41	classic	أنا بقرأ كل يوم في البيت مع أختي	ana ba2ra kol yom fel beit ma3a okhti	I read every day at home with my sister
+EG	42	classic	أنا بقرأ	ana ba2ra	I read
+EG	43	classic	أنا بقرأ كل يوم	ana ba2ra kol yom	I read every day
+EG	44	classic	أنا بقرأ كل يوم في البيت	ana ba2ra kol yom fel-beit	I read every day at home
+EG	45	classic	أنا بقرأ كل يوم في البيت مع أختي	ana ba2ra kol yom fel-beit ma3 okhti	I read every day at home with my sister
+EG	46	classic	أنا بسوق	ana basoo2	I drive
+EG	47	classic	أنا بسوق العربية	ana basoo2 el-3arabeya	I drive the car
+EG	48	classic	أنا بسوق العربية الصبح	ana basoo2 el-3arabeya el-sob7	I drive the car in the morning
+EG	49	classic	أنا بسوق العربية الصبح للشغل	ana basoo2 el-3arabeya el-sob7 lel-shoghl	I drive the car to work in the morning
+EG	50	classic	أنا بتمنى	ana batmanna	I wish
+EG	51	classic	أنا بتمنى أشوفك	ana batmanna ashoofak	I wish to see you
+EG	52	classic	أنا بتمنى أشوفك كل يوم	ana batmanna ashoofak kol yom	I wish to see you every day
+EG	53	classic	أنا بتمنى أشوفك كل يوم طول العمر	ana batmanna ashoofak kol yom tool el-3omr	I wish to see you every day for the rest of my life
+EG	54	classic	أنا مش شايف	ana mesh shayef	I can't see
+EG	55	classic	أنا مش شايف غيرك	ana mesh shayef gheirek	I can't see anyone but you
+EG	56	classic	أنا مش شايف غيرك وعايز أبقى	ana mesh shayef gheirek w 3ayez ab2a	I can't see anyone but you, and I want to be
+EG	57	classic	أنا مش شايف غيرك وعايز أبقى معاكي دايما	ana mesh shayef gheirek w 3ayez ab2a ma3aki dayman	I can't see anyone but you, and I want to be with you always
+EG	58	cta	Comment LOVE		Get our love phrases book
+EG	59	classic	أنا مش بتكلم عربي	ana mesh batkallem 3arabi	I don’t speak Arabic
+EG	60	classic	أنا بتكلم عربي شوية	ana batkallem 3arabi shwaya	I speak a little Arabic
+EG	61	classic	أنا بتعلم عربي دلوقتي	ana bat3allem 3arabi delwa2ti	I’m learning Arabic now
+EG	62	classic	أنا بفهم كلام بسيط	ana bafham kalam baseet	I understand simple phrases
+EG	63	classic	ممكن تتكلم أبطأ شوية؟	momken tetkallem abta2 shwaya?	Can you speak a little slower?
+EG	64	classic	ممكن تقولها تاني لو سمحت؟	momken te2olha tani law sama7t?	Can you say it again, please?
+EG	65	classic	أنا زعلان منك بجد	ana za3lan منك begad	I’m really upset with you
+EG	66	classic	أنا مخاصمك من امبارح	ana mokhasmak men embare7	I’m not talking to you since yesterday
+EG	67	classic	إنت وحش معايا أوي	enta we7esh ma3aya awi	You’re being really mean to me
+EG	68	classic	أنا مبحبش نبعد عن بعض	ana mab7ebbish neb3ad 3an ba3d	I don’t like us being apart
+EG	69	classic	أنا بحب أشوفك على طول	ana ba7eb ashoofak 3ala tool	I love seeing you all the time
+EG	70	classic	فين مكتب الجوازات؟	fein maktab el-gawazat?	Where is passport control?
+EG	71	classic	الشنط بتاعتي فين؟	el-shonat beta3ti fein?	Where is my luggage?
+EG	72	classic	الطيارة هتطلع إمتى؟	el-tayyara hatetla3 emta?	When will the plane depart?
+EG	73	classic	البوابة رقم كام؟	el-bawwaba ra2m kam?	What is the gate number?
+EG	74	classic	الرحلة اتأخرت ليه؟	el-re7la et2akhkharet leih?	Why is the flight delayed?
+EG	75	classic	ممكن تساعدني في الشنط؟	momken tsa3edni fel-shonat?	Can you help me with the luggage?
+EG	76	cta	Follow Speak Arabi		Speak real Arabic
+EG	77	classic	أنا جعان أوي دلوقتي	ana ga3an awi delwa2ti	I’m very hungry right now
+EG	78	classic	ممكن أشوف المنيو؟	momken ashoof el-menu?	Can I see the menu?
+EG	79	classic	أنا عايز أطلب فراخ	ana 3ayez atlوب farakh	I want to order chicken
+EG	80	classic	من غير شطة لو سمحت	men gheir shatta law sama7t	No chili, please
+EG	81	classic	ممكن تجيبلي مية؟	momken tegeebli mayya?	Can you bring me some water?
+EG	82	classic	الحساب لو سمحت	el-7esab law sama7t	The bill, please
+EG	83	cta	Follow Speak Arabi		Speak real Arabic
+EG	84	classic	أنا تعبان شوية النهارده	ana ta3ban shwaya el-naharda	I’m a little tired today
+EG	85	classic	محتاج أروح الصيدلية	me7tag aroo7 el-saydaliya	I need to go to the pharmacy
+EG	86	classic	عندي صداع من الصبح	3andi soda3 men el-sob7	I’ve had a headache since morning
+EG	87	classic	ممكن تديني مسكن؟	momken tedini mosakken?	Can you give me a painkiller?
+EG	88	classic	الدواء ده يتاخد إمتى؟	el-dawa da yetakhod emta?	When should I take this medicine?
+EG	89	classic	شكرا ربنا يخليك	shokran rabbena ykhaleek	Thank you, I really appreciate it
+EG	90	cta	Follow Speak Arabi		Speak real Arabic
+EG	91	classic	أنا بدور على شقة	ana badawwar 3ala sha2a	I’m looking for an apartment
+EG	92	classic	الإيجار كام في الشهر؟	el-egar kam fel-shahr?	How much is the monthly rent?
+EG	93	classic	الشقة فيها كام أوضة؟	el-sha2a feeha kam oda?	How many rooms does the apartment have?
+EG	94	classic	المكان قريب من المترو؟	el-makan 2areeb men el-metro?	Is the place near the metro?
+EG	95	classic	ممكن أشوف الشقة النهارده؟	momken ashoof el-sha2a el-naharda?	Can I see the apartment today?
+EG	96	classic	أنا هفكر وأرد عليك	ana hafakkar w arrod 3aleik	I’ll think about it and get back to you
+EG	97	cta	Follow Speak Arabi		Speak real Arabic
+EG	98	classic	أنا عايز أغير فلوس	ana 3ayez aghayyar feloos	I want to exchange money
+EG	99	classic	الدولار بكام النهارده؟	el-dollar bekam el-naharda?	What’s the dollar rate today?
+EG	100	classic	ممكن تديني فكة؟	momken tedini fakka?	Can you give me change?
+EG	101	classic	معايا كارت بس	ma3aya kart bas	I only have a card
+EG	102	classic	الماكينة مش شغالة	el-makina mesh shaghala	The card machine isn’t working
+EG	103	classic	فين أقرب ماكينة بنك؟	fein a2rab makina bank?	Where is the nearest ATM?
+EG	104	cta	Follow Speak Arabi		Speak real Arabic
+EG	105	classic	ياريت تيجي بدري النهارده	yaret teegi badri el-naharda	I hope you come early today
+EG	106	classic	ياريت الجو يبقى حلو	yaret el-gaw yeb2a 7elw	I hope the weather is nice
+EG	107	classic	ياريت تكلمني لما توصل	yaret tekallemni lamma توصل	Please call me when you arrive
+EG	108	classic	ياريت تساعدني في الشغل	yaret tsa3edni fel-shoghl	I wish you would help me with the work
+EG	109	classic	ياريت أشوفك بكره بالليل	yaret ashoofak bokra bel-leil	I hope I see you tomorrow night
+EG	110	classic	ياريت كل حاجة تبقى كويسة	yaret kol 7aga teb2a kwayesa	I hope everything turns out well
+EG	111	cta	Follow Speak Arabi		Speak real Arabic
+EG	112	classic	ياريت تيجي بدري النهارده	yaret teegi badri el-naharda	I hope you come early today
+EG	113	classic	ياريت الجو يبقى حلو	yaret el-gaw yeb2a 7elw	I hope the weather is nice
+EG	114	classic	ياريت تكلمني لما توصل	yaret tekallemni lamma توصل	Please call me when you arrive
+EG	115	classic	ياريت تساعدني في الشغل	yaret tsa3edni fel-shoghl	I wish you would help me with the work
+EG	116	classic	ياريت أشوفك بكره بالليل	yaret ashoofak bokra bel-leil	I hope I see you tomorrow night
+EG	117	classic	ياريت كل حاجة تبقى كويسة	yaret kol 7aga teb2a kwayesa	I hope everything turns out well
+EG	118	cta	Follow Speak Arabi		Speak real Arabic
+EG	119	classic	أنا بشرب قهوة كل يوم الصبح	ana bashrab ahwa kol yom el-sob7	I drink coffee every morning
+EG	120	classic	ياريت تيجي بدري النهارده	yaret teegi badri el-naharda	I hope you come early today
+EG	121	classic	ياريت الجو يبقى حلو	yaret el-gaw yeb2a 7elw	I hope the weather is nice
+EG	122	classic	ياريت تكلمني لما توصل	yaret tekallemni lamma توصل	Please call me when you arrive
+EG	123	classic	ياريت تساعدني في الشغل	yaret tsa3edni fel-shoghl	I wish you would help me with the work
+EG	124	classic	ياريت أشوفك بكره بالليل	yaret ashoofak bokra bel-leil	I hope I see you tomorrow night
+EG	125	classic	ياريت كل حاجة تبقى كويسة	yaret kol 7aga teb2a kwayesa	I hope everything turns out well
+EG	126	cta	Follow Speak Arabi		Speak real Arabic
+EG	127	classic	ياريت تيجي بدري النهارده	yaret teegi badri el-naharda	I hope you come early today
+EG	128	classic	ياريت الجو يبقى حلو	yaret el-gaw yeb2a 7elw	I hope the weather is nice
+EG	129	classic	ياريت تكلمني لما توصل	yaret tekallemni lamma توصل	Please call me when you arrive
+EG	130	classic	ياريت تساعدني في الشغل	yaret tsa3edni fel-shoghl	I wish you would help me with the work
+EG	131	classic	ياريت أشوفك بكره بالليل	yaret ashoofak bokra bel-leil	I hope I see you tomorrow night
+EG	132	classic	ياريت كل حاجة تبقى كويسة	yaret kol 7aga teb2a kwayesa	I hope everything turns out well
+EG	133	cta	Follow Speak Arabi		Speak real Arabic
+EG	134	classic	لازم أصحى بدري	lazem as7a badri	I have to wake up early
+EG	135	classic	لازم أروح الشغل دلوقتي	lazem aroo7 el-shoghl delwa2ti	I have to go to work now
+EG	136	classic	لازم أشتري أكل للبيت	lazem ashtari akl lel-beit	I have to buy food for the house
+EG	137	classic	لازم أخلص الشغل النهارده	lazem akhallas el-shoghl el-naharda	I have to finish the work today
+EG	138	classic	لازم أكلم أمي بالليل	lazem akallem ommi bel-leil	I have to call my mother tonight
+EG	139	classic	لازم أنام بدري النهارده	lazem anam badri el-naharda	I have to sleep early today
+EG	140	classic	مش عايز أنزل النهارده	mesh 3ayez anzal el-naharda	I don’t want to go out today
+EG	141	classic	مش عايز آكل دلوقتي	mesh 3ayez akol delwa2ti	I don’t want to eat right now
+EG	142	classic	مش عايز أروح الشغل بكرة	mesh 3ayez aroo7 el-shoghl bokra	I don’t want to go to work tomorrow
+EG	143	classic	مش عايز أتكلم مع حد	mesh 3ayez atkallem ma3 7add	I don’t want to talk to anyone
+EG	144	classic	مش عايز أشرب قهوة بالليل	mesh 3ayez ashrab ahwa bel-leil	I don’t want to drink coffee at night
+EG	145	classic	مش عايز أسهر النهارده	mesh 3ayez ashar el-naharda	I don’t want to stay up late today
+EG	146	cta	Follow Speak Arabi		Speak real Arabic
+EG	147	classic	لسه صاحي من النوم دلوقتي	lessa sa7i men el-nom delwa2ti	I just woke up
+EG	148	classic	لسه مخلص الشغل من شوية	lessa mokhalles el-shoghl men shwaya	I just finished work
+EG	149	classic	لسه مستني صاحبي قدام البيت	lessa mestanni sa7bi oddam el-beit	I’m still waiting for my friend outside the house
+EG	150	classic	لسه بتعلم عربي واحدة واحدة	lessa bat3allem 3arabi wa7da wa7da	I’m still learning Arabic step by step
+EG	151	classic	لسه ماكلتش حاجة من الصبح	lessa makaltish 7aga men el-sob7	I haven’t eaten anything since morning
+EG	152	classic	لسه مش عارف أقرر دلوقتي	lessa mesh 3aref a2arrar delwa2ti	I still can’t decide right now
+EG	153	cta	Follow Speak Arabi		Speak real Arabic
+EG	154	classic	أنا مستنيك قدام البيت	ana mestanneek oddam el-beit	I’m waiting for you outside the house
+EG	155	classic	النهارده كان يوم صعب	el-naharda kan yom sa3b	Today was a difficult day
+EG	156	classic	معلش، نسيت أبعتلك رسالة	ma3lesh, neseet ab3atlak resala	Sorry, I forgot to send you a message
+EG	157	classic	ممكن تقولها تاني بالراحة؟	momken te2olha tani bel-ra7a?	Can you say it again slowly?
+EG	158	classic	أنا مبسوط إني شوفتك	ana mabsoot enni shoftak	I’m happy I saw you
+EG	159	dialogue	Ordering coffee in Egypt		
+EG	160	dialogue	Ordering coffee in Egypt		
+EG	161	classic	أنا تعبان ومحتاج أريح شوية	ana ta3ban w me7tag arayya7 shwaya	I’m tired and need to rest for a bit
+EG	162	classic	ممكن تبعتلي اللوكيشن؟	momken teb3atli el-location?	Can you send me the location?
+EG	163	classic	أنا نازل أجيب حاجة بسرعة	ana nazel ageeb 7aga besor3a	I’m going out to get something quickly
+EG	164	classic	استنى عليا خمس دقايق	estanna 3alaya khamas da2aye2	Wait for me for five minutes
+EG	165	classic	مش فاهم إنت قصدك إيه	mesh fahem enta 2asdak eh	I don’t understand what you mean
+EG	166	dialogue	Meeting a friend in Cairo		
+EG	167	dialogue	At the koshary restaurant		
+EG	168	reveal	Feelings in Egyptian Arabic		reveal: 8 rows
+EG	169	reveal	Feelings in Egyptian Arabic		reveal: 8 rows
+EG	170	reveal	Everyday Egyptian Reactions		reveal: 8 rows
+EG	171	reveal	Useful Cairo Daily Phrases		reveal: 8 rows
+EG	172	classic	أنا مستعجل شوية النهارده	ana mesta3gel shwaya el-naharda	I’m in a bit of a hurry today
+EG	173	classic	ممكن تستناني عند الباب؟	momken تستannani 3and el-bab?	Can you wait for me by the door?
+EG	174	classic	أنا نسيت الموبايل في البيت	ana neseet el-mobile fel-beit	I forgot my phone at home
+EG	175	classic	الأكل لسه مجاش لحد دلوقتي	el-akl lessa magash le7ad delwa2ti	The food still hasn’t arrived yet
+EG	176	classic	هكلمك أول ما أوصل	hakallemak awel ma awsal	I’ll call you as soon as I arrive
+EG	177	reveal	Useful Egyptian Replies		reveal: 8 rows
+EG	178	classic	أنا بصحى الساعة سبعة	ana basa7a el-sa3a sab3a	I wake up at seven
+EG	179	classic	أنا بفطر قبل الشغل	ana baftar abl el-shoghl	I have breakfast before work
+EG	180	classic	أنا بنزل من البيت بدري	ana banzel men el-beit badri	I leave the house early
+EG	181	classic	أنا بركب المترو كل يوم	ana barkab el-metro kol yom	I take the metro every day
+EG	182	classic	أنا برجع البيت بالليل	ana barga3 el-beit bel-leil	I come home at night
+EG	183	mistake	أنا عايز قهوة	ana 3ayez ahwa	I want a coffee
+EG	184	classic	أنا بدور على اللبن	ana badawwar 3ala el-laban	I’m looking for the milk
+EG	185	classic	الكيلو بكام النهارده؟	el-kilo bekam el-naharda?	How much is a kilo today?
+EG	186	classic	ممكن كيس تاني لو سمحت؟	momken kees tani law sama7t?	Can I have another bag, please?
+EG	187	classic	أنا هدفع بالكارت	ana hadfa3 bel-kart	I’ll pay by card
+EG	188	classic	مفيش فكة معايا	mafeesh fakka ma3aya	I don’t have any change
+EG	189	reveal	Egyptian WhatsApp Phrases		reveal: 8 rows + quiz
+EG	190	classic	أنا عايز قهوة سادة	ana 3ayez ahwa sada	I want black coffee
+EG	191	classic	ممكن قهوة من غير سكر؟	momken ahwa men gheir sokkar?	Can I have coffee without sugar?
+EG	192	classic	هشرب القهوة هنا	hashrab el-ahwa hina	I’ll drink the coffee here
+EG	193	classic	ممكن كوباية مية كمان؟	momken kobayet mayya kaman?	Can I have a glass of water too?
+EG	194	classic	الحساب لو سمحت	el-7esab law sama7t	The bill, please
+EG	195	reveal	Asking for Help in Egypt		reveal: 8 rows + quiz
+EG	196	classic	عندي برد من امبارح	3andi bard men embare7	I’ve had a cold since yesterday
+EG	197	classic	محتاج حاجة للكحة	me7tag 7aga lel-ko7a	I need something for the cough
+EG	198	classic	الدواء ده قبل الأكل؟	el-dawa da abl el-akl?	Do I take this medicine before eating?
+EG	199	classic	آخده كام مرة؟	akhdo kam marra?	How many times should I take it?
+EG	200	classic	فيه بديل أرخص؟	feeh badeel arkhas?	Is there a cheaper alternative?
+EG	201	reveal	When You're Lost in Egypt		reveal: 8 rows + quiz
+EG	202	classic	أنا حاجز أوضة ليلتين	ana 7agez oda leiltein	I booked a room for two nights
+EG	203	classic	الأوضة جاهزة دلوقتي؟	el-oda gahza delwa2ti?	Is the room ready now?
+EG	204	classic	ممكن باسورد الواي فاي؟	momken password el-wifi?	Can I have the Wi-Fi password?
+EG	205	classic	الفطار بيبدأ الساعة كام؟	el-fetar beyebda2 el-sa3a kam?	What time does breakfast start?
+EG	206	classic	ممكن تاكسي للمطار بكرة؟	momken taxi lel-matar bokra?	Can I get a taxi to the airport tomorrow?
+EG	207	challenge	أنا [ضيعت] المفتاح في الشارع	ana [dayya3t] el-mofta7 fel-share3	I lost the key in the street
+EG	208	challenge	أنا [كسرت] الكوباية بالغلط	ana [kasart] el-kobaya bel-ghalat	I broke the glass by accident
+EG	209	challenge	أنا [نسيت] المحفظة في العربية	ana [neseet] el-ma7faza fel-3arabeya	I forgot my wallet in the car
+EG	210	challenge	أنا [قفلت] الباب على المفتاح	ana [2afalt] el-bab 3ala el-mofta7	I locked the door with the key inside
+EG	211	challenge	أنا [وقعت] الموبايل على الأرض	ana [wa22a3t] el-mobile 3al-ard	I dropped the phone on the floor
+EG	212	reveal	Reactions Egyptians Use Every Day		reveal: 8 rows + quiz
+EG	213	classic	الولد	el-walad	the boy
+EG	214	classic	الولد لعب كورة	el-walad le3eb koora	the boy played football
+EG	215	classic	الولد لعب كورة مع أصحابه	el-walad le3eb koora ma3 as7abo	the boy played football with his friends
+EG	216	classic	الولد لعب كورة مع أصحابه امبارح بس خسر	el-walad le3eb koora ma3 as7abo embare7 bas kheser	the boy played football with his friends yesterday, but he lost
+EG	217	classic	الولد لعب كورة مع أصحابه امبارح بس خسر وهو زعلان دلوقتي	el-walad le3eb koora ma3 as7abo embare7 bas kheser w howa za3lan delwa2ti	the boy played football with his friends yesterday, but he lost and now he is sad
+EG	218	classic	الولد دلوقتي فهم ان اللعب مكسب وخسارة	el-walad delwa2ti fehem en el-la3b maksab w khasara	The boy now understands that games have wins and losses
+EG	219	classic	إنت فين يا عم؟	enta fein ya 3am?	Where are you, man?
+EG	220	classic	أنا مستنيك بقالي ساعة	ana mestanneek ba2ali sa3a	I’ve been waiting for you for an hour
+EG	221	classic	الطريق زحمة ولا إيه؟	el-taree2 za7ma wala eh?	Is the traffic bad or what?
+EG	222	classic	خلاص متتأخرش أكتر	khalas matet2akharsh aktar	Okay, don’t be any later
+EG	223	classic	هاتلي قهوة وإنت جاي	hatli ahwa w enta gay	Bring me coffee on your way
+EG	224	classic	أنا بدأت أتمرن تاني	ana bada2t atmaran tani	I started working out again
+EG	225	classic	النهارده هلعب رجل	el-naharda hal3ab regl	I’m training legs today
+EG	226	classic	الوزن ده تقيل شوية	el-wazn da te2eel shwaya	This weight is a little heavy
+EG	227	classic	محتاج أريح دقيقة	me7tag arayya7 da2ee2a	I need to rest for a minute
+EG	228	classic	هخلص وأروح البيت	hakhallas w aroo7 el-beit	I’ll finish and go home
+EG	229	classic	النت فصل تاني	el-net fasal tani	The internet went out again
+EG	230	classic	الراوتر منور بس مفيش نت	el-router menawwar bas mafeesh net	The router is on but there’s no internet
+EG	231	classic	جربت أقفله وأفتحه	garrabt a2felo w afta7o	I tried turning it off and on
+EG	232	classic	ممكن تكلم الشركة؟	momken tekallem el-sherka?	Can you call the internet company?
+EG	233	classic	خلاص النت رجع	khalas el-net rege3	The internet is back now
+DE	1	classic	بحب القهوة	bahebb el-ahwa	Ich liebe Kaffee
+DE	2	classic	بحب الشاي	bahebb esh-shay	Ich liebe Tee
+DE	3	classic	بحب	bahebb	Ich liebe
+DE	4	classic	بحب القهوة	bahebb el-ahwa	Ich liebe Kaffee
+DE	5	classic	بحب القهوة الصبح	bahebb el-ahwa es-sob7	Ich liebe Kaffee am Morgen
+DE	6	classic	بحب القهوة الصبح قبل الشغل	bahebb el-ahwa es-sob7 abl esh-shoghl	Ich liebe Kaffee am Morgen vor der Arbeit
+DE	7	classic	بحب أشرب القهوة كل يوم الصبح	bahebb ashrab el-ahwa kol yom el-sobh	Ich trinke jeden Morgen gerne Kaffee
+DE	8	classic	بحب القهوة	bahebb el-ahwa	Ich liebe Kaffee
+DE	9	classic	بحب القهوة	bahebb el-ahwa	Ich liebe Kaffee
+DE	10	classic	بحب القهوة	bahebb el-ahwa	Ich liebe Kaffee
+DE	11	classic	بحب القهوة	bahebb el-ahwa	Ich liebe Kaffee
+DE	12	classic	عايز أشرب قهوة دلوقتي	3ayez ashrab ahwa delwa2ti	Ich will jetzt Kaffee trinken
+DE	13	classic	أنا رايح الشغل بدري النهارده	ana rayeh el-shoghl badri el-naharda	Ich gehe heute früh zur Arbeit
+DE	14	classic	جبت هدية حلوة لصاحبي	gebt hedeya helwa le-sahbi	Ich habe meinem Freund ein schönes Geschenk gekauft
+DE	15	classic	بحب القهوة قوي	bahebb el-ahwa awi	Ich liebe Kaffee sehr
+DE	16	classic	عايز أشرب قهوة دلوقتي	3ayez ashrab ahwa delwa2ti	Ich will jetzt Kaffee trinken
+DE	17	classic	أنا عايز أشرب قهوة	ana 3ayez ashrab ahwa	Ich möchte Kaffee trinken
+DE	18	classic	أنا رايح الشغل بدري	ana rayeh el-shoghl badri	Ich gehe früh zur Arbeit
+DE	19	classic	أنا بحب الأكل المصري	ana ba7eb el-akl el-masri	Ich liebe ägyptisches Essen
+DE	20	classic	إنت ساكن فين دلوقتي	enta saken fein delwa2ti	Wo wohnst du jetzt?
+DE	21	classic	أنا عايز أروح البيت دلوقتي	ana 3ayez aroo7 el-beit delwa2ti	Ich möchte jetzt nach Hause gehen
+DE	22	classic	إحنا هناخد تاكسي للجامعة	e7na hanakhod taxi lel-gam3a	Wir nehmen ein Taxi zur Uni
+DE	23	classic	هي بتحب تشرب شاي الصبح	heyya bet7eb teshrab shay es-sob7	Sie trinkt morgens gern Tee
+DE	24	classic	ممكن تتكلم بالراحة شوية	momken tetkalem bel-ra7a shewaya	Kannst du bitte etwas langsamer sprechen?
+DE	25	classic	أنا بحب	ana ba7eb	Ich liebe
+DE	26	classic	أنا بحب سارة	ana ba7eb Sara	Ich liebe Sara
+DE	27	classic	أنا بحب سارة بس سارة	ana ba7eb Sara bas Sara	Ich liebe Sara, aber Sara ...
+DE	28	classic	أنا بحب سارة بس سارة مش بتحبني	ana ba7eb Sara bas Sara mesh bet7ebni	Ich liebe Sara, aber Sara liebt mich nicht
+DE	29	classic	أنا بحب	ana ba7eb	Ich liebe
+DE	30	classic	أنا بحب سارة	ana ba7eb Sara	Ich liebe Sara
+DE	31	classic	أنا بحب سارة بس سارة	ana ba7eb Sara bas Sara	Ich liebe Sara, aber Sara ...
+DE	32	classic	أنا بحب سارة بس سارة مش بتحبني	ana ba7eb Sara bas Sara mesh bet7ebni	Ich liebe Sara, aber Sara liebt mich nicht
+DE	33	classic	هو بينام	howa byenam	Er schläft
+DE	34	classic	هو بينام بدري	howa byenam badri	Er geht früh schlafen
+DE	35	classic	هو بينام بدري كل يوم	howa byenam badri kol yom	Er geht jeden Tag früh schlafen
+DE	36	classic	هو بينام بدري كل يوم بعد العشا	howa byenam badri kol yom ba3d el-3asha	Er geht jeden Tag nach dem Abendessen früh schlafen
+DE	37	cta	Folge uns für mehr!		Lerne Ägyptisch-Arabisch mit uns
+DE	38	classic	هو بيشرب	howwa beyeshrab	Er trinkt.
+DE	39	classic	هو بيشرب قهوة	howwa beyeshrab ahwa	Er trinkt Kaffee.
+DE	40	classic	هو بيشرب قهوة الصبح	howwa beyeshrab ahwa el-sob7	Er trinkt morgens Kaffee.
+DE	41	classic	هو بيشرب قهوة الصبح كل يوم	howwa beyeshrab ahwa el-sob7 kol yom	Er trinkt jeden Morgen Kaffee.
+DE	42	cta	Schreib "Egyptian"		Gratis Probestunde sichern
+DE	43	classic	عايز تتكلم زي مصري جدع؟ استخدم التعبيرات دي	3ayez tetkallem zay masri gada3? estakhdem el-ta3beerat di	Willst du wie ein echter cooler Ägypter klingen? Dann nutze diese Ausdrücke!
+DE	44	classic	قشطة / جامد	eshta / gamed	Cool / Richtig stark
+DE	45	classic	كبر دماغك	kabbar demaghak	Vergiss es einfach.
+DE	46	classic	بسرعة / هوا	be sor3a / hawa	Schnell / Blitzschnell
+DE	47	classic	صاحبي / زميلي	sa7by / zmeely	Mein Freund / Mein Kollege
+DE	48	classic	بجد؟	begad?	Echt jetzt?!
+DE	49	cta	Schreib dein Lieblingswort		Teile es mit Freunden
+DE	50	classic	أنا بطبخ	ana batbokh	Ich koche.
+DE	51	classic	أنا بطبخ رز	ana batbokh roz	Ich koche Reis.
+DE	52	classic	أنا بطبخ رز وفراخ	ana batbokh roz we ferakh	Ich koche Reis und Hähnchen.
+DE	53	classic	أنا بطبخ رز وفراخ وبطاطس	ana batbokh roz we ferakh we batates	Ich koche Reis, Hähnchen und Kartoffeln.
+DE	54	cta	Was ist dein Lieblingsgericht?		Ägyptisches Essen
+DE	55	classic	أنا بتفرج على التلفزيون	ana batfarag 3ala el-telefezyon	Ich schaue fern.
+DE	56	classic	أنا بلعب بالكورة	ana bal3ab bel-kora	Ich spiele Fußball.
+DE	57	classic	أنا برسم	ana barsem	Ich zeichne.
+DE	58	classic	أنا بقرا كتاب	ana ba2ra ketab	Ich lese ein Buch.
+DE	59	classic	أنا بركب العجلة	ana barkab el-3agala	Ich fahre Fahrrad.
+DE	60	cta	قولنا هوايتك بالمصري		شاركنا في الكومنتات
+DE	61	classic	جمل بنقولها في الصيف دايما في مصر	gomal bene2oolha fel seif dayman fi masr	Sätze, die wir im Sommer in Ägypten ständig sagen.
+DE	62	classic	الجو حر أوي النهارده	el-gaw 7ar awi el-naharda	Heute ist es richtig heiß.
+DE	63	classic	يلا نروح البحر	yalla neroo7 el-ba7r	Komm, lass uns ans Meer fahren.
+DE	64	classic	شغل التكييف	shaghghal el-takyif	Mach die Klimaanlage an.
+DE	65	classic	أنا بحب	ana ba7eb	Ich liebe es.
+DE	66	classic	أنا بحب عيلتي	ana ba7eb 3elty	Ich liebe meine Familie.
+DE	67	classic	أنا بحب ألعب كورة	ana ba7eb al3ab kora	Ich spiele gern Fußball.
+DE	68	classic	أنا بحب آكل مانجا	ana ba7eb akol manga	Ich esse gern Mangos.
+DE	69	classic	أنا بحب أسمع مزيكا	ana ba7eb asma3 mazika	Ich höre gern Musik.
+DE	70	classic	أنا بحب السفر	ana ba7eb el-safar	Ich reise gern.
+DE	71	classic	أنا بحب أتعلم حاجات جديدة	ana ba7eb at3allem 7agat gedida	Ich lerne gern neue Dinge.
+DE	72	classic	أنا بحب الشوكولاتة جدا	ana ba7eb el-shokolata geddan	Ich liebe Schokolade sehr.
+DE	73	classic	عاوزين نروح البحر	3awzeen neroo7 el-ba7r	Wir wollen ans Meer fahren.
+DE	74	classic	عاوزين ناكل دلوقتي	3awzeen nakol delwa2ti	Wir möchten jetzt etwas essen.
+DE	75	classic	عاوزين نتعلم عربي	3awzeen net3allem 3arabi	Wir möchten Arabisch lernen.
+DE	76	classic	عاوزين نتصور سوا	3awzeen netsawwar sawa	Wir möchten zusammen ein Foto machen.
+DE	77	classic	الجو جميل أوي الصبح	el-gaw gamil awi el-sob7	Das Wetter ist morgens wunderschön.
+DE	78	classic	الجو حر جدًا	el-gaw 7arr geddan	Es ist heute sehr heiß.
+DE	79	classic	الجو جميل النهارده	el-gaw gameel el-naharda	Das Wetter ist heute schön.
+DE	80	classic	الجو برد قوي	el-gaw bard awi	Es ist richtig kalt.
+DE	81	classic	مستني الأتوبيس دلوقتي	mestanny el-otobees delwa2ti	Ich warte gerade auf den Bus.
+DE	82	classic	مستني صاحبي برا	mestanny sa7by barra	Ich warte draußen auf meinen Freund.
+DE	83	classic	مستني الرد منك	mestanny el-radd mennak	Ich warte auf deine Antwort.
+DE	84	classic	مستني الدور بتاعي	mestanny el-dawr beta3y	Ich warte, bis ich dran bin.
+DE	85	classic	جيت عشان أشوفك	geet 3ashan ashoofak	Ich bin gekommen, um dich zu sehen.
+DE	86	classic	بذاكر عشان أنجح	bazaker 3ashan anga7	Ich lerne, damit ich bestehe.
+DE	87	classic	اشتغلت عشان الفلوس	eshtaghalt 3ashan el-feloos	Ich habe für das Geld gearbeitet.
+DE	88	classic	خرجت عشان أتمشى شوية	kharagt 3ashan atmasha shewaya	Ich bin rausgegangen, um ein bisschen spazieren zu gehen.
+DE	89	classic	أنا جاي حالًا	ana gay 7alan	Ich komme sofort.
+DE	90	classic	هو جاي معايا	howwa gay ma3aya	Er kommt mit mir.
+DE	91	classic	جاي منين دلوقتي؟	gay menen delwa2ti?	Woher kommst du gerade?
+DE	92	classic	هي جاية بكرة	heya gaya bokra	Sie kommt morgen.
+DE	93	classic	نفسي أشرب قهوة	nefsy ashrab ahwa	Ich hätte gerne einen Kaffee.
+DE	94	classic	نفسي أسافر مصر	nefsy asafer masr	Ich möchte nach Ägypten reisen.
+DE	95	classic	نفسي أنام شوية	nefsy anam shewaya	Ich möchte ein bisschen schlafen.
+DE	96	classic	نفسي آكل كشري	nefsy akol koshary	Ich hätte gern Koshary.
+DE	97	classic	أنا عارف المكان	ana 3aref el-makan	Ich kenne den Ort.
+DE	98	classic	إنت عارف الراجل ده؟	enta 3aref el-ragel da?	Kennst du diesen Mann?
+DE	99	classic	هي عارفة إجابة السؤال	heya 3arfa egabet el-so2al	Sie kennt die Antwort auf die Frage.
+DE	100	classic	أنا مش عارف أروح	ana mesh 3aref aroo7	Ich weiß nicht, wie ich hinkomme.
+DE	101	classic	الجو حر النهارده	el-gaw 7ar el-naharda	Heute ist es heiß.
+DE	102	classic	عندي شغل النهارده	3andy shoghl el-naharda	Ich muss heute arbeiten.
+DE	103	classic	هطبخ النهارده لحمة	hatbokh el-naharda la7ma	Ich koche heute Fleisch.
+DE	104	classic	هنقابلهم النهارده الساعة ٦	hane2abelhom el-naharda el-sa3a setta	Wir treffen sie heute um 6 Uhr.
+DE	105	classic	فين أقرب محطة مترو؟	feen a2rab ma7attet metro?	Wo ist die nächste U-Bahn-Station?
+DE	106	classic	فين الحمام لو سمحت؟	feen el-7ammam law sama7t?	Wo ist bitte die Toilette?
+DE	107	classic	فين أقرب صيدلية؟	feen a2rab saydaleya?	Wo ist die nächste Apotheke?
+DE	108	classic	فين شارع التحرير؟	feen share3 el-ta7rir?	Wo ist die Tahrir-Straße?
+DE	109	classic	مفيش مشكلة خالص	mafeesh moshkela khales	Kein Problem, überhaupt nicht.
+DE	110	classic	مفيش وقت النهارده	mafeesh wa2t el-naharda	Ich habe heute keine Zeit.
+DE	111	classic	مفيش فلوس معايا	mafeesh feloos ma3aya	Ich habe kein Geld dabei.
+DE	112	classic	مفيش حد هنا	mafeesh 7ad hena	Hier ist niemand.
+DE	113	classic	لسه صاحي دلوقتي	lessa sa7y delwa2ti	Ich bin gerade erst aufgewacht.
+DE	114	classic	لسه مخلصتش الشغل	lessa makhallastesh el-shoghl	Ich bin mit der Arbeit noch nicht fertig.
+DE	115	classic	لسه راجع البيت	lessa rage3 el-bet	Ich bin gerade nach Hause gekommen.
+DE	116	classic	لسه مستني صاحبي	lessa mestanny sa7by	Ich warte immer noch auf meinen Freund.
+DE	117	classic	عندي شغل النهارده	3andy shoghl el-naharda	Ich muss heute arbeiten.
+DE	118	classic	عندي درس بكرة	3andy dars bokra	Ich habe morgen Unterricht.
+DE	119	classic	عندي وقت دلوقتي	3andy wa2t delwa2ti	Ich habe jetzt Zeit.
+DE	120	classic	عندي سؤال صغير	3andy so2al soghayar	Ich habe eine kleine Frage.
+DE	121	classic	أنا بحب القهوة	ana ba7eb el-ahwa	Ich liebe Kaffee.
+DE	122	classic	إنت بتحب السفر؟	enta bete7eb el-safar?	Reist du gern?
+DE	123	classic	هي بتحب مصر	heya bete7eb masr	Sie liebt Ägypten.
+DE	124	classic	إحنا بنحب العربي	e7na bene7eb el-3arabi	Wir lieben Arabisch.
+DE	125	classic	أنا بشرب شاي	ana bashrab shay	Ich trinke Tee.
+DE	126	classic	إنت بتشرب قهوة؟	enta beteshrab ahwa?	Trinkst du Kaffee?
+DE	127	classic	هي بتشرب عصير	heya beteshrab 3aseer	Sie trinkt Saft.
+DE	128	classic	إحنا بنشرب مايه	e7na beneshrab mayya	Wir trinken Wasser.
+DE	129	classic	أنا فاهم الدرس	ana fahem el-dars	Ich verstehe die Lektion.
+DE	130	classic	إنت فاهم قصدي؟	enta fahem 2asdy?	Verstehst du, was ich meine?
+DE	131	classic	هي فاهمة كل حاجة	heya fahma kol 7aga	Sie versteht alles.
+DE	132	classic	إحنا فاهمين الحكاية كلها	e7na fahmeen el-7ekaya kollaha	Wir verstehen die ganze Geschichte.
+DE	133	classic	أنا ساكن في القاهرة	ana saken fi el-qahera	Ich wohne in Kairo.
+DE	134	classic	إنت ساكن فين؟	enta saken feen?	Wo wohnst du?
+DE	135	classic	هي ساكنة قريب	heya sakna orayyeb	Sie wohnt in der Nähe.
+DE	136	classic	هما ساكنين هنا	homma sakneen hena	Sie wohnen hier.
+DE	137	classic	أنا باكل رز	ana bakol roz	Ich esse Reis.
+DE	138	classic	إنت بتاكل سمك؟	enta betakol samak?	Isst du Fisch?
+DE	139	classic	هي بتاكل سلطة	heya betakol salata	Sie isst Salat.
+DE	140	classic	إحنا بناكل سوا	e7na benakol sawa	Wir essen zusammen.
+DE	141	classic	عاوزين نروح البحر	3awzeen neroo7 el-ba7r	Wir wollen ans Meer fahren.
+DE	142	classic	عاوزين ناكل دلوقتي	3awzeen nakol delwa2ti	Wir möchten jetzt etwas essen.
+DE	143	classic	عاوزين نتعلم عربي	3awzeen net3allem 3arabi	Wir möchten Arabisch lernen.
+DE	144	classic	عاوزين نتصور سوا	3awzeen netsawwar sawa	Wir möchten zusammen ein Foto machen.
+DE	145	classic	Du lernst Arabisch, aber verstehst die Ägypter trotzdem nicht?	Du lernst Arabisch, aber verstehst die Ägypter trotzdem nicht?	Du lernst Arabisch, aber verstehst die Ägypter trotzdem nicht?
+DE	146	classic	Fusha ist wichtig – aber sie reicht für den Alltag in Ägypten nicht aus!	Fusha ist wichtig – aber sie reicht für den Alltag in Ägypten nicht aus!	Hocharabisch ist wichtig – aber für den Alltag in Ägypten reicht es nicht.
+DE	147	classic	Du lernst: Mādhā taf3al?	Du lernst: Mādhā taf3al?	Du lernst: „Was machst du?“
+DE	148	classic	Ein Ägypter sagt: Bet3mel eh?	Ein Ägypter sagt: Bet3mel eh?	Ein Ägypter sagt: „Was machst du?“
+DE	149	classic	Du lernst: Urīd	Du lernst: Urīd	Du lernst: „Ich möchte …“
+DE	150	classic	Ein Ägypter sagt: 3ayez	Ein Ägypter sagt: 3ayez	Ein Ägypter sagt: „Ich möchte …“
+DE	151	classic	Masri bringt dich näher an echte Gespräche!	Masri bringt dich näher an echte Gespräche!	Mit Masri verstehst du echte Gespräche im Alltag viel besser.
+DE	152	classic	جيت عشان أشوفك	geet 3ashan ashoofak	Ich bin gekommen, um dich zu sehen.
+DE	153	classic	بذاكر عشان أنجح	bazaker 3ashan anga7	Ich lerne, damit ich bestehe.
+DE	154	classic	اشتغلت عشان الفلوس	eshtaghalt 3ashan el-feloos	Ich habe für das Geld gearbeitet.
+DE	155	classic	خرجت عشان أتمشى شوية	kharagt 3ashan atmasha shewaya	Ich bin rausgegangen, um ein bisschen spazieren zu gehen.
+DE	156	classic	إنت فين دلوقتي؟	enta fein delwa2ty?	Wo bist du gerade?
+DE	157	classic	أنا في البيت	ana fel beet	Ich bin zu Hause
+DE	158	classic	إنت لوحدك؟	enta lewa7dak?	Bist du allein?
+DE	159	classic	أيوه لوحدي	aywa lewa7dy	Ja, ich bin allein
+DE	160	classic	وصلت إمتى؟	weselt emta?	Wann bist du angekommen?
+DE	161	classic	لسه واصل حالا	lessa wasel 7ala	Ich bin gerade erst angekommen
+DE	162	reveal	Zustimmen auf Ägyptisch		reveal: 6 rows
+DE	163	classic	أنا ماشية على طول	ana mashya 3ala tool	Ich gehe geradeaus.
+DE	164	classic	أنا برجّع لورا	ana bargga3 lewara	Ich gehe zurück.
+DE	165	classic	أنا بروح ناحية الشمال	ana baroo7 na7yet el-shemal	Ich gehe nach links.
+DE	166	classic	أنا بروح ناحية اليمين	ana baroo7 na7yet el-yemeen	Ich gehe nach rechts.
+DE	167	classic	أنا بلف	ana balef	Ich biege ab.
+DE	168	classic	أنا بجري	ana bagry	Ich renne.
+DE	169	reveal	Was ich alles habe		reveal: 5 rows
+DE	170	reveal	Ägyptische Sätze für Anfänger		reveal: 5 rows
+DE	171	reveal	Zeitangaben auf Ägyptisch		reveal: 6 rows
+DE	172	reveal	روتين الصبح بالمصري		reveal: 6 rows
+DE	173	reveal	كلام مصري يطمنك		reveal: 5 rows
+DE	174	reveal	Dinge, die Ägypter sagen		reveal: 7 rows
+DE	175	reveal	Wichtige Sätze für Anfänger		reveal: 8 rows
+DE	176	reveal	Wichtige Sätze im Arabischkurs		reveal: 6 rows
+DE	177	reveal	Die wichtigsten ägyptischen Sätze, Part 1		reveal: 8 rows
+DE	178	reveal	Sätze für Arbeit und Studium, Part 1		reveal: 5 rows
+DE	179	reveal	So fragst und antwortest du auf Ägyptisch		reveal: 8 rows
+DE	180	reveal	Sätze aus jedem ägyptischen Haushalt		reveal: 5 rows
+DE	181	classic	خد الباب في إيدك وإنت طالع	khod el-bab fe eedak wenta tale3	Nimm die Tür mit nach oben.
+DE	182	classic	نزلت أشتري حاجات من السوبرماركت	nezelt ashtary 7agat men el-supermarket	Ich bin runtergegangen, um Sachen im Supermarkt zu kaufen.
+DE	183	classic	صحيني بكرة الصبح ضروري	sa7eeny bokra el-sob7 darory	Weck mich morgen früh unbedingt.
+DE	184	classic	لم الهدوم من على الحبل	lem el-hodoom men 3ala el-7abl	Hol die Wäsche von der Leine.
+DE	185	classic	غسلتي الهدوم ولا لسه يا ماما؟	ghasalti el-hodoom wala lessa ya mama?	Hast du die Wäsche schon gewaschen oder noch nicht, Mama?
+DE	186	reveal	Sätze, die Ägypter ständig sagen		reveal: 7 rows
+DE	187	reveal	Ägyptische Sätze für schwierige Entscheidungen		reveal: 7 rows
+DE	188	classic	ماشي يا سيدي موافق	mashi ya sidi mwafe2	Okay, ich bin einverstanden.
+DE	189	classic	الكلام ده مش مظبوط خالص	el-kalam da mesh mazboot khales	Das stimmt überhaupt nicht.
+DE	190	classic	عندك حق في النقطة دي	3andak 7a2 fe el-no2ta di	Da hast du recht.
+DE	191	classic	أنا مش موافق على الكلام ده	ana mesh mwafe2 3ala el-kalam da	Ich bin damit nicht einverstanden.
+DE	192	classic	تمام زي الفل اتفقنا خلاص	tamam zay el-fol etfa2na khalas	Alles klar, abgemacht.
+DE	193	classic	الأكل حلو أوي	el-akl 7elw awi	Das Essen ist sehr lecker.
+DE	194	classic	الشوربة حادقة شوية	el-shorba 7ade2a shewaya	Die Suppe ist ein bisschen zu salzig.
+DE	195	classic	الكيكة مسكرة أوي	el-keka mesakkara awi	Der Kuchen ist viel zu süß.
+DE	196	classic	اللحمة محتاجة شوية ملح	el-la7ma me7taga shewayet mel7	Das Fleisch braucht ein bisschen Salz.
+DE	197	classic	الكشري حامي جدًا	el-koshary 7amy geddan	Das Koshary ist sehr scharf.
+DE	198	classic	الأكل حلو أوي	el-akl 7elw awi	Das Essen ist sehr lecker.
+DE	199	classic	الشوربة حادقة شوية	el-shorba 7ade2a shewaya	Die Suppe ist ein bisschen zu salzig.
+DE	200	classic	الكيكة مسكرة أوي	el-keka mesakkara awi	Der Kuchen ist viel zu süß.
+DE	201	classic	اللحمة محتاجة شوية ملح	el-la7ma me7taga shewayet mel7	Das Fleisch braucht ein bisschen Salz.
+TR	1	classic	عايز أشرب قهوة دلوقتي	3ayez ashrab ahwa delwa2ti	Şimdi kahve içmek istiyorum
+TR	2	cta	Kaç tanesini bildin?		Yorumlarda bize söyle!
+TR	3	classic	أنا جعان	ana ga'an	Ben açım
+TR	4	classic	أنا عطشان	ana atşan	Ben susadım
+TR	5	classic	أنا متضايق	ana mitdayye'	Canım sıkkın
+TR	6	classic	أنا مبسوط	ana mabsuut	Ben mutluyum
+TR	7	classic	بكنس الأرض	baknes el-ard	Yeri süpürüyorum
+TR	8	classic	بلم الألعاب	balemm el-al'ab	Oyuncakları topluyorum
+TR	9	classic	برتب السرير	baratteb es-sarir	Yatağı topluyorum
+TR	10	classic	بنضف المكتب	banaddaf el-maktab	Masayı temizliyorum
+TR	11	classic	بكنس الأرض كل يوم الصبح	baknes el-ard kol yom es-sob7	Her sabah yeri süpürüyorum
+TR	12	classic	بلم الألعاب من على الأرض	balemm el-al'ab men 3ala el-ard	Oyuncakları yerden topluyorum
+TR	13	classic	برتب السرير بعد ما أصحى	baratteb es-sarir ba3d ma as7a	Uyandıktan sonra yatağı topluyorum
+TR	14	classic	بنضف المكتب قبل الشغل	banaddaf el-maktab abl esh-shoghl	İşten önce masayı temizliyorum
+TR	15	classic	بكنس الأرض	baknes el-ard	Yeri süpürüyorum
+TR	16	classic	بلم الألعاب	balemm el-al'ab	Oyuncakları topluyorum
+TR	17	classic	برتب السرير	baratteb es-sarir	Yatağı topluyorum
+TR	18	classic	بغسل الهدوم	baghsil el-hudum	Kıyafetleri yıkıyorum
+TR	19	classic	بنشر الهدوم	بانşor el-hudum	Kıyafetleri asıyorum
+TR	20	classic	بطبق الهدوم	batabba' el-hudum	Kıyafetleri katlıyorum
+TR	21	classic	بكوي الهدوم	bakwi el-hudum	Kıyafetleri ütülüyorum
+TR	22	classic	اشتريت خضار ب ٧٥ جنيه	iştaret hodar be 75 gineh	75 Mısır lirasına sebze aldım
+TR	23	classic	اشتريت طماطم ب ٣٠ جنيه	iştaret tamatem be 30 gineh	30 Mısır lirasına domates aldım
+TR	24	classic	اشتريت خيار ب ٢٠ جنيه	iştaret hiyar be 20 gineh	20 Mısır lirasına salatalık aldım
+TR	25	classic	اشتريت فلفل ب ٢٠ جنيه	iştaret filfil be 20 gineh	20 Mısır lirasına biber aldım
+TR	26	classic	اشتريت جرجير ب ٥ جنيه	iştaret gargir be 5 gineh	5 Mısır lirasına roka aldım
+TR	27	classic	أنا لابسة فستان	ana labsa fustan	Elbise giyiyorum
+TR	28	classic	أنا لابسة جيبة وبلوزة	ana labsa giiba ve bluza	Etek ve bluz giyiyorum
+TR	29	classic	أنا لابسة قميص وبنطلون	ana labsa amiis ve bantalon	Gömlek ve pantolon giyiyorum
+TR	30	classic	أنا لابسة بدلة	ana labsa badla	Takım elbise giyiyorum
+TR	31	classic	أنا لابسة بيجامة	ana labsa bigama	Pijama giyiyorum
+TR	32	classic	أنا بحب أكل المحشي بكل أنواعه	ana bahebb akl el-mahşi be-koll anva'oh	Her çeşit mahşiyi yemeyi seviyorum
+TR	33	classic	بحب أكل محشي الكرنب والخس	bahebb akl mahşi el-koronb vel-hass	Lahana ve marul dolmasını seviyorum
+TR	34	classic	وبحب محشي الكوسة والباذنجان والفلفل	ve-bahebb mahşi el-kuusa vel-betingan vel-filfil	Kabak, patlıcan ve biber dolmasını seviyorum
+TR	35	classic	وبحب كمان الممبار المحشي	ve-bahebb kamen el-mombar el-mahşi	Ayrıca mumbar dolmasını da seviyorum
+TR	36	classic	أنا مش فاهم	ana miş fahim	Anlamıyorum
+TR	37	classic	أنا مش بتكلم عربي	ana miş batkallem arabi	Arapça konuşamıyorum
+TR	38	classic	اتكلم بالراحة شوية	itkallem bir-raha şuvayya	Biraz yavaş konuş
+TR	39	classic	على مهلك	ala mahlak	Yavaş ol
+TR	40	classic	أنا لسه بتعلم	ana lissa batallim	Daha yeni öğreniyorum
+TR	41	classic	دي أول مرة أجرب حمام محشي	di avval marra agarrab hamam mahşi	İlk defa iç pilavlı güvercin deniyorum
+TR	42	classic	عايز سندوتش كبدة إسكندراني	ayez sandviç kebda iskandarani	İskenderiye usulü ciğer sandviçi istiyorum
+TR	43	classic	الفتة دي طعمها حلو أوي	el-fatta di ta'maha helv avi	Bu fettanın tadı çok güzel
+TR	44	classic	عايز حواوشي سخن لو سمحت	ayez havavşi sohn lav samaht	Sıcak havavşi istiyorum, lütfen
+TR	45	classic	أنا بحب الملوخية مع الرز	ana bahebb el-molokhiyya ma' er-rozz	Molohiyeyi pilavla seviyorum
+TR	46	classic	عايز سندوتش طعمية وفول	ayez sandviç ta'miyya ve fuul	Taameya ve ful sandviçi istiyorum
+TR	47	classic	أيام الأسبوع عند المصريين بتبدأ السبت وبتنتهي الجمعة	ayyam el-usbu' and el-masriyyin bitibda es-sabt ve-bitinti el-gom'a	Mısırlılarda hafta cumartesi başlar ve cuma günü biter
+TR	48	classic	السبت أجازة رسمية في مصر	es-sabt agaza rasmiyya fi Masr	Cumartesi Mısır'da resmî tatildir
+TR	49	classic	الأحد أول أيام الدراسة	el-hadd avval ayyam ed-dirasa	Pazar okulun ilk günüdür
+TR	50	classic	الإثنين أجازة الحلاقين في مصر	el-itnen agazet el-halla'in fi Masr	Pazartesi Mısır'da berberlerin tatil günüdür
+TR	51	classic	يوم الثلاثاء عندنا سوق التلات	yom et-talatt andena su' et-talatt	Salı günü bizde Salı Pazarı kurulur
+TR	52	classic	يوم الأربعاء عندنا سوق الأربع برضه	yom el-arba' andena su' el-arba' bardo	Çarşamba günü de Çarşamba Pazarı kurulur
+TR	53	classic	الخميس نهاية أيام العمل الرسمية	el-hamis nihayet ayyam el-amal er-rasmiyya	Perşembe resmî çalışma haftasının son günüdür
+TR	54	classic	الجمعة أجازة رسمية في مصر	el-gom'a agaza rasmiyya fi Masr	Cuma Mısır'da resmî tatildir
+TR	55	classic	دي قهوة مظبوط	di ahwa mazbuut	Bu orta şekerli kahve
+TR	56	classic	عايز قهوة مظبوط لو سمحت	ayez ahwa mazbuut lav samaht	Orta şekerli kahve istiyorum, lütfen
+TR	57	classic	دي قهوة سادة	di ahwa sada	Bu şekersiz kahve
+TR	58	classic	عايز قهوة سادة لو سمحت	ayez ahwa sada lav samaht	Şekersiz kahve istiyorum, lütfen
+TR	59	classic	القهوة من غير سكر لو سمحت	el-ahwa min ğeer sokkar lav samaht	Kahve şekersiz olsun, lütfen
+TR	60	classic	أنا بطبخ	ana batboh	Yemek yapıyorum
+TR	61	classic	أنا بحب أطبخ	ana bahebb atboh	Yemek yapmayı seviyorum
+TR	62	classic	أنا بطبخ كل يوم	ana batboh kol yom	Her gün yemek yapıyorum
+TR	63	classic	أنا بطبخ الغدا كل يوم	ana batboh el-ğada kol yom	Her gün öğle yemeği yapıyorum
+TR	64	classic	أنا بحب أتمشى	ana bahebb atmaşşa	Yürüyüş yapmayı seviyorum
+TR	65	classic	أنا بحب أتمشى كل يوم	ana bahebb atmaşşa kol yom	Her gün yürüyüş yapmayı seviyorum
+TR	66	classic	أنا بحب أتمشى كل يوم مع أصحابي	ana bahebb atmaşşa kol yom ma' ashabi	Her gün arkadaşlarımla yürüyüş yapmayı seviyorum
+TR	67	classic	أنا بحب أتمشى كل يوم الساعة ٦ الصبح	ana bahebb atmaşşa kol yom es-sa'a setta es-sob7	Her gün sabah saat altıda yürüyüş yapmayı seviyorum
+TR	68	classic	وبحب أتمشى الساعة ١٠ بالليل	ve-bahebb atmaşşa es-sa'a aşara bil-leel	Gece saat onda yürüyüş yapmayı da seviyorum
+TR	69	classic	دي شجرة كبيرة	di şagara kebira	Bu büyük bir ağaç
+TR	70	classic	دي أشجار كبيرة	di aşgar kebira	Bunlar büyük ağaçlar
+TR	71	classic	دي وردة جميلة	di varda gamila	Bu güzel bir gül
+TR	72	classic	دي ورود جميلة	di vurud gamila	Bunlar güzel güller
+TR	73	classic	دي برتقالة حلوة	di borta'ana helva	Bu tatlı bir portakal
+TR	74	classic	ده برتقال حلو	da borta'an helv	Bunlar tatlı portakallar
+TR	75	classic	دي تفاحة حمرا	di toffaha hamra	Bu kırmızı bir elma
+TR	76	classic	ده تفاح أحمر	da toffah ahmar	Bunlar kırmızı elmalar
+TR	77	classic	دي رمانة كبيرة	di rommana kebira	Bu büyük bir nar
+TR	78	classic	ده رمان كبير	da romman kebir	Bunlar büyük narlar
+TR	79	classic	مش مشكلة يا صاحبي	miş moşkila ya sahbi	Sorun değil arkadaşım
+TR	80	classic	ولا يهمك يا حبيبي	vala yihimmak ya habibi	Hiç önemli değil dostum
+TR	81	classic	عادي يا عم ولا يهمك	adi ya amm vala yihimmak	Boş ver, hiç önemli değil
+TR	82	classic	مش هتفرق معايا خالص	miş hatifra' ma'aya halis	Benim için hiç fark etmez
+TR	83	classic	حصل خير ولا يهمك	hasal heer vala yihimmak	Olan oldu, sorun değil
+TR	84	classic	خيرها في غيرها يا صاحبي	heerha fi ğeerha ya sahbi	Kısmet değilmiş, başka sefere
+TR	85	classic	الكتاب فوق الترابيزة	el-kitab fo' et-tarabeeza	Kitap masanın üstünde
+TR	86	classic	الشنطة تحت الكرسي	eş-şanta taht el-korsi	Çanta sandalyenin altında
+TR	87	classic	الباب على اليمين	el-bab ala el-yemin	Kapı sağ tarafta
+TR	88	classic	الشباك على الشمال	eş-şobbak ala eş-şimal	Pencere sol tarafta
+TR	89	classic	الموبايل على السرير	el-mobayl ala es-sarir	Telefon yatağın üstünde
+TR	90	classic	المفتاح جوه الشنطة	el-miftah govva eş-şanta	Anahtar çantanın içinde
+TR	91	classic	الكرسي ما بين الترابيزتين	el-korsi ma ben et-tarabeezten	Sandalye iki masanın arasında
+TR	92	classic	الشنطة جنب الباب	eş-şanta gamb el-bab	Çanta kapının yanında
+TR	93	classic	الكتاب فوق الترابيزة	el-kitab fo' et-tarabeeza	Kitap masanın üstünde
+TR	94	classic	الشنطة تحت الكرسي	eş-şanta taht el-korsi	Çanta sandalyenin altında
+TR	95	classic	الباب على اليمين	el-bab ala el-yemin	Kapı sağ tarafta
+TR	96	classic	الشباك على الشمال	eş-şobbak ala eş-şimal	Pencere sol tarafta
+TR	97	classic	الموبايل على السرير	el-mobayl ala es-sarir	Telefon yatağın üstünde
+TR	98	classic	المفتاح جوه الشنطة	el-miftah govva eş-şanta	Anahtar çantanın içinde
+TR	99	classic	الكرسي ما بين الترابيزتين	el-korsi ma ben et-tarabeezten	Sandalye iki masanın arasında
+TR	100	classic	الشنطة جنب الباب	eş-şanta gamb el-bab	Çanta kapının yanında
+TR	101	classic	الكتاب فوق الترابيزة	el-kitab fo' et-tarabeeza	Kitap masanın üstünde
+TR	102	classic	الشنطة تحت الكرسي	eş-şanta taht el-korsi	Çanta sandalyenin altında
+TR	103	classic	الباب على اليمين	el-bab ala el-yemin	Kapı sağ tarafta
+TR	104	classic	الشباك على الشمال	eş-şobbak ala eş-şimal	Pencere sol tarafta
+TR	105	classic	الموبايل على السرير	el-mobayl ala es-sarir	Telefon yatağın üstünde
+TR	106	classic	المفتاح جوه الشنطة	el-miftah govva eş-şanta	Anahtar çantanın içinde
+TR	107	classic	الكرسي ما بين الترابيزتين	el-korsi ma ben et-tarabeezten	Sandalye iki masanın arasında
+TR	108	classic	الشنطة جنب الباب	eş-şanta gamb el-bab	Çanta kapının yanında
+TR	109	classic	معلش حصل خير	ma'leş hasal heer	Boş ver, olan oldu
+TR	110	classic	ما تزعلش نفسك	ma tez'alş nafsak	Kendini üzme
+TR	111	classic	خلاص انسى الموضوع	halas insa el-mavdu'	Tamam, konuyu unut
+TR	112	classic	ولا كأن حاجة حصلت	vala ka'en haga hasalit	Hiçbir şey olmamış gibi düşün
+TR	113	classic	مفيش داعي تعتذر	mafiiş da'i ti'tezir	Özür dilemene gerek yok
+TR	114	classic	الموضوع بسيط ما تقلقش	el-mavdu' basiit ma te'la'ş	Konu basit, endişelenme
+TR	115	classic	عايز أروح وسط البلد لو سمحت	ayez aruh vest el-balad lav samaht	Şehir merkezine gitmek istiyorum, lütfen
+TR	116	classic	ممكن تفتح العداد لو سمحت؟	momken teftah el-addad lav samaht	Taksimetreyi açabilir misin, lütfen?
+TR	117	classic	الطريق زحمة أوي النهارده	et-tari' zahma avi en-naharda	Bugün trafik çok yoğun
+TR	118	classic	ممكن تمشي من الطريق التاني؟	momken temşi min et-tari' et-tani	Diğer yoldan gidebilir misin?
+TR	119	classic	نزلني هنا لو سمحت	nazzilni hina lav samaht	Beni burada indir, lütfen
+TR	120	classic	الأجرة كام لو سمحت؟	el-ogra kam lav samaht	Ücret ne kadar, lütfen?
+TR	121	classic	أنا ماشية	ana maşya	Yürüyorum
+TR	122	classic	أنا ماشية رايحة السوق	ana maşya rayha es-su'	Pazara gidiyorum
+TR	123	classic	أنا ماشية رايحة السوق أشتري خضار	ana maşya rayha es-su' aşteri hodar	Sebze almak için pazara gidiyorum
+TR	124	classic	هشتري خضار وفاكهة	haşteri hodar ve-fakha	Sebze ve meyve alacağım
+TR	125	classic	وهجيب سمك وطحينة ولمون	ve-hagib samak ve-tahina ve-lamun	Balık, tahin ve limon da alacağım
+TR	126	classic	علشان أعمل غدا النهارده	alaşan a'mel ğada en-naharda	Bugün öğle yemeği yapmak için
+TR	127	classic	تعالوا اتغدوا معانا	ta'alu itğaddu ma'ana	Gelin, bizimle öğle yemeği yiyin
+TR	128	classic	ده مسجد كبير	da masgid kebir	Bu büyük bir cami
+TR	129	classic	دي مكتبة صغيرة	di maktaba soğayyara	Bu küçük bir kütüphane
+TR	130	classic	ده سوبر ماركت قريب	da supermarket orayyeb	Bu yakın bir süpermarket
+TR	131	classic	ده فرن بلدي مشهور	da forn baladi maşhur	Bu meşhur bir mahalle fırını
+TR	132	classic	ده كافيه هادي	da kafe hadi	Bu sakin bir kafe
+TR	133	classic	ده بيت جميل	da bet gamil	Bu güzel bir ev
+TR	134	classic	دي جنينة واسعة	di genena vas'a	Bu geniş bir bahçe
+TR	135	classic	إزيك؟	izzayyek	Nasılsın?
+TR	136	classic	الحمد لله، وإنتي؟	el-hamdu lillah, ve-enti	İyiyim, sen nasılsın?
+TR	137	classic	تمام، إنتي منين؟	tamam, enti minen	İyiyim, sen nerelisin?
+TR	138	classic	أنا من تركيا	ana min Torkeya	Ben Türkiyeliyim
+TR	139	classic	عندك كام سنة؟	andik kam sana	Kaç yaşındasın?
+TR	140	classic	عندي ٢٥ سنة، وإنتي؟	andi hamşa ve-işrin sana, ve-enti	25 yaşındayım, ya sen?
+TR	141	classic	أنا برضه عندي ٢٥ سنة	ana bardo andi hamşa ve-işrin sana	Ben de 25 yaşındayım
+TR	142	cta	İş yerinde bu diyaloğu kurabilir misin?		İş Yerinde Öğle Molası
+TR	143	classic	إنتي هتاكلي إيه؟	enti hatakli eh	Ne yiyeceksin?
+TR	144	classic	أنا جايبة أكل من البيت	ana gayba akl min el-beyt	Evden yemek getirdim
+TR	145	classic	عملتي إيه النهارده؟	amalti eh en-naharda	Bugün ne yaptın?
+TR	146	classic	عملت رز وفراخ	amalt rozz ve-farah	Pilav ve tavuk yaptım
+TR	147	classic	الأكل شكله حلو أوي	el-akl şeklo helv avi	Yemek çok güzel görünüyor
+TR	148	classic	تعالي كلي معايا	ta'ali koli ma'aya	Gel, benimle ye
+TR	149	classic	ماشي، بالهنا والشفا	maşi, bil-hana veş-şifa	Tamam, afiyet olsun
+TR	150	cta	Yeni iş arkadaşınla tanışabilir misin?		Yeni İş Arkadaşıyla Tanışma
+TR	151	classic	إنتي جديدة هنا؟	enti gedida hina	Burada yeni misin?
+TR	152	classic	آه، ده أول يوم ليا	ah, da avval yom leya	Evet, bugün ilk günüm
+TR	153	classic	بتشتغلي في قسم إيه؟	bitiştağali fi 'ism eh	Hangi bölümde çalışıyorsun?
+TR	154	classic	أنا بشتغل في قسم المبيعات	ana baştğal fi 'ism el-mabi'at	Satış bölümünde çalışıyorum
+TR	155	classic	لو احتجتي حاجة قوليلي	lav ihtigti haga 'ulili	Bir şeye ihtiyacın olursa bana söyle
+TR	156	classic	شكرا، إنتي ذوق أوي	şokran, enti zo' avi	Teşekkür ederim, çok naziksin
+TR	157	classic	العفو، نورتينا	el-afv, navvartina	Rica ederim, hoş geldin
+TR	158	cta	İş arkadaşından yardım isteyebilir misin?		İş Arkadaşından Yardım İstemek
+TR	159	classic	ممكن تساعديني في حاجة؟	momken tsa'idini fi haga	Bir konuda bana yardım edebilir misin?
+TR	160	classic	آه طبعًا، محتاجة إيه؟	ah tab'an, mihtaga eh	Evet tabii, neye ihtiyacın var?
+TR	161	classic	مش عارفة أفتح الملف ده	miş arfa aftah el-malaf da	Bu dosyayı nasıl açacağımı bilmiyorum
+TR	162	classic	استني، هورهولك	istanni, havarriholik	Bekle, sana göstereyim
+TR	163	classic	كده تمام، شكرًا أوي	keda tamam, şokran avi	Şimdi oldu, çok teşekkür ederim
+TR	164	classic	العفو، ولا يهمك	el-afv, vala yihimmik	Rica ederim, hiç önemli değil
+TR	165	classic	بجد وفرتي عليا وقت كتير	bigad vaffarti alayya va't kitir	Gerçekten bana çok zaman kazandırdın
+TR	166	cta	İşten erken çıkmak için izin isteyebilir misin?		İşten Erken Çıkmak İçin İzin İstemek
+TR	167	classic	ممكن أخرج بدري النهارده؟	momken ahrog badri en-naharda	Bugün işten erken çıkabilir miyim?
+TR	168	classic	خير، في حاجة؟	heer, fi haga	Hayırdır, bir şey mi oldu?
+TR	169	classic	عندي معاد مهم الساعة أربعة	andi mi'ad mohim es-sa'a arba'a	Saat dörtte önemli bir randevum var
+TR	170	classic	خلصتي الشغل اللي عليكي؟	hallasti eş-şuğl illi aleeki	Yapman gereken işleri bitirdin mi?
+TR	171	classic	آه، خلصت كل حاجة	ah, hallast kol haga	Evet, her şeyi bitirdim
+TR	172	classic	تمام، ممكن تمشي الساعة تلاتة	tamam, momken timşi es-sa'a talata	Tamam, saat üçte çıkabilirsin
+TR	173	classic	شكرًا جدًا، مش هتأخر بكرة	şokran giddan, miş hat'ahhar bokra	Çok teşekkür ederim, yarın geç kalmayacağım
+TR	174	cta	İşe geç kalınca ne dersin?		İşe Geç Kalınca Ne Dersin?
+TR	175	classic	صباح الخير، معلش إني اتأخرت	sabah el-heer, ma'leş inni it'ahhart	Günaydın, geç kaldığım için kusura bakmayın
+TR	176	classic	صباح النور، إيه اللي حصل؟	sabah en-nur, eh illi hasal	Günaydın, ne oldu?
+TR	177	classic	الطريق كان زحمة أوي	et-tari' kan zahma avi	Trafik çok yoğundu
+TR	178	classic	دي تاني مرة تتأخري الأسبوع ده	di tani marra tit'ahhari el-usbu' da	Bu hafta ikinci kez geç kalıyorsun
+TR	179	classic	معاكي حق، مش هتتكرر تاني	ma'aki ha', miş hatitkarrar tani	Haklısınız, bir daha tekrarlanmayacak
+TR	180	classic	تمام، يلا ابدئي شغلك	tamam, yalla ibda'i şuğlek	Tamam, hadi işine başla
+TR	181	classic	حاضر، وشكرًا لتفهمك	hadir, ve-şokran li-tafahhomek	Peki, anlayışınız için teşekkür ederim
+TR	182	cta	İşten izin isteyebilir misin?		İşten İzin İstemek
+TR	183	classic	ممكن أخد إجازة يوم الخميس؟	momken ahod agaza yom el-hamis	Perşembe günü izin alabilir miyim?
+TR	184	classic	في مناسبة ولا عندك مشوار؟	fi monasba vala andik maşvar	Özel bir durum mu var, yoksa bir işin mi var?
+TR	185	classic	عندي معاد مهم ومش هقدر أأجله	andi mi'ad mohim ve-miş ha'dar a'aggelo	Önemli bir randevum var ve erteleyemem
+TR	186	classic	خلصي شغلك قبل ما تمشي	hallisi şuğlek abl ma timşi	Gitmeden önce işini bitir
+TR	187	classic	حاضر، هخلص كل حاجة	hadir, hahallas kol haga	Tamam, her şeyi bitireceğim
+TR	188	classic	تمام، الإجازة موافق عليها	tamam, el-agaza movafa' aleeha	Tamam, iznin onaylandı
+TR	189	classic	شكرًا جدًا، مش هعطلك	şokran giddan, miş ha'attalek	Çok teşekkür ederim, işlerinizi aksatmayacağım
+TR	190	cta	Önemli bir şeyi unutunca ne dersin?		İş Yerinde Bir Şeyi Unutmak
+TR	191	classic	أنا نسيت أبعت الإيميل امبارح	ana niseet ab'at el-email imbarih	Dün e-postayı göndermeyi unuttum
+TR	192	classic	الإيميل كان مهم جدًا	el-email kan mohim giddan	E-posta çok önemliydi
+TR	193	classic	معلش، هبعته دلوقتي حالًا	ma'leş, hab'ato dilva'ti halan	Kusura bakmayın, hemen şimdi göndereceğim
+TR	194	classic	خلي بالك المرة الجاية	halli balek el-marra el-gaya	Bir dahaki sefere dikkat et
+TR	195	classic	حاضر، مش هنسى تاني	hadir, miş hansa tani	Tamam, bir daha unutmayacağım
+TR	196	classic	تمام، ابعتيه وبلغيني	tamam, ib'atiih ve-ballağiini	Tamam, gönder ve bana haber ver
+TR	197	classic	حاضر، هبعته دلوقتي	hadir, hab'ato dilva'ti	Tamam, şimdi göndereceğim
+TR	198	cta	Vardiyanı değiştirmek için nasıl izin istersin?		Vardiya Değiştirmek İstemek
+TR	199	classic	ممكن أبدّل الشيفت بتاعي بكرة؟	momken abaddel eş-şift beta'i bokra	Yarınki vardiyamı değiştirebilir miyim?
+TR	200	classic	عايزة تبدليه ليه؟	ayza tibaddelih leeh	Neden değiştirmek istiyorsun?
+TR	201	classic	عندي ظرف مهم الصبح	andi zarf mohim es-sobh	Sabah önemli bir durumum var
+TR	202	classic	لقيتي حد يبدّل معاكي؟	la'eeti hadd yibaddel ma'aki	Seninle vardiya değiştirecek birini buldun mu?
+TR	203	classic	آه، سارة وافقت تبدّل معايا	ah, Sara vaf'et tibaddel ma'aya	Evet, Sara benimle vardiya değiştirmeyi kabul etti
+TR	204	classic	تمام، ابعتيلي المواعيد الجديدة	tamam, ib'atili el-mava'iid el-gidiida	Tamam, yeni saatleri bana gönder
+TR	205	classic	حاضر، هبعتهالك دلوقتي	hadir, hab'athalek dilva'ti	Tamam, şimdi göndereceğim
+TR	206	cta	Kıyafet alışverişi yapabilir misin?		Kıyafet Mağazasında Alışveriş
+TR	207	classic	ممكن أشوف البلوزة دي؟	momken aşuf el-bloza di	Bu bluzu görebilir miyim?
+TR	208	classic	طبعًا، مقاسك كام؟	tab'an, mi'asek kam	Tabii, bedenin kaç?
+TR	209	classic	غالبًا مقاسي ميديوم	ğaliban mi'asi medium	Genellikle bedenim medium
+TR	210	classic	تحبي تجربي اللون الأسود؟	tihibbi tigarrabi el-lon el-isvid	Siyah rengini denemek ister misin?
+TR	211	classic	آه، فين أوضة القياس؟	ah, fen odet el-'eyas	Evet, deneme kabini nerede?
+TR	212	classic	هناك على اليمين	hinak ala el-yemin	Orada, sağ tarafta
+TR	213	classic	مقاسها مناسب، بكام؟	mi'asha monasib, bikam	Bedeni uygun, fiyatı ne kadar?
+TR	214	cta	Kuaförde konuşabilir misin?		Güzellik Salonunda
+TR	215	classic	عندي حجز الساعة خمسة	andi hagz es-sa'a hamsa	Saat beşte randevum var
+TR	216	classic	حجزك باسم مين؟	hagzek bism min	Randevunuz hangi isimle?
+TR	217	classic	باسم ليلى	bism Leyla	Leyla adına
+TR	218	classic	تحبي تعملي إيه النهارده؟	tihibbi ta'mali eh en-naharda	Bugün ne yaptırmak istersiniz?
+TR	219	classic	عايزة أقص الأطراف بس	ayza a'oss el-atraf bas	Sadece uçlarını kestirmek istiyorum
+TR	220	classic	تحبي نعمله سيشوار كمان؟	tihibbi na'mello seşvar kamen	Fön de ister misiniz?
+TR	221	classic	آه، بس من غير ما يقصر أوي	ah, bas min ğeer ma yi'sar avi	Evet, ama çok kısalmasın
+TR	222	cta	Mısır’da bankada konuşabilir misin?		Bankada İşlem Yapmak
+TR	223	classic	عايزة أفتح حساب جديد	ayza aftah hisab gidiid	Yeni bir hesap açmak istiyorum
+TR	224	classic	معاكي البطاقة أو الباسبور؟	ma'aki el-bita'a av el-pasaport	Kimliğiniz veya pasaportunuz yanınızda mı?
+TR	225	classic	آه، الباسبور معايا	ah, el-pasaport ma'aya	Evet, pasaportum yanımda
+TR	226	classic	تحبي الحساب بالجنيه ولا بالدولار؟	tihibbi el-hisab bil-gineh vala bid-dolar	Hesabı Mısır lirasıyla mı, dolarla mı istersiniz?
+TR	227	classic	بالجنيه لو سمحت	bil-gineh lav samaht	Mısır lirasıyla, lütfen
+TR	228	classic	املي الاستمارة دي وامضي هنا	imli el-istimara di vemdi hina	Bu formu doldurun ve burayı imzalayın
+TR	229	classic	الحساب هيتفتح إمتى؟	el-hisab hayitfatah emta	Hesap ne zaman açılır?
+TR	230	cta	Hastanede bu diyaloğu kurabilir misin?		Hastanede Doktorla Konuşmak
+TR	231	classic	أنا عندي معاد مع الدكتور	ana andi mi'ad ma' ed-doktor	Doktorla randevum var
+TR	232	classic	اسمك إيه؟	ismek eh	Adınız ne?
+TR	233	classic	اسمي ليلى	ismi Leyla	Benim adım Leyla
+TR	234	classic	إنتي تعبانة من إيه؟	enti ta'bana min eh	Neyiniz var?
+TR	235	classic	عندي سخونية وصداع	andi sohoneya ve-soda'	Ateşim ve baş ağrım var
+TR	236	classic	استني هنا، الدكتور هينادي عليكي	istanni hina, ed-doktor haynadi aleeki	Burada bekleyin, doktor sizi çağıracak
+TR	237	classic	تمام، شكرًا	tamam, şokran	Tamam, teşekkür ederim
+TR	238	cta	Postaneden paket alırken ne söylersin?		Postaneden Paket Teslim Almak
+TR	239	classic	لو سمحت، أنا جاية أستلم طرد	lav samaht, ana gaya astalim tard	Affedersiniz, bir paket teslim almaya geldim
+TR	240	classic	معاكي رقم الشحنة؟	ma'aki ra'm eş-şohna	Kargo takip numarası yanınızda mı?
+TR	241	classic	آه، الرقم موجود في الرسالة دي	ah, er-ra'm mavguud fir-risala di	Evet, numara bu mesajda yazıyor
+TR	242	classic	ممكن أشوف الباسبور أو البطاقة؟	momken aşuf el-pasaport av el-bita'a	Pasaportunuzu veya kimliğinizi görebilir miyim?
+TR	243	classic	اتفضل، الطرد وصل إمتى؟	itfaddal, et-tard visil emta	Buyurun, paket ne zaman geldi?
+TR	244	classic	وصل امبارح، امضي هنا لو سمحتي	visil imbarih, imdi hina lav samahti	Dün geldi, lütfen burayı imzalayın
+TR	245	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	246	cta	Evdeki sorunu nasıl anlatırsın?		Evde Bir Sorun Olduğunda
+TR	247	classic	ألو، لو سمحت عندي مشكلة في الشقة	alo, lav samaht andi moşkila fiş-şa'a	Alo, affedersiniz, dairede bir sorun var
+TR	248	classic	إيه المشكلة بالظبط؟	eh el-moşkila biz-zabt	Sorun tam olarak nedir?
+TR	249	classic	الحنفية بتسرّب مية من امبارح	el-hanafiyya bitsarrab mayya min imbarih	Musluk dünden beri su sızdırıyor
+TR	250	classic	تمام، هبعتلك سباك النهارده	tamam, hab'atlek sabbak en-naharda	Tamam, bugün sana bir tesisatçı göndereceğim
+TR	251	classic	هييجي الساعة كام تقريبًا؟	hayigi es-sa'a kam ta'riiban	Yaklaşık saat kaçta gelecek?
+TR	252	classic	غالبًا بعد الساعة خمسة	ğaliban ba'd es-sa'a hamsa	Büyük ihtimalle saat beşten sonra
+TR	253	classic	تمام، هكون مستنياه	tamam, hakun mistannyah	Tamam, onu bekliyor olacağım
+TR	254	cta	AVM’de mağazanın yerini nasıl sorarsın?		AVM’de Mağaza Sormak
+TR	255	classic	لو سمحت، محل الملابس فين؟	lav samaht, mahall el-malabis fen	Affedersiniz, kıyafet mağazası nerede?
+TR	256	classic	في الدور التاني جنب الكافيه	fid-door et-tani gamb el-kafe	İkinci katta, kafenin yanında
+TR	257	classic	أطلع منين؟	atla' min fen	Nereden çıkabilirim?
+TR	258	classic	السلم الكهربا قدامك على اليمين	es-sellem el-kahraba oddamik al-yemin	Yürüyen merdiven önünüzde, sağ tarafta
+TR	259	classic	المحل بعيد؟	el-mahall bi'id	Mağaza uzak mı?
+TR	260	classic	لا، أول ما تطلعي هتلاقيه قدامك	la, avval ma titla'i hatla'ih oddamik	Hayır, yukarı çıkar çıkmaz karşınızda göreceksiniz
+TR	261	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	262	cta	Farklı bir beden nasıl istersin?		AVM’de Farklı Beden İstemek
+TR	263	classic	لو سمحتي، عندك مقاس أكبر من ده؟	lav samahti, andik mi'as akbar min da	Affedersiniz, bunun daha büyük bedeni var mı?
+TR	264	classic	حضرتك محتاجة مقاس كام؟	hadritik mihtaga mi'as kam	Hangi bedene ihtiyacınız var?
+TR	265	classic	مقاس لارج لو موجود	mi'as large lav mavguud	Varsa large beden istiyorum
+TR	266	classic	ثانية واحدة، هشوفه في المخزن	sanya vahda, haşufo fil-makhzan	Bir saniye, depoda kontrol edeceğim
+TR	267	classic	تمام، أنا مستنية هنا	tamam, ana mistannya hina	Tamam, burada bekliyorum
+TR	268	classic	للأسف اللارج خلص، بس عندنا إكس لارج	lil-asaf el-large hilis, bas andena X-large	Maalesef large tükendi, ama X-large var
+TR	269	classic	ماشي، ممكن أجربه؟	maşi, momken agarrabo	Tamam, deneyebilir miyim?
+TR	270	cta	Mağazada ödeme yaparken ne söylersin?		AVM’de Ödeme Yapmak
+TR	271	classic	لو سمحتي، عايزة أحاسب على الحاجات دي	lav samahti, ayza ahasib ala el-hagat di	Affedersiniz, bunların ödemesini yapmak istiyorum
+TR	272	classic	طبعًا، معاكي كاش ولا كارت؟	tab'an, ma'aki kaş vala kart	Tabii, nakit mi kart mı?
+TR	273	classic	هحاسب بالكارت	hahasib bil-kart	Kartla ödeyeceğim
+TR	274	classic	تحبي تدفعي مرة واحدة ولا تقسيط؟	tihibbi tidfa'i marra vahda vala ta'siit	Tek çekim mi, taksit mi ödemek istersiniz?
+TR	275	classic	مرة واحدة لو سمحتي	marra vahda lav samahti	Tek çekim, lütfen
+TR	276	classic	تمام، دخلي الرقم السري	tamam, dahhali er-ra'm es-sirri	Tamam, şifrenizi girin
+TR	277	classic	ممكن آخد الفاتورة؟	momken ahod el-fatura	Fişi alabilir miyim?
+TR	278	cta	Bir ürünü nasıl değiştirirsin?		AVM’de Ürün Değiştirmek
+TR	279	classic	لو سمحتي، عايزة أبدّل البلوزة دي	lav samahti, ayza abaddel el-bloza di	Affedersiniz, bu bluzu değiştirmek istiyorum
+TR	280	classic	فيها مشكلة؟	fiha moşkila	Bir sorunu mu var?
+TR	281	classic	لا، بس المقاس طلع صغير	la, bas el-mi'as tili' soğayyar	Hayır, ama bedeni küçük geldi
+TR	282	classic	معاكي الفاتورة؟	ma'aki el-fatura	Fiş yanınızda mı?
+TR	283	classic	آه، الفاتورة معايا	ah, el-fatura ma'aya	Evet, fiş yanımda
+TR	284	classic	تحبي تبدّليها بمقاس أكبر ولا ترجّعيها؟	tihibbi tibaddeliha bi-mi'as akbar vala tiragga'iha	Daha büyük bir bedenle değiştirmek mi, yoksa iade etmek mi istersiniz?
+TR	285	classic	عايزة أبدّلها بمقاس أكبر	ayza abaddelha bi-mi'as akbar	Daha büyük bir bedenle değiştirmek istiyorum
+TR	286	cta	Mağazada indirim nasıl sorulur?		AVM’de İndirim Sormak
+TR	287	classic	لو سمحتي، البلوزة دي عليها خصم؟	lav samahti, el-bloza di aleeha hasm	Affedersiniz, bu bluzda indirim var mı?
+TR	288	classic	آه، عليها خصم عشرين في المية	ah, aleeha hasm işriin fil-miyya	Evet, yüzde yirmi indirim var
+TR	289	classic	طيب سعرها بعد الخصم كام؟	tayyeb se'rha ba'd el-hasm kam	Peki indirimden sonra fiyatı ne kadar?
+TR	290	classic	بقت بألف ومتين جنيه	bi'it bi-alf ve-miteen gineh	Bin iki yüz Mısır lirası oldu
+TR	291	classic	الخصم على كل الألوان؟	el-hasm ala kol el-alvan	İndirim bütün renklerde geçerli mi?
+TR	292	classic	لا، على اللون ده بس	la, ala el-lon da bas	Hayır, sadece bu renkte
+TR	293	classic	تمام، هاخدها	tamam, hahodha	Tamam, bunu alacağım
+TR	294	cta	AVM’de tuvaleti nasıl sorarsın?		AVM’de Tuvaleti Sormak
+TR	295	classic	لو سمحت، الحمام فين؟	lav samaht, el-hammam fen	Affedersiniz, tuvalet nerede?
+TR	296	classic	في الدور الأول جنب المصعد	fid-door el-avval gamb el-mis'ad	Birinci katta, asansörün yanında
+TR	297	classic	أطلع من هنا؟	atla' min hina	Buradan mı çıkıyorum?
+TR	298	classic	آه، اطلعي بالسلم الكهربا	ah, itla'i bis-sellem el-kahraba	Evet, yürüyen merdivenden çıkın
+TR	299	classic	بعيد من هنا؟	bi'id min hina	Buradan uzak mı?
+TR	301	classic	تمام، شكرًا	tamam, şokran	Tamam, teşekkür ederim
+TR	302	classic	لو سمحت، أنا مش لاقية الموبايل بتاعي	lav samaht, ana miş la'ya el-mobayl beta'i	Affedersiniz, telefonumu bulamıyorum
+TR	303	classic	آخر مرة كان معاكي فين؟	aher marra kan ma'aki fen	En son nerede yanındaydı?
+TR	304	classic	تقريبًا كان معايا عند الكافيه	ta'riiban kan ma'aya and el-kafe	Sanırım en son kafedeydi
+TR	305	classic	طب جربتي تتصلي عليه؟	tab garrabti tittisili aleeh	Peki onu aramayı denedin mi?
+TR	306	classic	آه، بس محدش بيرد	ah, bas mahaddeş biyerodd	Evet, ama kimse cevap vermiyor
+TR	307	classic	تعالي نروح الأمن ونسأل هناك	ta'ali niruuh el-amn ve-nis'al hinak	Hadi güvenliğe gidip orada soralım
+TR	308	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	309	classic	لو سمحت، أنا مش لاقية بنتي	lav samaht, ana miş la'ya binti	Affedersiniz, kızımı bulamıyorum
+TR	310	classic	آخر مرة شفتيها فين؟	aher marra şoftiha fen	Onu en son nerede gördünüz?
+TR	311	classic	كانت معايا قدام محل الألعاب	kanit ma'aya oddam mahall el-al'ab	Oyuncak mağazasının önünde yanımdaydı
+TR	312	classic	عندها كام سنة؟	andaha kam sana	Kaç yaşında?
+TR	313	classic	عندها ست سنين، ولابسة فستان أحمر	andaha sitt siniin, ve-labsa fustan ahmar	Altı yaşında ve kırmızı bir elbise giyiyor
+TR	314	classic	ما تقلقيش، هنلاقيها إن شاء الله	ma ti'la'iiş, hanla'iha inşallah	Endişelenmeyin, inşallah onu bulacağız
+TR	315	classic	شكرًا، ياريت بسرعة	şokran, yaret bisor'a	Teşekkür ederim, lütfen çabuk olun
+TR	316	cta	Kafede bu diyaloğu kurabilir misin?		Kafede Sipariş Vermek
+TR	317	classic	مرحبًا، ماذا تريد أن تشرب؟	marhaban, maza turidu an tashrab?	Merhaba, ne içmek istersin?
+TR	318	classic	أريد فنجانًا من القهوة، من فضلك	uridu finjanan min al-qahwa, min fadlik	Bir fincan kahve istiyorum, lütfen
+TR	319	classic	هل تريد السكر؟	hal turidu as-sukkar?	Şeker ister misin?
+TR	320	classic	نعم، أريد قليلًا من السكر	na'am, uridu qalilan min as-sukkar	Evet, biraz şeker istiyorum
+TR	321	classic	هل تريد شيئًا آخر؟	hal turidu shay'an akhar?	Başka bir şey ister misin?
+TR	322	classic	لا، شكرًا، هذا يكفي	la, shukran, haza yakfi	Hayır, teşekkürler, bu yeterli
+TR	323	classic	سأحضر القهوة الآن	sa'uhdiru al-qahwa al-an	Kahveyi şimdi getireceğim
+TR	324	classic	لو سمحتي، الكارت مش راضي يشتغل	lav samahti, el-kart miş radi yiştağal	Affedersiniz, kart çalışmıyor
+TR	325	classic	جربي تدخليه تاني لو سمحتي	garrabi tidahhalih tani lav samahti	Lütfen kartı tekrar takmayı deneyin
+TR	326	classic	جربت، بس لسه مش شغال	garrabt, bas lissa miş şağğal	Denedim ama hâlâ çalışmıyor
+TR	327	classic	معاكي كارت تاني أو كاش؟	ma'aki kart tani av kaş	Başka bir kartınız veya nakit paranız var mı?
+TR	328	classic	آه، معايا كارت تاني	ah, ma'aya kart tani	Evet, başka bir kartım var
+TR	329	classic	تمام، جربيه كده	tamam, garrabih keda	Tamam, bunu deneyin
+TR	330	classic	أيوه، اشتغل، شكرًا	ayva, iştağal, şokran	Evet, çalıştı. Teşekkür ederim
+TR	331	cta	Otelde bu diyaloğu kurabilir misin?		Otelde Oda Rezervasyonu
+TR	332	classic	مرحبًا، هل لديكم غرفة فارغة؟	marhaban, hal ladaykum ghurfa farigha?	Merhaba, boş odanız var mı?
+TR	333	classic	نعم، لدينا غرفة لشخص واحد	na'am, ladayna ghurfa li-shakhs wahid	Evet, tek kişilik bir odamız var
+TR	334	classic	كم سعر الغرفة لليلة واحدة؟	kam si'ru al-ghurfa li-laylatin wahida?	Odanın bir gecelik fiyatı ne kadar?
+TR	335	classic	السعر مئة دولار لليلة	as-si'ru mi'atu dolar li-layla	Fiyat gecelik yüz dolar
+TR	336	classic	هل الإفطار مشمول؟	hal al-iftar mashmul?	Kahvaltı dahil mi?
+TR	337	classic	نعم، الإفطار مشمول في السعر	na'am, al-iftar mashmul fi as-si'r	Evet, kahvaltı fiyata dahil
+TR	338	classic	حسنًا، أريد حجز الغرفة	hasanan, uridu hajza al-ghurfa	Tamam, odayı ayırtmak istiyorum
+TR	339	cta	Havaalanında bu diyaloğu kurabilir misin?		Havaalanında Check-in
+TR	340	classic	مرحبًا، أين مكتب تسجيل الوصول؟	marhaban, ayna maktab tasjil al-wusul?	Merhaba, check-in kontuarı nerede?
+TR	341	classic	مكتب تسجيل الوصول في الجهة اليمنى	maktab tasjil al-wusul fi al-jiha al-yumna	Check-in kontuarı sağ tarafta
+TR	342	classic	شكرًا، هل أحتاج إلى جواز السفر؟	shukran, hal ahtaju ila jawaz as-safar?	Teşekkürler, pasaporta ihtiyacım var mı?
+TR	343	classic	نعم، تحتاج إلى جواز السفر والتذكرة	na'am, tahtaju ila jawaz as-safar wa at-tadhkira	Evet, pasaport ve bilete ihtiyacınız var
+TR	344	classic	أين يمكنني وضع حقيبتي؟	ayna yumkinuni wad'u haqibati?	Valizimi nereye bırakabilirim?
+TR	345	classic	يمكنك وضعها على الميزان	yumkinuka wad'uha ala al-mizan	Onu tartının üzerine koyabilirsiniz
+TR	346	classic	حسنًا، شكرًا لمساعدتك	hasanan, shukran li-musa'adatik	Tamam, yardımınız için teşekkür ederim
+TR	347	classic	لو سمحتي، أنا اشتريت الحاجة دي امبارح وطلع فيها مشكلة	lav samahti, ana iştaret el-haga di imbarih ve-tili' fiha moşkila	Affedersiniz, bunu dün aldım ve sorunlu çıktı
+TR	348	classic	إيه المشكلة بالظبط؟	eh el-moşkila biz-zabt	Sorun tam olarak nedir?
+TR	349	classic	السوستة مش بتتقفل خالص	es-sostah miş bitit'ifil halis	Fermuar hiç kapanmıyor
+TR	350	classic	معاكي الفاتورة؟	ma'aki el-fatura	Fiş yanınızda mı?
+TR	351	classic	آه، الفاتورة معايا	ah, el-fatura ma'aya	Evet, fiş yanımda
+TR	352	classic	تحبي تبدّليها ولا ترجّعيها؟	tihibbi tibaddeliha vala tiragga'iha	Değiştirmek mi, iade etmek mi istersiniz?
+TR	353	classic	عايزة أبدّلها لو سمحتي	ayza abaddelha lav samahti	Değiştirmek istiyorum, lütfen
+TR	354	cta	Restoranda bu diyaloğu kurabilir misin?		Restoranda Sipariş Vermek
+TR	355	classic	مرحبًا، هل يمكنني رؤية قائمة الطعام؟	marhaban, hal yumkinuni ru'yatu qa'imat at-ta'am?	Merhaba, menüyü görebilir miyim?
+TR	356	classic	نعم، تفضل، هذه قائمة الطعام	na'am, tafaddal, hazihi qa'imat at-ta'am	Evet, buyurun, bu menü
+TR	357	classic	ماذا تنصحني أن أطلب؟	maza tansahuni an atlub?	Bana ne sipariş etmemi önerirsiniz?
+TR	358	classic	أنصحك بالدجاج مع الأرز	ansahuka bid-dajaj ma'a al-aruzz	Tavuk ve pilavı tavsiye ederim
+TR	359	classic	حسنًا، أريد هذا الطبق من فضلك	hasanan, uridu haza at-tabaq min fadlik	Tamam, bu yemeği istiyorum lütfen
+TR	360	classic	هل تريد شيئًا للشرب؟	hal turidu shay'an lil-shurb?	İçmek için bir şey ister misiniz?
+TR	361	classic	نعم، أريد كوبًا من الماء	na'am, uridu kuban min al-ma'	Evet, bir bardak su istiyorum
+TR	362	classic	لو سمحتي، أنا بدور على هدية لصاحبتي	lav samahti, ana badavvar ala hadiyya li-sahibti	Affedersiniz, arkadaşıma bir hediye arıyorum
+TR	363	classic	مناسبة إيه؟ عيد ميلادها؟	monasbet eh, eid miladha	Ne için? Doğum günü mü?
+TR	364	classic	آه، عيد ميلادها الأسبوع الجاي	ah, eid miladha el-usbu' el-gay	Evet, doğum günü gelecek hafta
+TR	365	classic	هي بتحب إيه؟	heyya bitihibb eh	Nelerden hoşlanıyor?
+TR	366	classic	بتحب البرفانات والحاجات البسيطة	bitihibb el-barfanat vel-hagat el-basiita	Parfümleri ve sade şeyleri seviyor
+TR	367	classic	طيب، إيه رأيك في البرفان ده؟	tayyeb, eh ra'yek fil-barfan da	Peki, bu parfüme ne dersiniz?
+TR	368	classic	حلو أوي، ممكن تلفيه هدية؟	helv avi, momken tiliffih hadiyya	Çok güzel! Hediye paketi yapabilir misiniz?
+TR	369	cta	Markette bu diyaloğu kurabilir misin?		Markette Alışveriş
+TR	370	classic	عفوًا، كم سعر هذا؟	afwan, kam si'ru haza?	Affedersiniz, bunun fiyatı ne kadar?
+TR	371	classic	سعره خمسة دولارات	si'ruhu khamsatu dolarāt	Fiyatı beş dolar
+TR	372	classic	هل لديكم نوع أرخص؟	hal ladaykum naw'un arkhas?	Daha ucuz bir çeşidiniz var mı?
+TR	373	classic	نعم، هذا أرخص قليلًا	na'am, haza arkhas qalilan	Evet, bu biraz daha ucuz
+TR	374	classic	حسنًا، سأشتري هذا	hasanan, sa'ashtari haza	Tamam, bunu satın alacağım
+TR	375	classic	هل تريد شيئًا آخر؟	hal turidu shay'an akhar?	Başka bir şey ister misiniz?
+TR	376	classic	لا، شكرًا، هذا كل شيء	la, shukran, haza kullu shay'	Hayır, teşekkürler, hepsi bu kadar
+TR	377	classic	عايزة أجيب هدية لجوزي	ayza agib hadiyya li-gozi	Eşime bir hediye almak istiyorum
+TR	378	classic	هو بيحب إيه؟	hovva biyihibb eh	Nelerden hoşlanıyor?
+TR	379	classic	بيحب الساعات والبرفانات	biyihibb es-sa'at vel-barfanat	Saatleri ve parfümleri seviyor
+TR	380	classic	تحبي حاجة في حدود كام؟	tihibbi haga fi hodud kam	Yaklaşık ne kadarlık bir şey düşünüyorsunuz?
+TR	381	classic	في حدود ألفين جنيه	fi hodud alfeen gineh	Yaklaşık iki bin Mısır lirası
+TR	382	classic	طيب، شوفي الساعة دي كده	tayyeb, şufi es-sa'a di keda	Peki, şu saate bir bakın
+TR	383	cta	Doktorda bu diyaloğu kurabilir misin?		Doktorda Muayene
+TR	384	classic	مرحبًا، ما المشكلة؟	marhaban, ma al-mushkila?	Merhaba, sorun nedir?
+TR	385	classic	أشعر بألم في رأسي منذ الصباح	as'uru bi-alamin fi ra'si mundhu as-sabah	Sabahtan beri başım ağrıyor
+TR	386	classic	هل لديك حمى؟	hal ladayka humma?	Ateşin var mı?
+TR	387	classic	لا، ولكنني أشعر بالتعب	la, walakinni ash'uru bi-at-ta'ab	Hayır, ama kendimi yorgun hissediyorum
+TR	388	classic	هل نمت جيدًا الليلة الماضية؟	hal nimta jayyidan al-laylata al-madiya?	Dün gece iyi uyudun mu?
+TR	389	classic	لا، لم أنم جيدًا	la, lam anam jayyidan	Hayır, iyi uyumadım
+TR	390	classic	حسنًا، تحتاج إلى الراحة وشرب الكثير من الماء	hasanan, tahtaju ila ar-raha wa shurbi al-kathiri min al-ma'	Tamam, dinlenmen ve bol su içmen gerekiyor
+TR	391	classic	لو سمحتي، ممكن أشوف الجزمة دي؟	lav samahti, momken aşuf el-gazma di	Affedersiniz, bu ayakkabıyı görebilir miyim?
+TR	392	classic	طبعًا، مقاسك كام؟	tab'an, mi'asek kam	Tabii, numaranız kaç?
+TR	393	classic	مقاسي تمانية وتلاتين	mi'asi tamanya ve-talatin	Numaram otuz sekiz
+TR	394	classic	تحبي تجربيها؟	tihibbi tigarrabiha	Denemek ister misiniz?
+TR	395	classic	آه، بس حاساها ضيقة شوية	ah, bas hassaha dayya'a şuvayya	Evet, ama biraz dar gibi
+TR	396	classic	أجيبلك مقاس أكبر؟	agiblek mi'as akbar	Size bir numara büyüğünü getireyim mi?
+TR	397	classic	آه، ياريت تجيبي مقاس أكبر	ah, yaret tigibi mi'as akbar	Evet, lütfen bir numara büyüğünü getirin
+TR	398	cta	Üniversitede bu diyaloğu kurabilir misin?		Üniversitede İlk Gün
+TR	399	classic	مرحبًا، هل أنت طالب جديد؟	marhaban, hal anta talib jadid?	Merhaba, yeni öğrenci misin?
+TR	400	classic	نعم، هذا أول يوم لي في الجامعة	na'am, haza awwalu yawmin li fi al-jami'a	Evet, bugün üniversitedeki ilk günüm
+TR	401	classic	ما التخصص الذي تدرسه؟	ma at-takhassus alladhi tadrusuhu?	Hangi bölümde okuyorsun?
+TR	402	classic	أدرس إدارة الأعمال	adrusu idarat al-a'mal	İşletme okuyorum
+TR	403	classic	أين قاعة المحاضرات؟	ayna qa'atu al-muhadarat?	Derslik nerede?
+TR	404	classic	القاعة في الطابق الثاني	al-qa'atu fi at-tabiq ath-thani	Derslik ikinci katta
+TR	405	classic	شكرًا لك، أراك لاحقًا	shukran laka, araka lahiqan	Teşekkür ederim, sonra görüşürüz
+TR	406	classic	لو سمحت، ممكن أشوف المنيو؟	lav samaht, momken aşuf el-menu	Affedersiniz, menüyü görebilir miyim?
+TR	407	classic	طبعًا، تحبي تاكلي إيه؟	tab'an, tihibbi takli eh	Tabii, ne yemek istersiniz?
+TR	408	classic	عايزة برجر فراخ وبطاطس	ayza burger farah ve-batates	Tavuk burger ve patates istiyorum
+TR	409	classic	تحبي معاه مشروب؟	tihibbi ma'ah maşrub	Yanında içecek ister misiniz?
+TR	410	classic	آه، كولا من غير تلج لو سمحت	ah, kola min ğeer talg lav samaht	Evet, buzsuz kola lütfen
+TR	411	classic	تاكلي هنا ولا تيك أواي؟	takli hina vala take away	Burada mı yiyeceksiniz, paket mi?
+TR	412	classic	هآكل هنا، الحساب كام؟	hakol hina, el-hisab kam	Burada yiyeceğim, hesap ne kadar?
+TR	413	cta	İş görüşmesinde bu diyaloğu kurabilir misin?		İş Görüşmesi
+TR	414	classic	أهلا، اتفضل اقعد	ahlan, itfaddal o'od	Merhaba, lütfen oturun
+TR	416	classic	عندك خبرة في المجال ده؟	andak hibra fil-magal da	Bu alanda deneyiminiz var mı?
+TR	417	classic	آه، عندي خبرة تلات سنين	ah, andi hibra talat siniin	Evet, üç yıllık deneyimim var
+TR	418	classic	عايز تشتغل معانا ليه؟	ayez tiştağal ma'ana leeh	Neden bizimle çalışmak istiyorsunuz?
+TR	419	classic	علشان عايز أطور مهاراتي	alaşan ayez atavvar maharati	Çünkü becerilerimi geliştirmek istiyorum
+TR	420	classic	شكرًا، هنتواصل معاك قريب	şokran, hantavasal ma'ak orayyeb	Teşekkürler, sizinle yakında iletişime geçeceğiz
+TR	421	classic	لو سمحت، في مكان أشحن فيه الموبايل؟	lav samaht, fi makan aşhan fih el-mobayl	Affedersiniz, telefonumu şarj edebileceğim bir yer var mı?
+TR	422	classic	آه، في محطة شحن جنب الكافيه	ah, fi mahattet şahn gamb el-kafe	Evet, kafenin yanında bir şarj istasyonu var
+TR	423	classic	لازم أجيب الشاحن بتاعي؟	lazim agib eş-şahin beta'i	Kendi şarj aletimi getirmem gerekiyor mu?
+TR	424	classic	لا، الكابلات موجودة هناك	la, el-kablat mavguuda hinak	Hayır, kablolar orada mevcut
+TR	425	classic	ممكن أسيب الموبايل هناك شوية؟	momken asiib el-mobayl hinak şuvayya	Telefonumu biraz orada bırakabilir miyim?
+TR	426	classic	آه، بس خلي بالك من حاجتك	ah, bas halli balek min hagtek	Evet, ama eşyalarınıza dikkat edin
+TR	427	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
+TR	428	classic	أهلا، عايز أفتح حساب في البنك	ahlan, ayez aftah hisab fil-bank	Merhaba, banka hesabı açmak istiyorum
+TR	429	classic	طبعًا، معاك بطاقة أو باسبور؟	tab'an, ma'ak bita'a av pasaport	Elbette, kimliğiniz veya pasaportunuz yanınızda mı?
+TR	430	classic	آه، البطاقة معايا	ah, el-bita'a ma'aya	Evet, kimliğim yanımda
+TR	431	classic	عايز حساب جاري ولا حساب توفير؟	ayez hisab gari vala hisab tavfir	Vadesiz hesap mı, tasarruf hesabı mı istiyorsunuz?
+TR	432	classic	عايز حساب جاري لو سمحت	ayez hisab gari lav samaht	Vadesiz hesap istiyorum, lütfen
+TR	433	classic	تمام، املى الاستمارة دي لو سمحت	tamam, imla el-istimara di lav samaht	Tamam, lütfen bu formu doldurun
+TR	434	classic	شكرًا، هملاها دلوقتي	şokran, hamlaha dilva'ti	Teşekkürler, şimdi dolduracağım
+TR	435	classic	لو سمحت، عندكم واي فاي هنا؟	lav samaht, andokom Wi-Fi hina	Affedersiniz, burada Wi-Fi var mı?
+TR	436	classic	آه، في واي فاي مجاني	ah, fi Wi-Fi maggani	Evet, ücretsiz Wi-Fi var
+TR	437	classic	طيب الباسورد إيه؟	tayyeb el-password eh	Peki şifre ne?
+TR	438	classic	مش محتاج باسورد، بس سجلي برقم موبايلك	miş mihtag password, bas saggili bi-ra'm mobaylek	Şifre gerekmiyor, sadece telefon numaranla giriş yap
+TR	439	classic	جربت، بس النت مش شغال عندي	garrabt, bas en-net miş şağğal andi	Denedim ama internet bende çalışmıyor
+TR	440	classic	اقفلي الواي فاي وافتحيه تاني	i'fili el-Wi-Fi veftahih tani	Wi-Fi’yi kapatıp tekrar aç
+TR	441	classic	أيوه اشتغل، شكرًا	ayva iştağal, şokran	Evet, çalıştı. Teşekkür ederim
+TR	442	classic	أهلا، عايز تذكرة إسكندرية	ahlan, ayez tazkara Iskandareyya	Merhaba, İskenderiye’ye bir bilet istiyorum
+TR	443	classic	رايح بس ولا رايح جاي؟	rayeh bas vala rayeh gay	Sadece gidiş mi, gidiş-dönüş mü?
+TR	444	classic	رايح جاي لو سمحت	rayeh gay lav samaht	Gidiş-dönüş, lütfen
+TR	445	classic	عايز تسافر إمتى؟	ayez tisafir emta	Ne zaman seyahat etmek istiyorsunuz?
+TR	446	classic	عايز أسافر بكرة الصبح	ayez asafir bokra es-sobh	Yarın sabah seyahat etmek istiyorum
+TR	447	classic	تمام، القطر هيتحرك الساعة تسعة	tamam, el-atr hayitaharrak es-sa'a tis'a	Tamam, tren saat dokuzda kalkıyor
+TR	448	classic	تمام، هاخد التذكرة دي	tamam, hahod et-tazkara di	Tamam, bu bileti alacağım
+TR	449	classic	لو سمحت، أنا مش لاقية الشنطة بتاعتي	lav samaht, ana miş la'ya eş-şanta beta'ti	Affedersiniz, çantamı bulamıyorum
+TR	450	classic	آخر مرة كانت معاكي فين؟	aher marra kanit ma'aki fen	En son çantan yanındayken neredeydin?
+TR	451	classic	كانت معايا في الكافيه فوق	kanit ma'aya fil-kafe fo'	Üst kattaki kafede yanımdaydı
+TR	452	classic	لونها إيه وشكلها عامل إزاي؟	lonha eh ve-şaklaha amel izzay	Rengi ne ve nasıl görünüyor?
+TR	453	classic	سودة وصغيرة وفيها محفظتي	soda ve-soğayyara ve-fiha mahfazti	Siyah, küçük ve içinde cüzdanım var
+TR	454	classic	تمام، هنراجع الكاميرات ونسأل هناك	tamam, haniraga' el-kamerat ve-nis'al hinak	Tamam, kameraları kontrol edip orada soracağız
+TR	455	classic	شكرًا، ياريت تلاقوها	şokran, yaret tila'uha	Teşekkür ederim, umarım bulursunuz
+TR	456	classic	مرحبًا، أبحث عن كتاب لتعلم اللغة العربية	marhaban, abhathu an kitabin li-ta'allum al-lugha al-arabiyya	Merhaba, Arapça öğrenmek için bir kitap arıyorum
+TR	457	classic	هل تريد كتابًا للمبتدئين؟	hal turidu kitaban lil-mubtadi'in?	Başlangıç seviyesi için bir kitap mı istiyorsunuz?
+TR	458	classic	نعم، أنا ما زلت مبتدئًا	na'am, ana ma ziltu mubtadi'an	Evet, ben hâlâ başlangıç seviyesindeyim
+TR	459	classic	لدينا هذا الكتاب، وهو سهل جدًا	ladayna haza al-kitab, wa huwa sahlun jiddan	Bu kitabımız var, oldukça kolay
+TR	460	classic	هل يمكنني استعارة الكتاب؟	hal yumkinuni isti'aratu al-kitab?	Kitabı ödünç alabilir miyim?
+TR	461	classic	نعم، يمكنك الاحتفاظ به لمدة أسبوعين	na'am, yumkinuka al-ihtifazu bihi li-muddati usbuu'ayn	Evet, kitabı iki hafta boyunca tutabilirsiniz
+TR	462	classic	شكرًا لك، سأستعيره	shukran laka, sa'asta'iruhu	Teşekkür ederim, ödünç alacağım
+TR	463	classic	لو سمحت، أنا مش فاكرة ركنت العربية فين	lav samaht, ana miş fakra rakant el-arabiyya fen	Affedersiniz, arabayı nereye park ettiğimi hatırlamıyorum
+TR	464	classic	فاكرة دخلتي من أنهي بوابة؟	fakra dahalti min anhi bavvaba	Hangi girişten girdiğinizi hatırlıyor musunuz?
+TR	465	classic	تقريبًا من البوابة التانية	ta'riiban min el-bavvaba et-tanya	Sanırım ikinci girişten
+TR	466	classic	طب فاكرة رقم الدور أو المنطقة؟	tab fakra ra'm ed-door av el-manta'a	Kat numarasını veya bölgeyi hatırlıyor musunuz?
+TR	467	classic	لا، بس العربية لونها أبيض	la, bas el-arabiyya lonha abyad	Hayır, ama araba beyaz
+TR	468	classic	تمام، تعالي نراجع مكان الركنة	tamam, ta'ali niraga' makan er-rakna	Tamam, park alanını birlikte kontrol edelim
+TR	469	classic	شكرًا جدًا، أنا فعلًا اتلخبطت	şokran giddan, ana fi'lan itlahbatt	Çok teşekkür ederim, gerçekten kafam karıştı
+TR	470	classic	مرحبًا، أريد إرسال هذا الطرد	marhaban, uridu irsala haza at-tard	Merhaba, bu paketi göndermek istiyorum
+TR	471	classic	إلى أي بلد تريد إرساله؟	ila ayyi baladin turidu irsalahu?	Hangi ülkeye göndermek istiyorsunuz?
+TR	472	classic	أريد إرساله إلى تركيا	uridu irsalahu ila turkiya	Türkiye'ye göndermek istiyorum
+TR	473	classic	هل تريد الشحن العادي أم السريع؟	hal turidu ash-shahna al-adi am as-sari'?	Normal gönderi mi, hızlı gönderi mi istiyorsunuz?
+TR	474	classic	أريد الشحن السريع، من فضلك	uridu ash-shahna as-sari', min fadlik	Hızlı gönderi istiyorum, lütfen
+TR	475	classic	سيصل الطرد خلال ثلاثة أيام	sayasilu at-tardu khilala thalathati ayyamin	Paket üç gün içinde ulaşacak
+TR	476	classic	حسنًا، شكرًا لك	hasanan, shukran laka	Tamam, teşekkür ederim
+TR	477	classic	لو سمحت، في ماكينة ATM هنا؟	lav samaht, fi makinet ATM hina	Affedersiniz, burada ATM var mı?
+TR	478	classic	آه، في ماكينة جنب السوبر ماركت	ah, fi makena gamb el-supermarket	Evet, süpermarketin yanında bir ATM var
+TR	479	classic	بعيدة من هنا؟	bi'ida min hina	Buradan uzak mı?
+TR	480	classic	لا، امشي على طول وبعدين شمال	la, imşi ala tul ve-ba'den şimal	Hayır, dümdüz gidin, sonra sola dönün
+TR	481	classic	الماكينة بتقبل كروت أجنبية؟	el-makena biti'bal korut agnabiyya	ATM yabancı kartları kabul ediyor mu?
+TR	482	classic	آه، المفروض تشتغل عادي	ah, el-mafrud tiştağal adi	Evet, normalde çalışması gerekir
+TR	483	classic	تمام، شكرًا جدًا	tamam, şokran giddan	Tamam, çok teşekkür ederim
