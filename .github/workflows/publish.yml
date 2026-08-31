@@ -198,25 +198,38 @@ jobs:
                       raise SystemExit('FB video processing FAILED for %s - not published on the page' % vid)
                   time.sleep(8)
               raise SystemExit('FB video processing timeout for %s' % vid)
+          def fb_permalink(oid):
+              if not oid:
+                  return '?'
+              try:
+                  m = call('GET', '/%s' % oid, {'fields': 'permalink_url,is_published'})
+              except SystemExit:
+                  return str(oid)
+              if m.get('is_published') is False:
+                  raise SystemExit('FB post %s was created but is NOT published (page review or spam filter)' % oid)
+              pl = m.get('permalink_url') or ''
+              if pl.startswith('/'):
+                  pl = 'https://www.facebook.com' + pl
+              return pl or str(oid)
           if typ == 'reel':
               fbv = call('POST', '/%s/videos' % fbp, {'file_url': raw[0], 'description': cap})
               fb_video_wait(fbv.get('id'))
-              fb_note = 'video ' + str(fbv.get('id', '?'))
+              fb_note = 'video ' + fb_permalink(fbv.get('id'))
           elif typ == 'image':
               ph = call('POST', '/%s/photos' % fbp, {'url': raw[0], 'caption': cap})
-              fb_note = 'photo ' + str(ph.get('post_id') or ph.get('id', '?'))
+              fb_note = 'photo ' + fb_permalink(str(ph.get('post_id') or ph.get('id', '')))
           else:
               vids = [u for i, u in enumerate(raw) if files[i].endswith('.mp4')]
               if vids:
                   fbv = call('POST', '/%s/videos' % fbp, {'file_url': vids[0], 'description': cap})
                   fb_video_wait(fbv.get('id'))
-                  fb_note = 'video (first slide only - FB pages have no video albums) ' + str(fbv.get('id', '?'))
+                  fb_note = 'video (first slide only - FB has no video albums) ' + fb_permalink(fbv.get('id'))
               else:
                   ids = [call('POST', '/%s/photos' % fbp, {'url': u, 'published': 'false'})['id'] for u in raw]
                   data = {'message': cap}
                   for ix, i in enumerate(ids):
                       data['attached_media[%d]' % ix] = json.dumps({'media_fbid': i})
-                  fb_note = 'post ' + call('POST', '/%s/feed' % fbp, data).get('id', '?')
+                  fb_note = 'post ' + fb_permalink(call('POST', '/%s/feed' % fbp, data).get('id', ''))
           open('notify.txt', 'w').write('✅ Post #%s published!\nInstagram: %s\nFacebook: %s' % (os.environ['QID'], ig_link, fb_note))
           print('published')
           PY
