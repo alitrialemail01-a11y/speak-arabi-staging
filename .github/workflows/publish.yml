@@ -188,15 +188,29 @@ jobs:
               wait_ready(c['id'], 30)
               pub = publish_when_ready(c['id'])
           ig_link = call('GET', '/%s' % pub['id'], {'fields': 'permalink'}).get('permalink', pub['id'])
+          def fb_video_wait(vid, tries=30):
+              for _ in range(tries):
+                  s = call('GET', '/%s' % vid, {'fields': 'status'})
+                  st = (s.get('status') or {}).get('video_status')
+                  if st == 'ready':
+                      return
+                  if st == 'error':
+                      raise SystemExit('FB video processing FAILED for %s - not published on the page' % vid)
+                  time.sleep(8)
+              raise SystemExit('FB video processing timeout for %s' % vid)
           if typ == 'reel':
-              fb_note = 'video ' + call('POST', '/%s/videos' % fbp, {'file_url': raw[0], 'description': cap}).get('id', '?')
+              fbv = call('POST', '/%s/videos' % fbp, {'file_url': raw[0], 'description': cap})
+              fb_video_wait(fbv.get('id'))
+              fb_note = 'video ' + str(fbv.get('id', '?'))
           elif typ == 'image':
               ph = call('POST', '/%s/photos' % fbp, {'url': raw[0], 'caption': cap})
               fb_note = 'photo ' + str(ph.get('post_id') or ph.get('id', '?'))
           else:
               vids = [u for i, u in enumerate(raw) if files[i].endswith('.mp4')]
               if vids:
-                  fb_note = 'video (first slide only - FB pages have no video albums) ' + call('POST', '/%s/videos' % fbp, {'file_url': vids[0], 'description': cap}).get('id', '?')
+                  fbv = call('POST', '/%s/videos' % fbp, {'file_url': vids[0], 'description': cap})
+                  fb_video_wait(fbv.get('id'))
+                  fb_note = 'video (first slide only - FB pages have no video albums) ' + str(fbv.get('id', '?'))
               else:
                   ids = [call('POST', '/%s/photos' % fbp, {'url': u, 'published': 'false'})['id'] for u in raw]
                   data = {'message': cap}
