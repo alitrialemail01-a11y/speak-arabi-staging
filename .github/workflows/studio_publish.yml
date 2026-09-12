@@ -195,6 +195,39 @@ jobs:
           print('published ig=%s fb=%s %s' % (ig_id, fb_id, ig_link))
           PY
 
+      - name: Mirror to LinkedIn
+        # Hands the just-published post to n8n (LI-1 LinkedIn Mirror), which decides
+        # whether to post it on LinkedIn (max 1/day) and rewrites the caption.
+        # Runs only after a successful publish; continue-on-error so a LinkedIn
+        # problem never changes what Studio is told about Instagram/Facebook.
+        continue-on-error: true
+        env:
+          LI_MIRROR_KEY: ${{ secrets.LI_MIRROR_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          key = os.environ.get('LI_MIRROR_KEY')
+          if not key:
+              print('LI_MIRROR_KEY not set; skipping LinkedIn mirror'); raise SystemExit(0)
+          p = json.load(open('payload.json'))
+          try:
+              res = json.load(open('result.json'))
+          except Exception:
+              print('no result.json; skipping LinkedIn mirror'); raise SystemExit(0)
+          body = {'brand': p.get('brand'), 'source': 'studio', 'ref': 'studio-' + str(p.get('post_id')),
+                  'ok': True, 'caption': p.get('caption') or '', 'type': p.get('type') or 'reel',
+                  'media': [m for m in (p.get('media') or []) if m], 'ig_link': res.get('ig_link')}
+          req = urllib.request.Request('https://aliautomate.speak-arabi.com/webhook/li-mirror',
+                                       data=json.dumps(body).encode(),
+                                       headers={'Content-Type': 'application/json', 'X-Mirror-Key': key},
+                                       method='POST')
+          try:
+              with urllib.request.urlopen(req, timeout=300) as r:
+                  print('LinkedIn mirror:', r.status, r.read().decode()[:300])
+          except Exception as e:
+              print('LinkedIn mirror failed (Instagram/Facebook unaffected):', e)
+          PY
+
       # Studio marks the post `publishing` when it dispatches, so silence would
       # strand it there. This runs on success AND failure.
       - name: Report to CA-4
