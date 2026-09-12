@@ -233,6 +233,43 @@ jobs:
           open('notify.txt', 'w').write('✅ Post #%s published!\nInstagram: %s\nFacebook: %s' % (os.environ['QID'], ig_link, fb_note))
           print('published')
           PY
+      - name: Mirror to LinkedIn
+        # Hands the just-published post to n8n (LI-1 LinkedIn Mirror), which decides
+        # whether to post it on LinkedIn (max 1/day) and rewrites the caption.
+        # continue-on-error: a LinkedIn problem must never affect Instagram/Facebook.
+        if: env.SKIP_PUBLISH != '1'
+        continue-on-error: true
+        env:
+          LI_MIRROR_KEY: ${{ secrets.LI_MIRROR_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          key = os.environ.get('LI_MIRROR_KEY')
+          if not key:
+              print('LI_MIRROR_KEY not set; skipping LinkedIn mirror'); raise SystemExit(0)
+          p = json.load(open('payload.json'))
+          files = json.load(open('files.json'))
+          repo = os.environ['GITHUB_REPOSITORY']
+          media = ['https://raw.githubusercontent.com/%s/main/%s' % (repo, f) for f in files]
+          ig = ''
+          try:
+              m = re.search(r'Instagram: (\S+)', open('notify.txt').read())
+              ig = m.group(1) if m else ''
+          except Exception:
+              pass
+          body = {'brand': os.environ['BRAND'], 'source': 'queue', 'ref': 'q' + str(os.environ.get('QID', '')),
+                  'ok': True, 'caption': p.get('caption') or '', 'type': p.get('type') or 'reel',
+                  'media': media, 'ig_link': ig}
+          req = urllib.request.Request('https://aliautomate.speak-arabi.com/webhook/li-mirror',
+                                       data=json.dumps(body).encode(),
+                                       headers={'Content-Type': 'application/json', 'X-Mirror-Key': key},
+                                       method='POST')
+          try:
+              with urllib.request.urlopen(req, timeout=300) as r:
+                  print('LinkedIn mirror:', r.status, r.read().decode()[:300])
+          except Exception as e:
+              print('LinkedIn mirror failed (Instagram/Facebook unaffected):', e)
+          PY
       - name: Cleanup staged media
         if: always() && env.SKIP_PUBLISH != '1'
         run: |
