@@ -83,6 +83,21 @@ jobs:
                   with urllib.request.urlopen('https://api.telegram.org/file/bot%s/%s' % (tg, info['result']['file_path']), timeout=300) as resp, open(name, 'wb') as f:
                       shutil.copyfileobj(resp, f)
               files.append(name)
+          vidf = [f for f in files if f.endswith('.mp4')]
+          if p.get('type') == 'carousel' and len(vidf) > 1:
+              import subprocess
+              open('fbcat.txt', 'w').write(''.join("file '%s'\n" % os.path.abspath(f) for f in vidf))
+              stitched = 'media/p%s_all.mp4' % qid
+              try:
+                  subprocess.run(['ffmpeg', '-y', '-f', 'concat', '-safe', '0', '-i', 'fbcat.txt',
+                                  '-c:v', 'libx264', '-preset', 'medium', '-crf', '21',
+                                  '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k',
+                                  '-movflags', '+faststart', stitched], check=True,
+                                 capture_output=True)
+                  json.dump({'file': stitched}, open('stitch.json', 'w'))
+                  print('stitched %d slides for FB:' % len(vidf), stitched)
+              except Exception as e:
+                  print('stitch failed (FB will use first slide):', e)
           json.dump(files, open('files.json', 'w'))
           print('downloaded:', files)
           PY
@@ -221,9 +236,17 @@ jobs:
           else:
               vids = [u for i, u in enumerate(raw) if files[i].endswith('.mp4')]
               if vids:
-                  fbv = call('POST', '/%s/videos' % fbp, {'file_url': vids[0], 'description': cap})
+                  fb_url = vids[0]
+                  fb_pre = 'video (first slide only) '
+                  try:
+                      st = json.load(open('stitch.json'))
+                      fb_url = 'https://raw.githubusercontent.com/%s/main/%s' % (repo, st['file'])
+                      fb_pre = 'video (all %d slides in one video) ' % len(vids)
+                  except Exception:
+                      pass
+                  fbv = call('POST', '/%s/videos' % fbp, {'file_url': fb_url, 'description': cap})
                   fb_video_wait(fbv.get('id'))
-                  fb_note = 'video (first slide only - FB has no video albums) ' + fb_permalink(fbv.get('id'))
+                  fb_note = fb_pre + fb_permalink(fbv.get('id'))
               else:
                   ids = [call('POST', '/%s/photos' % fbp, {'url': u, 'published': 'false'})['id'] for u in raw]
                   data = {'message': cap}
