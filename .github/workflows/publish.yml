@@ -204,8 +204,16 @@ jobs:
               pub = publish_when_ready(c['id'])
           ig_link = call('GET', '/%s' % pub['id'], {'fields': 'permalink'}).get('permalink', pub['id'])
           def fb_video_wait(vid, tries=30):
+              unreadable = 0
               for _ in range(tries):
-                  s = call('GET', '/%s' % vid, {'fields': 'status'})
+                  try:
+                      s = call('GET', '/%s' % vid, {'fields': 'status'})
+                  except SystemExit:
+                      unreadable += 1
+                      if unreadable > 12:
+                          raise SystemExit('FB video %s stayed unreadable - check the page manually' % vid)
+                      time.sleep(8)
+                      continue
                   st = (s.get('status') or {}).get('video_status')
                   if st == 'ready':
                       return
