@@ -15,62 +15,77 @@ jobs:
       - name: Patch publish.yml
         run: |
           python3 - <<'PY'
-          import io, re, sys
+          import io, re
           path = ".github/workflows/publish.yml"
           src = io.open(path, encoding="utf-8").read()
-          before_nl = src.count(chr(10))
-          before_saudi = src.count("_SAUDI")
+          rep = []
+          def mask(s):
+              return re.sub(r"[A-Z][A-Z0-9_]{3,}", "NAME", s)[:200]
           if "_KK" in src:
-              print("already patched")
-              sys.exit(0)
-          q = chr(39)
-          pat = re.compile(
-              r"(\S+)\s*==\s*" + q + r"saudi" + q + r"\s*&&\s*secrets\.([A-Z0-9_]+)_SAUDI"
-              r"\s*\|\|\s*\1\s*!=\s*" + q + r"saudi" + q + r"\s*&&\s*secrets\.([A-Z0-9_]+)")
-          hits = []
-          def sub(m):
-              b, nm, dflt = m.group(1), m.group(2), m.group(3)
-              hits.append(nm)
-              return (b + " == " + q + "saudi" + q + " && secrets." + nm + "_SAUDI"
-                      + " || " + b + " == " + q + "kk" + q + " && secrets." + nm + "_KK"
-                      + " || " + b + " != " + q + "saudi" + q
-                      + " && " + b + " != " + q + "kk" + q + " && secrets." + dflt)
-          out = pat.sub(sub, src)
-          if len(hits) != 4:
-              raise SystemExit("expected 4 brand-selected secrets, matched %d: %s" % (len(hits), hits))
-          if out.count("_KK") != 4:
-              raise SystemExit("expected 4 _KK refs, got %d" % out.count("_KK"))
-          if out.count("_SAUDI") != before_saudi:
-              raise SystemExit("saudi refs changed")
-          if out.count(chr(10)) != before_nl:
-              raise SystemExit("line count changed")
-          io.open(path, "w", encoding="utf-8").write(out)
-          print("patched:", sorted(hits))
+              rep.append("already patched - no change")
+          else:
+              pat = re.compile(r"(\S+)\s*==\s*'saudi'\s*&&\s*secrets\.([A-Z0-9_]+)_SAUDI\s*\|\|\s*\1\s*!=\s*'saudi'\s*&&\s*secrets\.([A-Z0-9_]+)")
+              hits = []
+              def sub(m):
+                  b, nm, dflt = m.group(1), m.group(2), m.group(3)
+                  hits.append(nm)
+                  return (b + " == 'saudi' && secrets." + nm + "_SAUDI"
+                          + " || " + b + " == 'kk' && secrets." + nm + "_KK"
+                          + " || " + b + " != 'saudi' && " + b + " != 'kk' && secrets." + dflt)
+              out = pat.sub(sub, src)
+              rep.append("matches: %d" % len(hits))
+              rep.append("names: %s" % sorted(hits))
+              ok = True
+              if len(hits) != 4:
+                  ok = False
+                  rep.append("FAIL wrong match count")
+                  for n in (15, 16, 17, 18):
+                      L = src.split(chr(10))
+                      if n < len(L):
+                          rep.append("sample %d: %s" % (n+1, mask(L[n])))
+              if ok and out.count("_KK") != 4:
+                  ok = False
+                  rep.append("FAIL kk ref count %d" % out.count("_KK"))
+              if ok and out.count("_SAUDI") != src.count("_SAUDI"):
+                  ok = False
+                  rep.append("FAIL saudi ref count changed")
+              if ok and out.count(chr(10)) != src.count(chr(10)):
+                  ok = False
+                  rep.append("FAIL line count changed")
+              if ok:
+                  io.open(path, "w", encoding="utf-8").write(out)
+                  rep.append("PATCH WRITTEN")
+          io.open(".github/KK_PATCH_REPORT.txt", "w", encoding="utf-8").write(chr(10).join(rep) + chr(10))
+          print(chr(10).join(rep))
           PY
 
-      - name: Validate YAML
+      - name: Validate YAML, revert if broken
         run: |
           pip install pyyaml -q
           python3 - <<'PY'
-          import yaml
-          d = yaml.safe_load(open(".github/workflows/publish.yml", encoding="utf-8"))
-          jobs = d.get("jobs") or {}
-          if not jobs:
-              raise SystemExit("no jobs parsed - YAML is broken")
-          steps = list(jobs.values())[0].get("steps") or []
-          if len(steps) < 8:
-              raise SystemExit("step count collapsed to %d" % len(steps))
-          print("YAML ok:", len(jobs), "job(s),", len(steps), "steps")
+          import io, yaml
+          rep = io.open(".github/KK_PATCH_REPORT.txt", encoding="utf-8").read()
+          try:
+              d = yaml.safe_load(open(".github/workflows/publish.yml", encoding="utf-8"))
+              jobs = d.get("jobs") or {}
+              steps = list(jobs.values())[0].get("steps") if jobs else []
+              if not jobs or len(steps or []) < 8:
+                  raise ValueError("structure collapsed")
+              rep += "YAML OK: %d jobs, %d steps" % (len(jobs), len(steps)) + chr(10)
+          except Exception as e:
+              rep += "YAML BROKEN: %s - reverting" % e + chr(10)
+              import subprocess
+              subprocess.run(["git", "checkout", "--", ".github/workflows/publish.yml"])
+          io.open(".github/KK_PATCH_REPORT.txt", "w", encoding="utf-8").write(rep)
+          print(rep)
           PY
-
-      - name: Remove temp shape file
-        run: rm -f .github/BRAND_SHAPE.txt
 
       - name: Commit
         run: |
+          rm -f .github/BRAND_SHAPE.txt
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A .github/workflows/publish.yml .github/BRAND_SHAPE.txt
+          git add -A .github/
           git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
           git commit -m "publish: add kk brand branch for Kalam Khaleeji"
           git push
