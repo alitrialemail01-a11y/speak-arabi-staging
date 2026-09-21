@@ -12,6 +12,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Describe the brand expressions
+        run: |
+          python3 - <<'PY'
+          import io, re
+          L = io.open(".github/workflows/publish.yml", encoding="utf-8").read().split(chr(10))
+          for n in range(13, 26):
+              if n < len(L):
+                  s = L[n]
+                  s = re.sub(r"[A-Z][A-Z0-9_]{3,}", "NAME", s)
+                  print(n+1, "|", s[:160])
+          PY
       - name: Patch publish.yml
         run: |
           python3 - <<'PY'
