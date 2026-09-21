@@ -13,10 +13,10 @@ jobs:
     timeout-minutes: 30
     env:
       BRAND: ${{ github.event.client_payload.brand || 'main' }}
-      TG: ${{ github.event.client_payload.brand == 'saudi' && secrets.TELEGRAM_BOT_TOKEN_PUBLISHER_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.TELEGRAM_BOT_TOKEN_PUBLISHER || '' }}
-      META: ${{ github.event.client_payload.brand == 'saudi' && secrets.META_ACCESS_TOKEN_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.META_ACCESS_TOKEN || '' }}
-      IGU: ${{ github.event.client_payload.brand == 'saudi' && secrets.IG_USER_ID_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.IG_USER_ID || '' }}
-      FBP: ${{ github.event.client_payload.brand == 'saudi' && secrets.FB_PAGE_ID_SAUDI || github.event.client_payload.brand != 'saudi' && secrets.FB_PAGE_ID || '' }}
+      TG: ${{ github.event.client_payload.brand == 'saudi' && secrets.TELEGRAM_BOT_TOKEN_PUBLISHER_SAUDI || github.event.client_payload.brand == 'kk' && secrets.TELEGRAM_BOT_TOKEN_PUBLISHER_KK || github.event.client_payload.brand != 'saudi' && github.event.client_payload.brand != 'kk' && secrets.TELEGRAM_BOT_TOKEN_PUBLISHER || '' }}
+      META: ${{ github.event.client_payload.brand == 'saudi' && secrets.META_ACCESS_TOKEN_SAUDI || github.event.client_payload.brand == 'kk' && secrets.META_ACCESS_TOKEN_KK || github.event.client_payload.brand != 'saudi' && github.event.client_payload.brand != 'kk' && secrets.META_ACCESS_TOKEN || '' }}
+      IGU: ${{ github.event.client_payload.brand == 'saudi' && secrets.IG_USER_ID_SAUDI || github.event.client_payload.brand == 'kk' && secrets.IG_USER_ID_KK || github.event.client_payload.brand != 'saudi' && github.event.client_payload.brand != 'kk' && secrets.IG_USER_ID || '' }}
+      FBP: ${{ github.event.client_payload.brand == 'saudi' && secrets.FB_PAGE_ID_SAUDI || github.event.client_payload.brand == 'kk' && secrets.FB_PAGE_ID_KK || github.event.client_payload.brand != 'saudi' && github.event.client_payload.brand != 'kk' && secrets.FB_PAGE_ID || '' }}
       CHAT: ${{ github.event.client_payload.chat_id }}
       QID: ${{ github.event.client_payload.qid }}
       NONCE: ${{ github.event.client_payload.nonce || 0 }}
