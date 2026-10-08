@@ -30,11 +30,16 @@ jobs:
           done
       - name: Claim post (dedup guard)
         run: |
-          CODE=$(curl -s -o /tmp/claim.out -w "%{http_code}" -X PUT \
-            -H "Authorization: Bearer ${{ github.token }}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/posted/${BRAND}_q${QID}_n${NONCE}.txt" \
-            -d "{\"message\":\"claim $BRAND q$QID n$NONCE\",\"content\":\"Y2xhaW0=\"}")
+          for ATTEMPT in 1 2 3 4 5; do
+            CODE=$(curl -s -o /tmp/claim.out -w "%{http_code}" -X PUT \
+              -H "Authorization: Bearer ${{ github.token }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/posted/${BRAND}_q${QID}_n${NONCE}.txt" \
+              -d "{\"message\":\"claim $BRAND q$QID n$NONCE\",\"content\":\"Y2xhaW0=\"}")
+            if [ "$CODE" != "409" ]; then break; fi
+            echo "claim hit a branch conflict (409) - another run committed at the same moment, retry $ATTEMPT"
+            sleep $((ATTEMPT * 3))
+          done
           if [ "$CODE" = "201" ]; then
             echo "claim acquired"
           elif [ "$CODE" = "422" ]; then
