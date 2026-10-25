@@ -57,6 +57,7 @@ jobs:
         run: printf '%s' "$PAYLOAD" > payload.json
 
       - name: Refuse an unknown brand
+        id: brand
         run: |
           if [ -z "$META" ] || [ -z "$IGU" ] || [ -z "$FBP" ]; then
             echo "::error::brand '$BRAND' has no Meta credentials configured."
@@ -226,6 +227,40 @@ jobs:
                   print('LinkedIn mirror:', r.status, r.read().decode()[:300])
           except Exception as e:
               print('LinkedIn mirror failed (Instagram/Facebook unaffected):', e)
+          PY
+
+      - name: Mirror to TikTok
+        # Hands the post to n8n (TT-1 TikTok Mirror), which uploads the media to Zernio,
+        # rewrites the caption for TikTok and schedules it in the brand's next free TikTok slot.
+        # Runs even if Instagram/Facebook failed (TikTok must not depend on Facebook).
+        # continue-on-error so a TikTok problem never changes what Studio is told.
+        if: always() && steps.brand.outcome == 'success'
+        continue-on-error: true
+        env:
+          LI_MIRROR_KEY: ${{ secrets.LI_MIRROR_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          key = os.environ.get('LI_MIRROR_KEY')
+          if not key:
+              print('LI_MIRROR_KEY not set; skipping TikTok mirror'); raise SystemExit(0)
+          p = json.load(open('payload.json'))
+          try:
+              res = json.load(open('result.json'))
+          except Exception:
+              res = {}
+          body = {'brand': p.get('brand'), 'source': 'studio', 'ref': 'studio-' + str(p.get('post_id')),
+                  'ok': True, 'caption': p.get('caption') or '', 'type': p.get('type') or 'reel',
+                  'media': [m for m in (p.get('media') or []) if m], 'ig_link': res.get('ig_link')}
+          req = urllib.request.Request('https://aliautomate.speak-arabi.com/webhook/tt-mirror',
+                                       data=json.dumps(body).encode(),
+                                       headers={'Content-Type': 'application/json', 'X-Mirror-Key': key},
+                                       method='POST')
+          try:
+              with urllib.request.urlopen(req, timeout=600) as r:
+                  print('TikTok mirror:', r.status, r.read().decode()[:300])
+          except Exception as e:
+              print('TikTok mirror failed (Instagram/Facebook unaffected):', e)
           PY
 
       # Studio marks the post `publishing` when it dispatches, so silence would
