@@ -131,6 +131,7 @@ jobs:
           meta = os.environ['META']; igu = os.environ['IGU']; fbp = os.environ['FBP']
           G = 'https://graph.facebook.com/%s' % os.environ['GV']
           cap = p.get('caption') or ''
+          fbcap = p.get('caption_fb') or cap   # Facebook allows links: keyword line + plain link
           typ = p.get('type') or 'reel'
           def call(method, path, data):
               data = dict(data); data['access_token'] = meta
@@ -241,11 +242,11 @@ jobs:
                   pl = 'https://www.facebook.com' + pl
               return pl or str(oid)
           if typ == 'reel':
-              fbv = call('POST', '/%s/videos' % fbp, {'file_url': raw[0], 'description': cap})
+              fbv = call('POST', '/%s/videos' % fbp, {'file_url': raw[0], 'description': fbcap})
               fb_video_wait(fbv.get('id'))
               fb_note = 'video ' + fb_permalink(fbv.get('id'))
           elif typ == 'image':
-              ph = call('POST', '/%s/photos' % fbp, {'url': raw[0], 'caption': cap})
+              ph = call('POST', '/%s/photos' % fbp, {'url': raw[0], 'caption': fbcap})
               fb_note = 'photo ' + fb_permalink(str(ph.get('post_id') or ph.get('id', '')))
           else:
               vids = [u for i, u in enumerate(raw) if files[i].endswith('.mp4')]
@@ -258,12 +259,12 @@ jobs:
                       fb_pre = 'video (all %d slides in one video) ' % len(vids)
                   except Exception:
                       pass
-                  fbv = call('POST', '/%s/videos' % fbp, {'file_url': fb_url, 'description': cap})
+                  fbv = call('POST', '/%s/videos' % fbp, {'file_url': fb_url, 'description': fbcap})
                   fb_video_wait(fbv.get('id'))
                   fb_note = fb_pre + fb_permalink(fbv.get('id'))
               else:
                   ids = [call('POST', '/%s/photos' % fbp, {'url': u, 'published': 'false'})['id'] for u in raw]
-                  data = {'message': cap}
+                  data = {'message': fbcap}
                   for ix, i in enumerate(ids):
                       data['attached_media[%d]' % ix] = json.dumps({'media_fbid': i})
                   fb_note = 'post ' + fb_permalink(call('POST', '/%s/feed' % fbp, data).get('id', ''))
